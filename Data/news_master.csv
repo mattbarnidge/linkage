@@ -1,0 +1,2027 @@
+raw_news1,raw_news2,raw_news3,clean_news1,clean_news2,clean_news3,news_code1,news_code2,news_code3
+yahoo news,msn,non,yahoo,msn,,0,0,NA
+CNN,BBC,MSNBC,cnn,bbc,msnbc,-1,0,-2
+yahoo,cnn,msnbc,yahoo,cnn,msnbc,0,-1,-2
+foxnews.com,cnn.com,abc.com,fox,cnn,abc,2,-1,0
+Msn.com,Youtube,Cnn.com,msn,social_media,cnn,0,0,-1
+Fox,Nbc,Abc,fox,nbc,abc,2,-1,0
+na,na,na,,,,NA,NA,NA
+ABC national news,Daily Herald local paper,ABC local news,abc,chicago_dailyherald,local_tv,0,0,0
+ABC,WZZM 13 local news,Facebook,abc,local_tv,social_media,0,0,0
+King 5,Komo 4,None,local_tv,local_tv,,0,0,NA
+abc,cnn,bbc,abc,cnn,bbc,0,-1,0
+Foxnews,Huffington Post,Yahoo,fox,huffpo,yahoo,2,-1,0
+Abc,Nbc,Cbs,abc,nbc,cbs,0,-1,0
+CNN,FOX,CBS,cnn,fox,cbs,-1,2,0
+cnn.com,khon.com,yahoo.com,cnn,local_tv,yahoo,-1,0,0
+Fox 29 new,Chane 12 new,4new,local_tv,local_tv,,0,0,NA
+New York Times,Washington Post,Politico,nyt,wapo,politico,-1,-1,-1
+NPR,Tampa Bay Times,AOL News,npr,tampabaytimes,aol,0,-1,0
+ABC,none,none,abc,,,0,NA,NA
+none ,tv,youtube ,,,social_media,NA,NA,0
+cnn,msnbc,NY times,cnn,msnbc,nyt,-1,-2,-1
+pix11,chanel 7,facebook,local_tv,local_tv,social_media,0,0,0
+cbs,abc,nbc,cbs,abc,nbc,0,0,-1
+MSNBC,CNN,CBS,msnbc,cnn,cbs,-2,-1,0
+0,0,0,,,,NA,NA,NA
+CNN,none,none,cnn,,,-1,NA,NA
+None,None ,None,,,,NA,NA,NA
+ABC,NBC,KRON,abc,nbc,local_tv,0,-1,0
+CNN,ABC Evening News,Buzz Feed,cnn,abc,buzzfeed,-1,0,-1
+Fox news,Nbc news,Abc news,fox,nbc,abc,2,-1,0
+fox,abc,nbc,fox,abc,nbc,2,0,-1
+CNN,MSNBC,CBS,cnn,msnbc,cbs,-1,-2,0
+Nikkei,Reuters,AP,nikkei,news_wire,news_wire,0,0,0
+foxnews,none,none,fox,,,2,NA,NA
+8,6,6,,,,NA,NA,NA
+cnn,wsj,nytimes,cnn,wsj,nyt,-1,0,-1
+The New York Times ,CNN ,BBC ,nyt,cnn,bbc,-1,-1,0
+Cnn,Huffington post,MSNBC,cnn,huffpo,msnbc,-1,-1,-2
+ABC News,Fox News,CNN,abc,fox,cnn,0,2,-1
+No,No,No,,,,NA,NA,NA
+Foxa,Cnn,Yaho,fox,cnn,yahoo,2,-1,0
+COVID-19,VOTE,CNN,,,,NA,NA,NA
+Jackson Sun,Herald Gazette,None,jacksonsun,heraldgazette,,-1,1,NA
+I like that,good,very good,,,,NA,NA,NA
+local news,instagram,twitter,local_tv,social_media,social_media,0,0,0
+NY news,Cleveland news,Ohio news,,cleveland,,NA,-1,NA
+cnn,cnn,cnn,cnn,cnn,cnn,-1,-1,-1
+2,2,2,,,,NA,NA,NA
+Cnn,Fox News ,Msnbc ,cnn,fox,msnbc,-1,2,-2
+Msnbc,Cnn,Cspan,msnbc,cnn,cspan,-2,-1,0
+Cbc,Divvy,Div,cbc,,,0,NA,NA
+Seattle Times,MSN,Yahoo,seattletimes,msn,yahoo,-1,0,0
+Msnbc,cnn,local,msnbc,cnn,local_tv,-2,-1,0
+MSNBC,Yahoo.news,CBS,msnbc,yahoo,cbs,-2,0,0
+none,none,none,,,,NA,NA,NA
+Local newspaper ,Tv,None,local_paper,,,0,NA,NA
+None ,None,None,,,,NA,NA,NA
+Yahoo,Endi,Hola,yahoo,,,0,NA,NA
+Cnn ,Fox,CBS,cnn,fox,cbs,-1,2,0
+abc,n/a,n/a,abc,,,0,NA,NA
+local news,fox news,none,local_tv,fox,,0,2,NA
+Unvision ,None,None,univision,,,0,NA,NA
+yahoo,msn,none,yahoo,msn,,0,0,NA
+1,1,1,,,,NA,NA,NA
+na,na,na,,,,NA,NA,NA
+The Atlantic,nytimes.com,CBS News,atlantic,nyt,cbs,-1,-1,0
+none,none,none,,,,NA,NA,NA
+Cnn,Msnbc,None,cnn,msnbc,,-1,-2,NA
+yahoo.com,applenews,facebook,yahoo,aggregator,social_media,0,0,0
+CNN,NPR,YAHOO,cnn,npr,yahoo,-1,0,0
+Fox News,foxnews.com,AbC nightly news,fox,fox,abc,2,2,0
+fox news,nbc,cbs,fox,nbc,cbs,2,-1,0
+yahoo.com,google.com,none,yahoo,aggregator,,0,0,NA
+Fox News,Click on Detroit,Independent news service,fox,local_tv,news_wire,2,0,0
+facebppl,none,none,social_media,,,0,NA,NA
+News Max,Washington Post,Chicago Tribune,newsmax,wapo,chicagotribune,2,-1,0
+Surveys never get it. ,MSN.com,Articles from several sources ,,msn,,NA,0,NA
+Yahoo,CBS,ABC,yahoo,cbs,abc,0,0,0
+wall street journal,chicago tribune,"nbc news during week, abc news on weekends",wsj,chicagotribune,nbc,0,0,-1
+none,none,none,,,,NA,NA,NA
+CNN ,local news ,none,cnn,local_tv,,-1,0,NA
+None,None,None,,,,NA,NA,NA
+CBS EVENING NEWS,Fox news,Twitter ,cbs,fox,social_media,0,2,0
+20,18,15,,,,NA,NA,NA
+n/a,idk,abc,,,abc,NA,NA,0
+None,No,No,,,,NA,NA,NA
+CNN,Fox,Headline news ,cnn,fox,cnn,-1,2,-1
+none,none2,none3,,,,NA,NA,NA
+cnn,msnbc,google,cnn,msnbc,aggregator,-1,-2,0
+bbc,cnn,fox,bbc,cnn,fox,0,-1,2
+10,DBC,CNN,,,cnn,NA,NA,-1
+NPR,Washington Post,NY Times,npr,wapo,nyt,0,-1,-1
+NY Post,Fox Business news,Fox news ,nypost,fox_business,fox,1,1,2
+bbc,cnn,fox,bbc,cnn,fox,0,-1,2
+abc,cbs,none,abc,cbs,,0,0,NA
+Oof,Oof,No,,,,NA,NA,NA
+Abc news,fox news,Kmph news,abc,fox,local_tv,0,2,0
+none,kytdyrd,dtkdytd,,,,NA,NA,NA
+Fox news,Nbc,Bbc,fox,nbc,bbc,2,-1,0
+CW,CNBC,MSNBC,local_tv,cnbc,msnbc,0,0,-2
+New York Times,The Nation,Washington Post,nyt,nation,wapo,-1,-2,-1
+none,none,none,,,,NA,NA,NA
+Hi,Hi,Hi,,,,NA,NA,NA
+good,like,nice,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+NBC,MSNBC,ABC,nbc,msnbc,abc,-1,-2,0
+None,None,None,,,,NA,NA,NA
+Ny1,Cnn,Ny times,ny1,cnn,nyt,0,-1,-1
+NYT,ABC,CNN,nyt,abc,cnn,-1,0,-1
+msnbc,cnn,fox,msnbc,cnn,fox,-2,-1,2
+new york times,wall st journal,spectrum ny1,nyt,wsj,local_tv,-1,0,0
+Washington post,Google news,Cnn,wapo,aggregator,cnn,-1,0,-1
+The Miami Herald,ABCNews with David Muir,TVE Telelevision Espanola News,miamiherald,abc,,0,0,NA
+new york times,washington post,yahoo,nyt,wapo,yahoo,-1,-1,0
+Fox News,youtube,google,fox,social_media,aggregator,2,0,0
+NYTimes,Bucaramanga ,Nice ,nyt,,,-1,NA,NA
+Not sure ,It is ok ,Not sure ,,,,NA,NA,NA
+WSJ,National review,Patriot,wsj,nationalreview,patriot,0,2,-1
+4,2,2,,,,NA,NA,NA
+None ,None ,None ,,,,NA,NA,NA
+CNN,MSNBC,NBC,cnn,msnbc,nbc,-1,-2,-1
+Last week I 3was a ,How can we get the ,Didn't he has the same problem with 8,,,,NA,NA,NA
+Daily news,American journal,Wall street,ny_daily,americanjournal,wsj,-1,-1,0
+fox news,oal,cnn,fox,oan,cnn,2,2,-1
+CNN,FOX,World News,cnn,fox,abc,-1,2,0
+nytimes.com,washingtonpost.com,msnbc.com,nyt,wapo,msnbc,-1,-1,-2
+cnn.com,nytimes.com,latimes.com,cnn,nyt,latimes,-1,-1,-1
+nytimes.com,yahoo,msn,nyt,yahoo,msn,-1,0,0
+dallas morning news,honolulu star advertiser,nbc,dallasmorning,staradvertiser,nbc,0,-1,-1
+CBS Local News,ABC Local News,NBC Local News,local_tv,local_tv,local_tv,0,0,0
+ABC ,NBC ,CBS ,abc,nbc,cbs,0,-1,0
+ABC news,none,none,abc,,,0,NA,NA
+msn.com,Google News,Yahoo News,msn,aggregator,yahoo,0,0,0
+msn.com,eltiempo.com,cnn.com,msn,eltiempo,cnn,0,0,-1
+Nbc,Telemundo,Univision,nbc,telemundo,univision,-1,0,0
+flipboard,fox news ,cnn,aggregator,fox,cnn,0,2,-1
+Fox,Cnn,Abc,fox,cnn,abc,2,-1,0
+epochtimes.com,yahoo.com,cnbc.com,epochtimes,yahoo,cnbc,2,0,0
+Eastbay Times,Castro Valley Forun,ESPN,eastbaytimes,castrovalleyforum,entertainment,-1,0,NA
+None,None,None,,,,NA,NA,NA
+Fox news,Local news stations,Local News Paper,fox,local_tv,local_paper,2,0,0
+none,none,none,,,,NA,NA,NA
+Plain dealer,Msnbc,USA Today ,cleveland,msnbc,usa_today,-1,-2,-1
+fox news,cnn,bbc,fox,cnn,bbc,2,-1,0
+cnn,abc,cbs,cnn,abc,cbs,-1,0,0
+CNN,BBC,ABC,cnn,bbc,abc,-1,0,0
+I don’t know ,I don’t know ,I don’t know ,,,,NA,NA,NA
+CNN,Washington Post,WSVN,cnn,wapo,local_tv,-1,-1,0
+Washington Post,Fox,Nbc,wapo,fox,nbc,-1,2,-1
+Fox News,None,None,fox,,,2,NA,NA
+fox,cnn,msnbc,fox,cnn,msnbc,2,-1,-2
+None,None,None,,,,NA,NA,NA
+cnn,yahoo,youtube,cnn,yahoo,social_media,-1,0,0
+local news,none,none,local_tv,,,0,NA,NA
+None,Nobe,No w,,,,NA,NA,NA
+Fox News,Daily Caller ,Newsmax,fox,dailycaller,newsmax,2,2,2
+kake.com,kansas.com,wichitaeagle.com,local_tv,,wichitaeagle,0,NA,-1
+cnn.com,google,twitter,cnn,aggregator,social_media,-1,0,0
+usa today,fox,bbc,usa_today,fox,bbc,-1,2,0
+ABC,CNN ,MSNBC,abc,cnn,msnbc,0,-1,-2
+nbc,abc,fox,nbc,abc,fox,-1,0,2
+Cnn,Hln,Twitter,cnn,cnn,social_media,-1,-1,0
+cnn.com,channel3000.com,kare11.com,cnn,local_tv,local_tv,-1,0,0
+none,none,none,,,,NA,NA,NA
+Fox news,Abc,Nbc,fox,abc,nbc,2,0,-1
+cnn,abc,nbc,cnn,abc,nbc,-1,0,-1
+none,none,none,,,,NA,NA,NA
+BBC,NBC,ABC,bbc,nbc,abc,0,-1,0
+n/a,n/a,n/a,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+Fox,Cnn,None,fox,cnn,,2,-1,NA
+Saginaw newspaper ,News outlet,news 5,local_paper,,local_tv,0,NA,0
+none,none,none,,,,NA,NA,NA
+Abc,Msn,Cnn,abc,msn,cnn,0,0,-1
+Local news,Local news,Local news,local_tv,local_tv,local_tv,0,0,0
+CNN,Fox news,NBC,cnn,fox,nbc,-1,2,-1
+5,daily news,daily news,,ny_daily,ny_daily,NA,-1,-1
+huffpo,nytimes,something else probably,huffpo,nyt,,-1,-1,NA
+Google search,Bing,Facebook,aggregator,aggregator,social_media,0,0,0
+Nbc,Buzzfeed ,Abc,nbc,buzzfeed,abc,-1,-1,0
+Abc world news ,Abc action news ,Tampa bay times ,abc,local_tv,tampabaytimes,0,0,-1
+Abc,None,None,abc,,,0,NA,NA
+Facebook,Twitter,Reddit,social_media,social_media,social_media,0,0,0
+And It's in a specific situation as opposed to thing you like in general,Some newspapers are published two times a week and are know as semi weekly publication ,View the latest news and breaking news today for u.s world ,,,,NA,NA,NA
+NBC,Newsbreak app,Family,nbc,aggregator,,-1,0,NA
+None,None,None,,,,NA,NA,NA
+NBC,ABC,Google,nbc,abc,aggregator,-1,0,0
+1,1,0,,,,NA,NA,NA
+Yahoo News,Fox News,KPRC Houston,yahoo,fox,local_tv,0,2,0
+The times ,None ,None ,nyt,,,-1,NA,NA
+bbc,don't know,don't know,bbc,,,0,NA,NA
+Buzzfeed,Fox,NY,buzzfeed,fox,nyt,-1,2,-1
+0,0,0,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+Family ,Friends ,None,,,,NA,NA,NA
+None ,No,No,,,,NA,NA,NA
+Google ,Local news Wlos,Fox,aggregator,local_tv,fox,0,0,2
+None,none,none,,,,NA,NA,NA
+delta,cnn,dada,,cnn,,NA,-1,NA
+Fox Cable,Fox Local,MLB Network,fox,local_tv,entertainment,2,0,NA
+L A Times,USA Today,Yahoo,latimes,usa_today,yahoo,-1,-1,0
+Fox news,Nbc,Washington times,fox,nbc,washingtontimes,2,-1,2
+abc world news,cnn,newark star-ledger,abc,cnn,newarkstar-ledger,0,-1,-1
+FOX News,Business Fox news,local fox news,fox,fox_business,local_tv,2,1,0
+cnn,abc,pbs,cnn,abc,pbs,-1,0,-1
+fox news,cnn,cbs,fox,cnn,cbs,2,-1,0
+Ktla 5,Los angeles times,Washington post,local_tv,latimes,wapo,0,-1,-1
+6,5,6,,,,NA,NA,NA
+suntimes.com,chicagotribune.com,statesman.com,chicagosuntimes,chicagotribune,statesman,-1,0,-1
+Cnn,Fox,Local,cnn,fox,local_tv,-1,2,0
+USAtoday,cnn,abc,usa_today,cnn,abc,-1,-1,0
+ABC,Google ,AOL,abc,aggregator,aol,0,0,0
+West Hawaii Today,CNN,CBS,westhawaiitoday,cnn,cbs,-1,-1,0
+bbc,cnn,cnn,bbc,cnn,cnn,0,-1,-1
+wral.com,WRAL-TV 5,none,local_tv,local_tv,,0,0,NA
+foxnews,cnn,bcc,fox,cnn,bbc,2,-1,0
+good,great,like,,,,NA,NA,NA
+abc,nighty news,none,abc,nbc,,0,-1,NA
+its best one,its awesome,i really like this,,,,NA,NA,NA
+fox news,msdnc,cnn,fox,msnbc,cnn,2,-2,-1
+Fox News,Local News,None,fox,local_tv,,2,0,NA
+cnn,mec,nhk,cnn,,,-1,NA,NA
+News ,Yes ,Thank all the ,,,,NA,NA,NA
+Fox,AOL,None ,fox,aol,,2,0,NA
+Msnbc,cnn,nbc news,msnbc,cnn,nbc,-2,-1,-1
+pbs,msnbc,cnn,pbs,msnbc,cnn,-1,-2,-1
+Tampa Times online,New York Times online,google news,tampabaytimes,nyt,aggregator,-1,-1,0
+ABC,NBC,CBS,abc,nbc,cbs,0,-1,0
+cbs news,abc news,fox news,cbs,abc,fox,0,0,2
+KTNV,NYTimes,Buzzfeed,local_tv,nyt,buzzfeed,0,-1,-1
+baltimore sun,wbal,none,baltimoresun,local_tv,,-1,0,NA
+coworkers,coworkers,coworkers ,,,,NA,NA,NA
+CBSNews,Locsl news channel,The view,cbs,local_tv,abc,0,0,0
+new york time,cnn,fox,nyt,cnn,fox,-1,-1,2
+The new york times,nbc,washington post,nyt,nbc,wapo,-1,-1,-1
+Apple News,Google News,The Economist,aggregator,aggregator,economist,0,0,-1
+Cnn,Msnbc,None,cnn,msnbc,,-1,-2,NA
+Local TV CBS News,Local TV NBC news,Local TV ABC News,local_tv,local_tv,local_tv,0,0,0
+Cnn,Reddit,Pokemon,cnn,social_media,,-1,0,NA
+cnn,newyorktimes,abc,cnn,nyt,abc,-1,-1,0
+east bay times,cbs news,sfgate.com,eastbaytimes,cbs,sfgate,-1,0,0
+cnn.com,msn.com,yahoo.com,cnn,msn,yahoo,-1,0,0
+NBC ,Fox,CBS ,nbc,fox,cbs,-1,2,0
+Y’all are the best ,Y’all are the one ,Good game to pass the ,,,,NA,NA,NA
+nada,nada,nada,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+7,1,4,,,,NA,NA,NA
+Ny daily news ,post,newsday,ny_daily,,newsday,-1,NA,0
+Daily Kos,The Root,Google News,dailykos,root,aggregator,-2,-2,0
+The New York Times,Washington Post,CNN,nyt,wapo,cnn,-1,-1,-1
+New Yorker mag,The Huntsville Times,The USAToday,newyorker,huntsvilletimes,usa_today,-1,-1,-1
+Fox news,Washington post,Usa,fox,wapo,usa_today,2,-1,-1
+0,5,5,,,,NA,NA,NA
+None ,None ,None ,,,,NA,NA,NA
+MSNBC,CNN,ABC,msnbc,cnn,abc,-2,-1,0
+Washington Post,MSNBC,CNN,wapo,msnbc,cnn,-1,-2,-1
+Global Magazine,The Economist,BBCNews,globalmagazine,economist,bbc,0,-1,0
+youtube,none,none,social_media,,,0,NA,NA
+Local news KOMO,kIRO,Yahoo news,local_tv,local_tv,yahoo,0,0,0
+Fox news ,Npr,Bloomberg,fox,npr,bloomberg,2,0,0
+Cnn,CNBC ,MSNBC ,cnn,cnbc,msnbc,-1,0,-2
+Newsweek,USA Today,Cbs,newsweek,usa_today,cbs,-1,-1,0
+Abc,Fox,Abc evening,abc,fox,abc,0,2,0
+"fox news, cnbc",fb,none,fox,social_media,cnbc,2,0,0
+0,None,Nothing ,,,,NA,NA,NA
+los angeles times,cnn,bbc,latimes,cnn,bbc,-1,-1,0
+CNN,Fox,CBS,cnn,fox,cbs,-1,2,0
+0,0,0,,,,NA,NA,NA
+Chicago Tribune,Apple News,ABC News,chicagotribune,aggregator,abc,0,0,0
+Fox News,News Break,Google News,fox,aggregator,aggregator,2,0,0
+nyt,msnbc,none,nyt,msnbc,,-1,-2,NA
+NBC,CBS,CNN,nbc,cbs,cnn,-1,0,-1
+Apple news,Google news,New york times,aggregator,aggregator,nyt,0,0,-1
+CNN,MSNBC,ABC NEWS,cnn,msnbc,abc,-1,-2,0
+Cnn,Msnbc,Fox,cnn,msnbc,fox,-1,-2,2
+Rush Limbaugh,Infowars,Pod casts,rush,infowars,podcasts,2,3,0
+1,1,1,,,,NA,NA,NA
+CNN,FOX,ABC,cnn,fox,abc,-1,2,0
+Fox News,NBC,AFA,fox,nbc,afa,2,-1,-3
+Nbc news,Npr,New York Times,nbc,npr,nyt,-1,0,-1
+ABC,Fox News,CNN,abc,fox,cnn,0,2,-1
+msnbc,none,none,msnbc,,,-2,NA,NA
+CHICAGO SUN TIMES,CHICAGO TRIBUNE,ABC,chicagosuntimes,chicagotribune,abc,-1,0,0
+cnn.com,None,None,cnn,,,-1,NA,NA
+CNN,cnn.com,St Louis Post-Dispatch,cnn,cnn,stlouispost-dispatch,-1,-1,-1
+msnbc,cnn,local news,msnbc,cnn,local_tv,-2,-1,0
+None,None,None ,,,,NA,NA,NA
+Fox,Msn,Nbc,fox,msn,nbc,2,0,-1
+abc,none,none,abc,,,0,NA,NA
+Wall Street Journal,Minneapolis Star Tribune,Detroit Free Press,wsj,minn_star,detroit_freepress,0,0,-1
+Wall Street journal ,CBS ,Fox ,wsj,cbs,fox,0,0,2
+Fox News ,Wseo news ,Washington post,fox,local_radio,wapo,2,0,-1
+cnn,nbc,npr,cnn,nbc,npr,-1,-1,0
+None,None,None,,,,NA,NA,NA
+ Fox News, WBRC Birmingham,cnn,fox,local_tv,cnn,2,0,-1
+Fox,Cnn,Msnbc,fox,cnn,msnbc,2,-1,-2
+None,None,None,,,,NA,NA,NA
+Buzzfeed,Politico,Nytimes.com,buzzfeed,politico,nyt,-1,-1,-1
+Detroit news,Fox,Cnn,,fox,cnn,NA,2,-1
+KUTV,Economist,BBC,,economist,bbc,NA,-1,0
+The Washington Post,nytimes.com,CNN,wapo,nyt,cnn,-1,-1,-1
+NY Times,CNN,Washington Post,nyt,cnn,wapo,-1,-1,-1
+Nothing at all is important enough to put here ,Nothing at all is important enough to put here ,Nothing at all is important enough to put here ,,,,NA,NA,NA
+KVAL,N/A,N/A,local_tv,,,0,NA,NA
+washington post,the guardian,google news,wapo,guardian,aggregator,-1,-1,0
+Nytimes.com,Cnn,Msnbc,nyt,cnn,msnbc,-1,-1,-2
+Cream ,Habbacci ,Thinking ,,,,NA,NA,NA
+Boston globe,la times,nyc times,bostonglobe,latimes,nyt,-1,-1,-1
+MSNBC,CNN,Facebook,msnbc,cnn,social_media,-2,-1,0
+Cnn,Inquirer,Newsweek,cnn,inquirer,newsweek,-1,-1,-1
+Fox ,yahoo,misc,fox,yahoo,,2,0,NA
+None,None,None,,,,NA,NA,NA
+yahoo news,google,msn,yahoo,aggregator,msn,0,0,0
+Fox News,NBC news,CBS News,fox,nbc,cbs,2,-1,0
+yes,new work time,bbc,,nyt,bbc,NA,-1,0
+none,none,none,,,,NA,NA,NA
+bbc,cnn,espn,bbc,cnn,entertainment,0,-1,NA
+Smithsonian.com,Yahoo.com,Npr.com,smart,yahoo,npr,0,0,0
+News break,Nothing,Nothing,aggregator,,,0,NA,NA
+5,4,5,,,,NA,NA,NA
+Atmore advance,Atmore news,Yellowhammer news,atmoreadvance,atmoreadvance,yellowhammer,1,1,0
+12,5,4,,,,NA,NA,NA
+Fox News ,Na,Nine,fox,,,2,NA,NA
+apple news,abc news,nbc news,aggregator,abc,nbc,0,0,-1
+netflix,cnn,bbc,,cnn,bbc,NA,-1,0
+10,12,10,,,,NA,NA,NA
+N/A,N/A,\N/A,,,,NA,NA,NA
+WBRC Birmingham,Fox News,The New York,local_tv,fox,,0,2,NA
+nytimes.com,no,n9,nyt,,local_tv,-1,NA,0
+CNN,MSNBC,ABC,cnn,msnbc,abc,-1,-2,0
+Foxnews.com,Msnbc.com,nytimes.com,fox,msnbc,nyt,2,-2,-1
+Washington Post ,Ny Times,Npr.org,wapo,nyt,npr,-1,-1,0
+Guardian,Mother Jones,Daily Edge,guardian,motherjones,dailyedge,-1,-2,2
+MSNBC,CNN,CNBC,msnbc,cnn,cnbc,-2,-1,0
+CNN,CBS News Local,CBS Evening News,cnn,local_tv,cbs,-1,0,0
+fox,fox ,fox,fox,fox,fox,2,2,2
+none,none,none,,,,NA,NA,NA
+Fox business ,Nbc,Cbs,fox_business,nbc,cbs,1,-1,0
+N/A,N/A,N/A,,,,NA,NA,NA
+local newspaper,none,none,local_paper,,,0,NA,NA
+wgn,abc,none,local_tv,abc,,0,0,NA
+USA Today,Journal News,none,usa_today,ajc,,-1,0,NA
+fox news,none,none,fox,,,2,NA,NA
+Don't know,Don't know,Don't know,,,,NA,NA,NA
+boston globe,Fox News,CNN,bostonglobe,fox,cnn,-1,2,-1
+DML NEWS,FOX NEWS,Facebook,,fox,social_media,NA,2,0
+The New York Times  ,"WNYC, ",1010 WINS,nyt,local_tv,,-1,0,NA
+NBC,NBC,NBC,nbc,nbc,nbc,-1,-1,-1
+Daily News,New York Post,None,ny_daily,nypost,,-1,1,NA
+Na,na,na,,,,NA,NA,NA
+fox,cnn,fm radio,fox,cnn,,2,-1,NA
+Local radio,Local radio,Local radio,local_tv,local_tv,local_tv,0,0,0
+fox news ,cnn,abc,fox,cnn,abc,2,-1,0
+Cnn,Fox news  ,Msnbc,cnn,fox,msnbc,-1,2,-2
+ABC news,CNN,WTAE local,abc,cnn,local_tv,0,-1,0
+NBC,Fox,Okeechobee Newspaper,nbc,fox,local_paper,-1,2,0
+fox news,minnesota star tribune,none,fox,minn_star,,2,0,NA
+Fox,Nbc,Abc,fox,nbc,abc,2,-1,0
+Fox news,Fox news,Fox news,fox,fox,fox,2,2,2
+times-union,facebook,nbc,times_union,social_media,nbc,-1,0,-1
+ABC news,Fox News,CBS news,abc,fox,cbs,0,2,0
+google,yahoo,none,aggregator,yahoo,,0,0,NA
+None,Local news,NOne,,local_tv,,NA,0,NA
+None,None,None,,,,NA,NA,NA
+NBC News,CNN,ABC News,nbc,cnn,abc,-1,-1,0
+Wall Street Jornal,NYT,NYT,wsj,nyt,nyt,0,-1,-1
+WWL TV,WDSU,NBC News,,,nbc,NA,NA,-1
+nytimes.com,Chicago Tribune,chicagosuntimes.com,nyt,chicagotribune,chicagosuntimes,-1,0,-1
+Knoxville News,Lubbock Avalanche Journal,WBIR,kxville,lubbockavalanchejournal,local_tv,0,1,0
+abc,cbs,nbc,abc,cbs,nbc,0,0,-1
+abc news,google news,none,abc,aggregator,,0,0,NA
+Fox News,WCBS,Spectrum,fox,local_tv,local_tv,2,0,0
+MSNBC ,CNN ,Fox News ,msnbc,cnn,fox,-2,-1,2
+Chinatimes News,Yahoo,CNBC,chinatimes,yahoo,cnbc,-1,0,0
+abc news,nbc news,none,abc,nbc,,0,-1,NA
+WTVT Fox 13,None,None,local_tv,,,0,NA,NA
+ABC with David Muir,Boston Globe,Meet the Press,abc,bostonglobe,nbc,0,-1,-1
+Fox News,Chicago Tribune,WGN Network,fox,chicagotribune,local_tv,2,0,0
+USAB Today,NBC,CNN,usa_today,nbc,cnn,-1,-1,-1
+foxnews.com,C-Span,fox local,fox,cspan,local_tv,2,0,0
+BBC news,CNNnews,NTV news,bbc,cnn,local_tv,0,-1,0
+Breitbart ,FRC,ACLJ,breitbart,,,2,NA,NA
+NPR,bloomberg,cnn,npr,bloomberg,cnn,0,0,-1
+ABC,NBC,CBS,abc,nbc,cbs,0,-1,0
+instagram,facebook,twitter,social_media,social_media,social_media,0,0,0
+Fox News,One News,Newsmax,fox,oan,newsmax,2,2,2
+1,very,good,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+"nbc, ",local paper,none,nbc,local_paper,,-1,0,NA
+yahoo,usa today,none,yahoo,usa_today,,0,-1,NA
+5,5,5,,,,NA,NA,NA
+MSNBC,CNN,Fox News,msnbc,cnn,fox,-2,-1,2
+Press telwgram,Cnn,Msnbc,longbeachpresstelegram,cnn,msnbc,0,-1,-2
+None ,None ,None ,,,,NA,NA,NA
+fox,nbc,none,fox,nbc,,2,-1,NA
+komo 4,king 5,kiro 7,local_tv,local_tv,local_tv,0,0,0
+Washington Post,Huffington Post,LA Times,wapo,huffpo,latimes,-1,-1,-1
+Youtube sources,Instagram,Google news,social_media,social_media,aggregator,0,0,0
+wotv news channel 8,wxmi channel 17,grand rapids press,local_tv,local_tv,grandrapidspress,0,0,0
+Washington post,CNN,Wlwt,wapo,cnn,local_tv,-1,-1,0
+Fox news,CNN ,Abc,fox,cnn,abc,2,-1,0
+cnn.com,msnbc,abc,cnn,msnbc,abc,-1,-2,0
+NY times.com,Buzzfeed,Chicago Tribune.com,nyt,buzzfeed,chicagotribune,-1,-1,0
+google,smart news,buzz news,aggregator,smart,buzzfeed,0,0,-1
+Google.com ,fb,none ,aggregator,social_media,,0,0,NA
+ggvv,vvv,vvvv,,,,NA,NA,NA
+No remember,I don't know,No remember,,,,NA,NA,NA
+wltx,cnn,newsbreak,local_tv,cnn,aggregator,0,-1,0
+LA times,cnn,abc,latimes,cnn,abc,-1,-1,0
+0,Cnn,Abc,,cnn,abc,NA,-1,0
+fox news,cnn,none,fox,cnn,,2,-1,NA
+abc,cbs,wgn,abc,cbs,local_tv,0,0,0
+BBC urdu,BBC news,CNN news,bbc,bbc,cnn,0,0,-1
+No,I dont,None,,,,NA,NA,NA
+Huffington Post,The New York Times,Reuters,huffpo,nyt,news_wire,-1,-1,0
+Fox News,Apple News,The New York Times,fox,aggregator,nyt,2,0,-1
+I can gauge by your i.e. of WBRC 6 FOX Courteneyville,ABC,ABC7.com News App L.A.,local_tv,abc,local_tv,0,0,0
+The New York Times,ABC 7 News,Apple News,nyt,local_tv,aggregator,-1,0,0
+Yahoo,Google ,Apple news ,yahoo,aggregator,aggregator,0,0,0
+Cnn,Cnn,Cnn,cnn,cnn,cnn,-1,-1,-1
+Fox news,none,none,fox,,,2,NA,NA
+cnn,politics,covid19,cnn,,,-1,NA,NA
+Yahoo,CNN,MSNBC,yahoo,cnn,msnbc,0,-1,-2
+Economic issues ,Covid19,Racism ,,,,NA,NA,NA
+Newser,The Daily Pnut,nytimes.com,newser,dailypnut,nyt,0,0,-1
+I dont know ,I dont know ,I dont know ,,,,NA,NA,NA
+Skagit news,None,None,skagit,,,0,NA,NA
+ABC ,NBC ,CBS ,abc,nbc,cbs,0,-1,0
+Fox,None,None,fox,,,2,NA,NA
+na,un,la,,,,NA,NA,NA
+Charlotteobserver.com,Msnbc,Cnn.com,charlotteobserver,msnbc,cnn,-1,-2,-1
+Fox,Cnn,Nytimes,fox,cnn,nyt,2,-1,-1
+BBC ,CNN ,NBC ,bbc,cnn,nbc,0,-1,-1
+Good,5,Good,,,,NA,NA,NA
+None ,None ,None ,,,,NA,NA,NA
+The New York Times,Buzzfeed,Wall Street Journal,nyt,buzzfeed,wsj,-1,-1,0
+Fox News ,Oann ,Twitter ,fox,oan,social_media,2,2,0
+pbs,cbs,cnn,pbs,cbs,cnn,-1,0,-1
+Washington post,Cnn,Daily news,wapo,cnn,ny_daily,-1,-1,-1
+New York Times,Google News,Apple News,nyt,aggregator,aggregator,-1,0,0
+Nbc,Fox,Cnn,nbc,fox,cnn,-1,2,-1
+CBS,FOX ,CNN,cbs,fox,cnn,0,2,-1
+Fox News,Google,Twitter,fox,aggregator,social_media,2,0,0
+5,6,6,,,,NA,NA,NA
+Fox,Foxnews,Daily wire,fox,fox,dailywire,2,2,2
+fox,nbc,facebook,fox,nbc,social_media,2,-1,0
+Nbc,Univision,Fox,nbc,univision,fox,-1,0,2
+Fox,Fox,Fox ,fox,fox,fox,2,2,2
+Google,Aol news,Yahoo,aggregator,aol,yahoo,0,0,0
+BBC,Reuters,Washington Post,bbc,news_wire,wapo,0,0,-1
+BBC,CNN,NPR News,bbc,cnn,npr,0,-1,0
+MSNBC,Fox News,Wall Street Journal,msnbc,fox,wsj,-2,2,0
+CNN ,Foxnews,ABC ,cnn,fox,abc,-1,2,0
+cnn,cnn.com,facebook,cnn,cnn,social_media,-1,-1,0
+NBC,ABC,CNN,nbc,abc,cnn,-1,0,-1
+Nbc,Cnn,Fox news,nbc,cnn,fox,-1,-1,2
+"local news stations abc, cbs, and nbc",youtube news clips,online local station clips,local_tv,social_media,local_tv,0,0,0
+KPRC Houston,Houston Chroncle,CNN,local_tv,houstonchronicle,cnn,0,-1,-1
+I don’t remember ,I don’t remember ,I don’t remember ,,,,NA,NA,NA
+CNN,WJAC Johnstown PA,Fox News,cnn,local_tv,fox,-1,0,2
+Yahoo,Google,AOL,yahoo,aggregator,aol,0,0,0
+NBC,CNN,HLN,nbc,cnn,cnn,-1,-1,-1
+Chattnooga Times Free Press,Internet,Local news,chattogatimesfreepress,,local_tv,-1,NA,0
+fox,none,none,fox,,,2,NA,NA
+cool ,good,nice,,,,NA,NA,NA
+Cnn,Google news,Los Angeles times,cnn,aggregator,latimes,-1,0,-1
+NBC,NBC,NBC,nbc,nbc,nbc,-1,-1,-1
+PBS,NPR,Yahoo News,pbs,npr,yahoo,-1,0,0
+CNN,MSNBC,FOX NEWS,cnn,msnbc,fox,-1,-2,2
+Radio,TV,MSN,,,msn,NA,NA,0
+latimes.com,ocregister.com,Washington Week on PBS,latimes,ocregister,pbs,-1,0,-1
+cnn.com,nbc.com,pbs,cnn,nbc,pbs,-1,-1,-1
+New York Times ,NBC ,CBS ,nyt,nbc,cbs,-1,-1,0
+San Diego Union Tribune,Local TV news,HLN,sandiegouniontribune,local_tv,cnn,0,0,-1
+CNN,Forbes,NY Times,cnn,forbes,nyt,-1,0,-1
+The New York Times,MSNBC,NJ Spotlight,nyt,msnbc,njspotlight,-1,-2,-1
+CBS news,Local news,Local online newspaper,cbs,local_tv,local_paper,0,0,0
+BBC,CNN,CBS,bbc,cnn,cbs,0,-1,0
+NY times,ny post,yahoo,nyt,nypost,yahoo,-1,1,0
+MSNBC,local news,local news,msnbc,local_tv,local_tv,-2,0,0
+CNN,ABC,CNBC,cnn,abc,cnbc,-1,0,0
+None,None,None,,,,NA,NA,NA
+cnn,msnbc,abc,cnn,msnbc,abc,-1,-2,0
+Don't remember,Don't remember,Don't remember,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+NBC news,NY times,NBS news online,nbc,nyt,nbc,-1,-1,-1
+Fox,Golden state,None,fox,entertainment,,2,NA,NA
+websitefox,Fox,Msnbc,fox,fox,msnbc,2,2,-2
+Fox News,Google News,News Break,fox,aggregator,aggregator,2,0,0
+abc,cbs,nbc,abc,cbs,nbc,0,0,-1
+The newyork time ,Wall Street journal ,Komo news,nyt,wsj,local_tv,-1,0,0
+TV,ON LINE,MAGZINES,,,,NA,NA,NA
+Washington Post,NBC,MNBC,wapo,nbc,msnbc,-1,-1,-2
+fox news,bloomberg,cronicle,fox,bloomberg,,2,0,NA
+CNN,Google ,NY time ,cnn,aggregator,nyt,-1,0,-1
+i dont know,none,none,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+Google new,Don't know ,Don't know ,aggregator,,,0,NA,NA
+NBC New,ABC New,CNN New,nbc,abc,cnn,-1,0,-1
+"CNN, ",FOX,BBC,cnn,fox,bbc,-1,2,0
+PBS,NPR,LOCAL COX    Station,pbs,npr,local_tv,-1,0,0
+fox,cbs,none,fox,cbs,,2,0,NA
+Msnbc,Cnn,Ventura county star,msnbc,cnn,venturacountystar,-2,-1,-1
+abc,nbc,cnn,abc,nbc,cnn,0,-1,-1
+CNN,MSNBC,Huffington Post,cnn,msnbc,huffpo,-1,-2,-1
+Fox News,OAS,Washington Times,fox,oan,washingtontimes,2,2,2
+foxnews,nypost,breitbart,fox,nypost,breitbart,2,1,2
+WWJ950 radio,wall street journal,nbc news,local_radio,wsj,nbc,0,0,-1
+France24,Democracy Now ,NPR ,france24,pbs,npr,0,-1,0
+CNN,WSJ,None,cnn,wsj,,-1,0,NA
+CNN,CNN,CNN,cnn,cnn,cnn,-1,-1,-1
+CNN,ESPN,NBC,cnn,entertainment,nbc,-1,NA,-1
+none,none,none,,,,NA,NA,NA
+CNN,NBC,ABC,cnn,nbc,abc,-1,-1,0
+Nbc,ABC,CBS ,nbc,abc,cbs,-1,0,0
+0,0,0,,,,NA,NA,NA
+cnn,yahoo,facebook,cnn,yahoo,social_media,-1,0,0
+Ybn,Fox,Cbs,,fox,cbs,NA,2,0
+bbc.uk,the hill,cleveland.com,bbc,hill,cleveland,0,0,-1
+foxnews  ,cnn.com,abc.com,fox,cnn,abc,2,-1,0
+None,None,Cbn,,,cbn,NA,NA,2
+abc,new york times,npr,abc,nyt,npr,0,-1,0
+wsj,fox,fox,wsj,fox,fox,0,2,2
+CNN,Rolling Stone,NBC News,cnn,rollingstone,nbc,-1,-1,-1
+Fox local news,None,None,local_tv,,,0,NA,NA
+ABC,CBS,none,abc,cbs,,0,0,NA
+facebook,msnbc,abc,social_media,msnbc,abc,0,-2,0
+Clickondetroit.com,Foxnews.com,Channel7.com,local_tv,fox,local_tv,0,2,0
+none,None,none,,,,NA,NA,NA
+CNN,Fox news,BBC,cnn,fox,bbc,-1,2,0
+Fox News,CBC,Cnn,fox,cbc,cnn,2,0,-1
+yahoo news,none,none,yahoo,,,0,NA,NA
+the new york times,cnn,none,nyt,cnn,,-1,-1,NA
+Fox News,Apple News,Reddit,fox,aggregator,social_media,2,0,0
+Drudge Report,CNN,Fox 10 Phoenix,drudge,cnn,local_tv,1,-1,0
+cnn.com,foxnews.com,msnbc.com,cnn,fox,msnbc,-1,2,-2
+None,None,None,,,,NA,NA,NA
+Star wars,Black series,Rebels ,,,,NA,NA,NA
+great ,like ,good ,,,,NA,NA,NA
+Facebook,Twitter,Youtube,social_media,social_media,social_media,0,0,0
+Heidi Swanson,Eagan Merrill,Sonya Warner,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+New York Times ,Facebook,Twitter ,nyt,social_media,social_media,-1,0,0
+Fox news,Fox,Fox,fox,fox,fox,2,2,2
+you ftube,facebook,cnn,social_media,social_media,cnn,0,0,-1
+Independent,Buzzfeed,Youtube,independent,buzzfeed,social_media,-1,-1,0
+BBC,Fox,CNN,bbc,fox,cnn,0,2,-1
+Fox News,google,northcentral pa,fox,aggregator,patriot,2,0,-1
+0,0,0,,,,NA,NA,NA
+15,12,10,,,,NA,NA,NA
+Facebook,None,None,social_media,,,0,NA,NA
+the new york times,fox news,bbc,nyt,fox,bbc,-1,2,0
+none,none,none,,,,NA,NA,NA
+Nbc Connecticut ,WFSB Connecticut ,None,local_tv,local_tv,,0,0,NA
+4,ABC,FX,,abc,fox,NA,0,2
+Nbc,Msn,Fox,nbc,msn,fox,-1,0,2
+None,None,None,,,,NA,NA,NA
+cbs,none,na,cbs,,,0,NA,NA
+Fox News ,CNN ,Local news ,fox,cnn,local_tv,2,-1,0
+apple news,twitter,la times,aggregator,social_media,latimes,0,0,-1
+0,0,0,,,,NA,NA,NA
+USA Today  ,CBS,ABC,usa_today,cbs,abc,-1,0,0
+msnbc.com,aol.com,none,msnbc,aol,,-2,0,NA
+ABC local news,ABC World News,Apple News,local_tv,abc,aggregator,0,0,0
+Fox news,Cnn,Nbc,fox,cnn,nbc,2,-1,-1
+N/A,N/A,N/A,,,,NA,NA,NA
+Fox News,CNN,MSNBC,fox,cnn,msnbc,2,-1,-2
+the mew york times,cnn,good,nyt,cnn,,-1,-1,NA
+None,None,None,,,,NA,NA,NA
+Abc,Nbc,Univision,abc,nbc,univision,0,-1,0
+New york times,Abcnews13,Wtge,nyt,local_tv,local_radio,-1,0,0
+nbc,youtube,spectrum,nbc,social_media,local_tv,-1,0,0
+Fox News,New York Times,Washington Post,fox,nyt,wapo,2,-1,-1
+cnn,fox,youtube,cnn,fox,social_media,-1,2,0
+MSNBC,CBS,NBC,msnbc,cbs,nbc,-2,0,-1
+fox news,none,none,fox,,,2,NA,NA
+abc,ktla ,breaking news,abc,local_tv,,0,0,NA
+Click Orlando,Local paper,Facebook,local_tv,local_paper,social_media,0,0,0
+cnn,nbc,abc,cnn,nbc,abc,-1,-1,0
+1,1,1,,,,NA,NA,NA
+google,cbs,fox,aggregator,cbs,fox,0,0,2
+Cnn,Cnn CNN,Bongs,cnn,cnn,,-1,-1,NA
+CBS,CNN,WTGB,cbs,cnn,local_tv,0,-1,0
+Fox News,CBS,ABC,fox,cbs,abc,2,0,0
+oan,fox,china,oan,fox,,2,2,NA
+Aol.com,Yahoo.com,Ajc.com,aol,yahoo,ajc,0,0,0
+PBS,CNN,MSNBC,pbs,cnn,msnbc,-1,-1,-2
+Foxnews,CBS,NBC,fox,cbs,nbc,2,0,-1
+fox news,fox business news,yahoo news,fox,fox_business,yahoo,2,1,0
+cnn,MSNBC,FoxNews,cnn,msnbc,fox,-1,-2,2
+Wall Street Journal,NBC News,FOX News,wsj,nbc,fox,0,-1,2
+NBC,CBS,ABC,nbc,cbs,abc,-1,0,0
+fox,abc,nbc,fox,abc,nbc,2,0,-1
+Cnn,MSNBC,Cbs,cnn,msnbc,cbs,-1,-2,0
+ABCNY ,NBC ,CNN ,local_tv,nbc,cnn,0,-1,-1
+CNN,MSNBC,ABC,cnn,msnbc,abc,-1,-2,0
+Fox,nbc,cbs,fox,nbc,cbs,2,-1,0
+cbs news,wkyt,facebook,cbs,local_tv,social_media,0,0,0
+CBS News,KSHB TV,PBS news,cbs,local_tv,pbs,0,0,-1
+fox,cnn,abc,fox,cnn,abc,2,-1,0
+CNN news,The Hill/RIsing,nbc,cnn,hill,nbc,-1,0,-1
+Washingtonpost.com ,wsj.com,nytimes.com,wapo,wsj,nyt,-1,0,-1
+Daily Bulletin,CBS,Spectrum,dailybulletin,cbs,local_tv,0,0,0
+Returning the Favor by Mike Rowe,Caught in Providence by Judge Capiro,Derek Deso ,,fox,social_media,NA,2,0
+ABC News,0,0,abc,,,0,NA,NA
+I dont know,Na,Na,,,,NA,NA,NA
+cnn,ny times,fox news,cnn,nyt,fox,-1,-1,2
+broad cast tv,na,na,,,,NA,NA,NA
+Arizona Daily Star,Tucson Sentinel ,PBS,arizonadailystar,tucsonsentinel,pbs,-1,0,-1
+cnn,BBC,none,cnn,bbc,,-1,0,NA
+AJC,Fox News,NBC,ajc,fox,nbc,0,2,-1
+MSNBC,CNN,NY Times,msnbc,cnn,nyt,-2,-1,-1
+cnn,msnbc,abc,cnn,msnbc,abc,-1,-2,0
+Huffington Post,ProPublica,USA Today,huffpo,propublica,usa_today,-1,-1,-1
+none,none,none,,,,NA,NA,NA
+NTD news talk,https://www.ltn.com.tw/,https://www.epochtimes.com/,talkradio,ltn.tw,epochtimes,2,-1,2
+N.Y. times,Reuters,The economist,nyt,news_wire,economist,-1,0,-1
+fox,cnn,yahoo,fox,cnn,yahoo,2,-1,0
+BBC,Youtube,Facebook,bbc,social_media,social_media,0,0,0
+2,Rick and Morty ,Abc news ,,,abc,NA,NA,0
+Cnn,Foc,Mnbc,cnn,fox,msnbc,-1,2,-2
+Fox News,Breitbart,NJ.com,fox,breitbart,,2,2,NA
+None ,None ,None,,,,NA,NA,NA
+cbs,pbs,ny times,cbs,pbs,nyt,0,-1,-1
+"Fox News,YouTube ",OAM network,Dave Ruben,fox,oan,daverubenpodcast,2,2,1
+NBC,CBS,CNN,nbc,cbs,cnn,-1,0,-1
+none,none,none,,,,NA,NA,NA
+13,Fox5,8,,local_tv,,NA,0,NA
+Fox,Cbs,Abc,fox,cbs,abc,2,0,0
+The New York Times,The Washington Post,The Tampa Bay Times,nyt,wapo,tampabaytimes,-1,-1,-1
+none,none,none,,,,NA,NA,NA
+ny times,yahoo,facebook,nyt,yahoo,social_media,-1,0,0
+CNN,NBC News,FOX News,cnn,nbc,fox,-1,-1,2
+nytimes,none,one,nyt,,oan,-1,NA,2
+0,0,0,,,,NA,NA,NA
+Cnn.com,Washington post,Google,cnn,wapo,aggregator,-1,-1,0
+u Iranians je,Grannies,Yanked,,,,NA,NA,NA
+NA,NA,NA,,,,NA,NA,NA
+CNBC,Apple,Google,cnbc,aggregator,aggregator,0,0,0
+npr,npr,none,npr,npr,,0,0,NA
+cbs.com,cnn.com,daily mail.com,cbs,cnn,dailymail,0,-1,0
+Na,Na,Na,,,,NA,NA,NA
+5,4,3,,,,NA,NA,NA
+fox news,cnn,abc,fox,cnn,abc,2,-1,0
+Fox,Fox ,Fox,fox,fox,fox,2,2,2
+CNN.com,Washington Post,MSNBC,cnn,wapo,msnbc,-1,-1,-2
+Apple news app,Facebook,Nobe,aggregator,social_media,,0,0,NA
+local,none,none,,,,NA,NA,NA
+Fox news,cbs news ,abc news,fox,cbs,abc,2,0,0
+good it,good it,good it,,,,NA,NA,NA
+Fox news,None,None,fox,,,2,NA,NA
+MSNBC,Slate.com,The New Yorker,msnbc,slate,newyorker,-2,-2,-1
+cnn,cnn,usa,cnn,cnn,usa_today,-1,-1,-1
+None,None,None,,,,NA,NA,NA
+fox news,abc,new york times,fox,abc,nyt,2,0,-1
+NPR One,Washington Post podcasts,CNN,npr,wapo,cnn,0,-1,-1
+5,5,5,,,,NA,NA,NA
+BBC,CNN,YLE,bbc,cnn,,0,-1,NA
+CNBC,CNN,The Wall Street Journal,cnbc,cnn,wsj,0,-1,0
+american express ,opinion of ,America City ,,,,NA,NA,NA
+"yes, i am very like this writer",COVID,Sports,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+bonginoreport.com,RedState.com,libertydaily.com,bongireport,redstate,libertydaily,2,2,3
+1,1,1,,,,NA,NA,NA
+cnbc,fox,cnn,cnbc,fox,cnn,0,2,-1
+Youtube,Google News,Yahoo,social_media,aggregator,yahoo,0,0,0
+Nytimes.com,Huffpost,Google news feed,nyt,huffpo,aggregator,-1,-1,0
+None,None,None,,,,NA,NA,NA
+New Breakm,KOAT Channel 7 news,n/a,,local_tv,,NA,0,NA
+ABC news ,Local news,None,abc,local_tv,,0,0,NA
+CNN,Wall Street Journal,NPR,cnn,wsj,npr,-1,0,0
+likes,seem,call,,,,NA,NA,NA
+Fox,Fx,NBC,fox,,nbc,2,NA,-1
+Fox News ,ABC,None,fox,abc,,2,0,NA
+CBS,ABC,NBC,cbs,abc,nbc,0,0,-1
+Apple news ,Cnn.com,Abc news ,aggregator,cnn,abc,0,-1,0
+USA Today,Florida Today,none,usa_today,floridatoday,,-1,0,NA
+the new york times,none,none,nyt,,,-1,NA,NA
+CNN,Fox,NBC,cnn,fox,nbc,-1,2,-1
+foxnews.com,oan.com,none,fox,oan,,2,2,NA
+Google,Plex,Bbc,aggregator,streaming,bbc,0,0,0
+Politico,Washington post,Motorweek,politico,wapo,entertainment,-1,-1,NA
+Drudge Report,Google news,Yahoo news,drudge,aggregator,yahoo,1,0,0
+Washington post,Cnn,New York tines,wapo,cnn,nyt,-1,-1,-1
+taxs,covid-19,taxs,,,,NA,NA,NA
+msnbc,cnn,pbs,msnbc,cnn,pbs,-2,-1,-1
+ABC app,NBC app,Yahoo news,abc,nbc,yahoo,0,-1,0
+n/a,n/a,n/a,,,,NA,NA,NA
+10 tv columbus,6 tv news columbus,Coshocton beacon,local_tv,local_tv,coshoctonbeacon,0,0,0
+msn.com,cnn.com,abc.com,msn,cnn,abc,0,-1,0
+i get it from tv,i get it from news paper,i get it from facebook,,,,NA,NA,NA
+BBC. VOA,Fox. ,NBC,bbc,fox,nbc,0,2,-1
+Washington Post,none,none,wapo,,,-1,NA,NA
+BBB,PBS,FOX,bbc,pbs,fox,0,-1,2
+Fox,Public Broadcasting,local news,fox,pbs,local_tv,2,-1,0
+Yahoo news,ABC news,Google news,yahoo,abc,aggregator,0,0,0
+Fox news,Cincinnati enquire,MSNBC,fox,cincinnatienquire,msnbc,2,0,-2
+Google news,Fox,Reddit,aggregator,fox,social_media,0,2,0
+foxnews.com,al.com,hawaiitribune.com,fox,al,hawaiitribune,2,0,0
+NY Times,MSNBC,Yahoo Finance,nyt,msnbc,yahoo,-1,-2,0
+broadcast news,cnn,nbc,,cnn,nbc,NA,-1,-1
+Fox news,Nbc,Cbs,fox,nbc,cbs,2,-1,0
+San Antonio Express,ABC,CBS,sanantonioexpress,abc,cbs,-1,0,0
+Buzzfeed ,TMZ ,Cnn ,buzzfeed,tmz,cnn,-1,-1,-1
+Huf oist,none,none,huffpo,,,-1,NA,NA
+New York Times,TC Palm,Miami Herald,nyt,tcpalm,miamiherald,-1,0,0
+wash post,nytimes ,the atlantic,wapo,nyt,atlantic,-1,-1,-1
+CNN,Apple News,Fox News,cnn,aggregator,fox,-1,0,2
+The New York Times,Democrat and Chronicle,MSNBC,nyt,democratandchronicle,msnbc,-1,-1,-2
+NONE,NONE,NONE,,,,NA,NA,NA
+cnn,hartford courant,radio,cnn,hartfordcourant,,-1,0,NA
+Google,Smartnews,NDTV,aggregator,smart,,0,0,NA
+NA,NA,NA,,,,NA,NA,NA
+WBRC Birmingham,CNN,Fox News,local_tv,cnn,fox,0,-1,2
+cnn.com,yahoo.com,reuters.com,cnn,yahoo,news_wire,-1,0,0
+New York Times,NBC News,Fox News,nyt,nbc,fox,-1,-1,2
+apple news,google news,yahoo news,aggregator,aggregator,yahoo,0,0,0
+fox,fox,fox,fox,fox,fox,2,2,2
+Cnn,Yahoo,MSNBC ,cnn,yahoo,msnbc,-1,0,-2
+Local news ,Local news ,Local news ,local_tv,local_tv,local_tv,0,0,0
+WCCO Mpls,KSTP Mpls,New York times.com,local_tv,local_tv,nyt,0,0,-1
+Yahoo,Cnn,Cnn,yahoo,cnn,cnn,0,-1,-1
+CNN,CNBC,Fox,cnn,cnbc,fox,-1,0,2
+Fox News,World News,None,fox,abc,,2,0,NA
+WBRC Birmingham ,CNN,Yahoo ,local_tv,cnn,yahoo,0,-1,0
+BBC,CNN,Fox news,bbc,cnn,fox,0,-1,2
+Apple news,Fox News ,Reuters ,aggregator,fox,news_wire,0,2,0
+ABC Nightly News,Nightline,Eyewitness Local News,abc,abc,local_tv,0,0,0
+CNN ,FOX,none,cnn,fox,,-1,2,NA
+New York Times,Wall Street Journal,Daily News,nyt,wsj,ny_daily,-1,0,-1
+Fox News,Breitbart,Daily Mails ,fox,breitbart,dailymail,2,2,0
+Staradvertiser.com,Khon2.com,hawaiinewsnow.com,staradvertiser,local_tv,local_tv,-1,0,0
+Cnn,Abc,Nbc,cnn,abc,nbc,-1,0,-1
+Cnn,None,None,cnn,,,-1,NA,NA
+USA Today Show,Univision,ABC,nbc,univision,abc,-1,0,0
+MSNBC,CNN,CrotchRot,msnbc,cnn,,-2,-1,NA
+New York times,Location ,Time for news ,nyt,,,-1,NA,NA
+The New York Times,Fox News,Cbs,nyt,fox,cbs,-1,2,0
+Na,Facebook,Abc,,social_media,abc,NA,0,0
+Facebook,Fox,Instagram,social_media,fox,social_media,0,2,0
+Digg,CNN,Youtube/MSNBC,aggregator,cnn,msnbc,0,-1,-2
+La times,None,None,latimes,,,-1,NA,NA
+NPR,The New York Times,Japan Today,npr,nyt,japantoday,0,-1,0
+None,None ,None,,,,NA,NA,NA
+WFTC,Star Tribune ,The Athletic ,local_tv,minn_star,entertainment,0,0,NA
+Fox4,nbs,Na,local_tv,nbc,,0,-1,NA
+ABC News,The New York Times,CBS News,abc,nyt,cbs,0,-1,0
+TheBlaze,Newsmax,Fox,blaze,newsmax,fox,2,2,2
+none,none,none,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+fox,nbc,facebook,fox,nbc,social_media,2,-1,0
+New York post ,Buzzfeed,NPR,nypost,buzzfeed,npr,1,-1,0
+great,best,good,,,,NA,NA,NA
+Nytimes.com,The guardian ,Ajc,nyt,guardian,ajc,-1,-1,0
+k-gun 9,none,none,local_tv,,,0,NA,NA
+nothing to say here really,nothing to say here really,nothing to say here really,,,,NA,NA,NA
+Cnn,Twitter,Ny times,cnn,social_media,nyt,-1,0,-1
+Cbs,Facebook,Newyork times,cbs,social_media,nyt,0,0,-1
+the skimm,n/a,n/a,skim,,,-1,NA,NA
+cnn,cnbc,fox,cnn,cnbc,fox,-1,0,2
+NPR,New York Times ,Washington post ,npr,nyt,wapo,0,-1,-1
+Wsj,Fox,Buzzfeed,wsj,fox,buzzfeed,0,2,-1
+None,Local news,None,,local_tv,,NA,0,NA
+Fox News,CNN,MSNBC,fox,cnn,msnbc,2,-1,-2
+CNN,New York Times ,Washington post ,cnn,nyt,wapo,-1,-1,-1
+CNN,NBC,The Today Show,cnn,nbc,nbc,-1,-1,-1
+breitbart,none,none,breitbart,,,2,NA,NA
+Fox,ABC,News 12 NJ,fox,abc,local_tv,2,0,0
+Fox news,Local 12,Wcpo,fox,local_tv,local_tv,2,0,0
+Wall st journal,Fox,Abc ,wsj,fox,abc,0,2,0
+facebook,none,none,social_media,,,0,NA,NA
+Fox News,Breitbart,ABC News,fox,breitbart,abc,2,2,0
+wmc Memphis,Brietbart,Real Clear Politics,local_tv,breitbart,realclearpolitics,0,2,1
+Fox News,none,none,fox,,,2,NA,NA
+Virginian Pilot,NBC WAVY 10,Yahoo,virginianpilot,local_tv,yahoo,-1,0,0
+msn,none,none,msn,,,0,NA,NA
+usa today,CNN,none,usa_today,cnn,,-1,-1,NA
+MSNBC,NONE,IDAHO STATESMAN,msnbc,,idahostatesman,-2,NA,0
+msnbc,nbc,wistv,msnbc,nbc,,-2,-1,NA
+wsj,none,none,wsj,,,0,NA,NA
+Fark.com,Drudge Report,Tampa Bay Times,fark,drudge,tampabaytimes,0,1,-1
+Cnet,Tmobil,Facebook,cnet,,social_media,0,NA,0
+Fox news,Fox news,Fox news,fox,fox,fox,2,2,2
+yahoo.com,nbc,cbs,yahoo,nbc,cbs,0,-1,0
+fox new,new york times,cnn,fox,nyt,cnn,2,-1,-1
+Google news,Topeka capital journal newspaper,Local news Network,aggregator,local_paper,local_tv,0,0,0
+10,10,10,,,,NA,NA,NA
+Fox News ,cbs.com,Google ,fox,cbs,aggregator,2,0,0
+NPR,Huff Posy,CBS News,npr,huffpo,cbs,0,-1,0
+Foxnews.com,bing ,huffington post,fox,aggregator,huffpo,2,0,-1
+youtube,youtube,youtube,social_media,social_media,social_media,0,0,0
+CBS,Fox,MSNBC,cbs,fox,msnbc,0,2,-2
+Diana Melendez,Halee Knight,Shad Meyer,,,,NA,NA,NA
+CBS News,Fox News, NBC News,cbs,fox,nbc,0,2,-1
+wnem.com,none,none,local_tv,,,0,NA,NA
+FOX NEWS,BBC,LOCAL FOX 35,fox,bbc,local_tv,2,0,0
+cbs,abc,nbc,cbs,abc,nbc,0,0,-1
+Fox news,Bleacher report,USA Today,fox,entertainment,usa_today,2,NA,-1
+The New York Times,Fox news,CNN,nyt,fox,cnn,-1,2,-1
+fox news,oan,none,fox,oan,,2,2,NA
+"ABC, CBS,NBC and CNN",mercury news,gilroy dispatch,abc,sanjosemercury,gilroydispatch,0,-1,-1
+Cnn,Msbn,Newsy,cnn,msnbc,newsy,-1,-2,0
+The New York times,MNSBC,CNN,nyt,msnbc,cnn,-1,-2,-1
+The Hindu,Indian Express,The Guardian,hindu,indianexpress,guardian,-1,-1,-1
+nbc,none,none,nbc,,,-1,NA,NA
+New York Post,Daily News,Political Movement,nypost,ny_daily,,1,-1,NA
+Fox 5 News,CNN,MSNBC,local_tv,cnn,msnbc,0,-1,-2
+none,yahoo news,none,,yahoo,,NA,0,NA
+Cbs,Abc,Nbc,cbs,abc,nbc,0,0,-1
+CNN,CBS,New York Times ,cnn,cbs,nyt,-1,0,-1
+N/A ,N/A ,N/A ,,,,NA,NA,NA
+NBC Nightly News,CNN,Newsbreak app,nbc,cnn,aggregator,-1,-1,0
+Occupied Democrats,DSCC,Washington Post.com,occupieddemocrats,,wapo,-2,NA,-1
+nytimes.com,news.yahoo.com,kjrh.com,nyt,yahoo,local_tv,-1,0,0
+Nytimes.com,Foxnews.com,Washington post.com,nyt,fox,wapo,-1,2,-1
+TV,TV,TV,,,,NA,NA,NA
+Yahoo,None ,None ,yahoo,,,0,NA,NA
+CNN.com,Yahoo news,none,cnn,yahoo,,-1,0,NA
+yahoo news,npr,Click on Detroit,yahoo,npr,local_tv,0,0,0
+MSNBC,CNN,Hugston post,msnbc,cnn,houstonchronicle,-2,-1,-1
+ABC ,CBS,Headline News,abc,cbs,cnn,0,0,-1
+patreon,pool,rfb,,,,NA,NA,NA
+cnn,abc,cbs,cnn,abc,cbs,-1,0,0
+NBC,NBC.vom,None,nbc,nbc,,-1,-1,NA
+Huffington post,MSNBC,CNN,huffpo,msnbc,cnn,-1,-2,-1
+Fox ,oan,first american,fox,oan,firstamerican,2,2,0
+MSNBC ,CNN,ABC,msnbc,cnn,abc,-2,-1,0
+PBS,MSNBC,CNN,pbs,msnbc,cnn,-1,-2,-1
+FOX NEWS,BATON ROUGE NEWSPAPER,OAN,fox,local_paper,oan,2,0,2
+abc,cbs,wpix,abc,cbs,local_tv,0,0,0
+cnn,toi us edition,cnn health,cnn,,cnn,-1,NA,-1
+yahoo news,chron.com,pbs,yahoo,houstonchronicle,pbs,0,-1,-1
+cornpop ,cornpop,cornpop ,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+Fox News,ESPN,no,fox,entertainment,,2,NA,NA
+Fox,CBS,NBC,fox,cbs,nbc,2,0,-1
+CNN ,CSNBC,ABC,cnn,,abc,-1,NA,0
+None,None,None,,,,NA,NA,NA
+David,Armani David,David,,,,NA,NA,NA
+MSNBC,ABC News,CBS News,msnbc,abc,cbs,-2,0,0
+CNN,CBS,ABC,cnn,cbs,abc,-1,0,0
+NBC,ABC,CBS,nbc,abc,cbs,-1,0,0
+cnn,msn,cnn,cnn,msn,cnn,-1,0,-1
+Fox News,Fox Business ,none,fox,fox_business,,2,1,NA
+0,0,0,,,,NA,NA,NA
+N.Y. Post,The Mail,The Sun,nypost,dailymail,sunuk,1,0,NA
+BBC ashshi,CCTV,Roku,bbc,,,0,NA,NA
+MSNBC,CNN,Local news,msnbc,cnn,local_tv,-2,-1,0
+Daily news,Google news,Yahoo news,ny_daily,aggregator,yahoo,-1,0,0
+1,1,1,,,,NA,NA,NA
+cnn,fox ,nbc,cnn,fox,nbc,-1,2,-1
+Fox news,CBS,NBC,fox,cbs,nbc,2,0,-1
+fox news,"fox news, golden state",fox news,fox,fox,fox,2,2,2
+Sfgate.com,Yahoo.com,cnn.com,sfgate,yahoo,cnn,0,0,-1
+CNN,BBC,Yahoo,cnn,bbc,yahoo,-1,0,0
+msn,cnn,fox,msn,cnn,fox,0,-1,2
+cbs,abc,nbc,cbs,abc,nbc,0,0,-1
+New York Times,N/A,N/A,nyt,,,-1,NA,NA
+13 wmaz,Fox,None,local_tv,fox,,0,2,NA
+CNN,ABC,NBC,cnn,abc,nbc,-1,0,-1
+New York Times,Atlantic,NPR,nyt,atlantic,npr,-1,-1,0
+ny times,bbc,cnn,nyt,bbc,cnn,-1,0,-1
+the hill,national review,ny post,hill,nationalreview,nypost,0,2,1
+Fox news,One America news,N/A,fox,oan,,2,2,NA
+BBC News,USA Today,ABC News,bbc,usa_today,abc,0,-1,0
+buzzfeed,nytimes,none,buzzfeed,nyt,,-1,-1,NA
+Fox ,Etv news,Local,fox,local_tv,local_tv,2,0,0
+CNN.com,Forbes.com,N/A,cnn,forbes,,-1,0,NA
+New york times,WGME ,Msnbc,nyt,local_tv,msnbc,-1,0,-2
+Washingtonpost.com,Nytimes.com,Reddit.com,wapo,nyt,social_media,-1,-1,0
+3,1,2,,,,NA,NA,NA
+German Tagesschau,Google News,nytimes,germantagesschau,aggregator,nyt,0,0,-1
+facebook,cnn,cnbc,social_media,cnn,cnbc,0,-1,0
+Huffingtonpost,Politico,MSNBC,huffpo,politico,msnbc,-1,-1,-2
+FOXNEWS.COM,BEITBART,N/A,fox,breitbart,,2,2,NA
+Fox news,Good morning America ,Buzzfeed,fox,abc,buzzfeed,2,0,-1
+nytimes.com,none,none,nyt,,,-1,NA,NA
+fox news,nbc,abc,fox,nbc,abc,2,-1,0
+New York Times,Snapchat,I don't seek out the News.,nyt,social_media,,-1,0,NA
+Nbc nightly news,Cbs sunday morning,Local,nbc,cbs,local_tv,-1,0,0
+red dead,bed hgeadw,atear cvt,,,,NA,NA,NA
+Na,Na,Na,,,,NA,NA,NA
+Fox news,Cnn,Nbc,fox,cnn,nbc,2,-1,-1
+Local newspapers ,None,None,local_paper,,,0,NA,NA
+FOX NEWS,AOE,NEW YORK TIMES,fox,,nyt,2,NA,-1
+New york times,Fox 6,Wbrc,nyt,local_tv,local_tv,-1,0,0
+Fox,Cnn,MSNBC ,fox,cnn,msnbc,2,-1,-2
+none,none,none,,,,NA,NA,NA
+Fox,Fox,Fox,fox,fox,fox,2,2,2
+None,None,None,,,,NA,NA,NA
+None,Nonr,None,,,,NA,NA,NA
+uyku ,k..kjh,resh ,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+new york times,npr,pbs,nyt,npr,pbs,-1,0,-1
+NBC,CBS,ABC,nbc,cbs,abc,-1,0,0
+local news fox,cbs,nbc,local_tv,cbs,nbc,0,0,-1
+FOX news,CNN,CHN,fox,cnn,cnn,2,-1,-1
+2,new york time,USAA,,nyt,,NA,-1,NA
+Columbiatribune.com,none,none,columbiatribune,,,-1,NA,NA
+New York Times,The Atlantic,Bloomberg,nyt,atlantic,bloomberg,-1,-1,0
+nbc,new york times,fortune,nbc,nyt,fortune,-1,-1,0
+brand ,propel,walmart,,,,NA,NA,NA
+CNN,NONE,NONW,cnn,,,-1,NA,NA
+NYTimes.com,SFgate.com,washingtonpost.com,nyt,sfgate,wapo,-1,0,-1
+Foxnews,cnn,manbc,fox,cnn,msnbc,2,-1,-2
+CNN,NYT,WaPo,cnn,nyt,wapo,-1,-1,-1
+fox news,cnbc,abc,fox,cnbc,abc,2,0,0
+Fox News,Fox Nation,Facebook,fox,fox,social_media,2,2,0
+new york time,mews journal,fox,nyt,mewsjournal,fox,-1,-1,2
+Fox News,The new york time,nytimes.com,fox,nyt,nyt,2,-1,-1
+Fox News ,BBC ,Indy Star ,fox,bbc,indianapolisstar,2,0,-1
+the guardian ,Huffington post ,ny times,guardian,huffpo,nyt,-1,-1,-1
+Local TV,FOx news,CNN,local_tv,fox,cnn,0,2,-1
+google,yahoo,wishtv,aggregator,yahoo,,0,0,NA
+Fox News,Breitbart ,Christian News,fox,breitbart,cbn,2,2,2
+wgn.com,chicagotribune.com,cnn.com,local_tv,chicagotribune,cnn,0,0,-1
+ttttttttt,ttttttt,ttttttttttt,,,,NA,NA,NA
+10,5,10,,,,NA,NA,NA
+Fox,Cbs,Yahoi,fox,cbs,yahoo,2,0,0
+0,0,0,,,,NA,NA,NA
+New yourk times ,New yourk times ,New yourk time ,nyt,nyt,nyt,-1,-1,-1
+na,na,na,,,,NA,NA,NA
+TV,Google,Google Hub,,aggregator,aggregator,NA,0,0
+wxii news 12 ,wghp highpoint,abc ,local_tv,local_tv,abc,0,0,0
+NYT,Huffington Post,MSNBC,nyt,huffpo,msnbc,-1,-1,-2
+fox news,judicial watch,na,fox,judicialwatch,,2,3,NA
+Nbc.,New York Times,HEADLINE NEWS. ,nbc,nyt,cnn,-1,-1,-1
+NPR,BBC,Los Angeles Times,npr,bbc,latimes,0,0,-1
+CNN,MSNBC,Crooked  Media,cnn,msnbc,crookedmedia,-1,-2,-2
+Good thing,Lost dog,Robbery ,,,,NA,NA,NA
+Abc,Cbs,You tube ,abc,cbs,social_media,0,0,0
+msnbc tv news,abc tv,usa today,msnbc,abc,usa_today,-2,0,-1
+Bububub,Yvuvu,Vuvuv,,,,NA,NA,NA
+bbc,abc,huffington,bbc,abc,huffpo,0,0,-1
+ABC 33/40,al.com,Huffington Post,abc,al,huffpo,0,0,-1
+reddit,cnn,abc7 chicago,social_media,cnn,local_tv,0,-1,0
+abc,nbc,fox,abc,nbc,fox,0,-1,2
+CNN,Huffpost,Washington post ,cnn,huffpo,wapo,-1,-1,-1
+None ,Nana,None ,,,,NA,NA,NA
+MSNBC,News Channel 3,Kalamazoo Gazette,msnbc,local_tv,kalamazoogazette,-2,0,-1
+N/A,N/A,N/A,,,,NA,NA,NA
+5,3,7,,,,NA,NA,NA
+OANN,FOX News,ABC News,oan,fox,abc,2,2,0
+Fox News,The newyork times,News week,fox,nyt,newsweek,2,-1,-1
+FOX NEWA,CBS NEWS,YAHOO.COM ,fox,cbs,yahoo,2,0,0
+The New York Times,CNN,NBC,nyt,cnn,nbc,-1,-1,-1
+BuzzFeed,CNN,NBC News,buzzfeed,cnn,nbc,-1,-1,-1
+Yahoo,Youtube,none,yahoo,social_media,,0,0,NA
+npr news ,NY times ,CNN ,npr,nyt,cnn,0,-1,-1
+The New York times,Politico ,The hill,nyt,politico,hill,-1,-1,0
+cnn,fox,univision,cnn,fox,univision,-1,2,0
+cnn,huffpost,cbs,cnn,huffpo,cbs,-1,-1,0
+WBRC,NBC Nightly News,The Anniston Star,local_tv,nbc,annistonstar,0,-1,-1
+MSNBC,NBC,CNN,msnbc,nbc,cnn,-2,-1,-1
+new times,fox,cw,nyt,fox,local_tv,-1,2,0
+Wlky,Newyor,Dnt knw,,,,NA,NA,NA
+MSNBC,CNN,NBC,msnbc,cnn,nbc,-2,-1,-1
+nfl,bbv,wed,,,,NA,NA,NA
+msnbc,cnn,local news abc,msnbc,cnn,local_tv,-2,-1,0
+Cnn,Fox,Bbc,cnn,fox,bbc,-1,2,0
+CNN,New York  Times ,Washington Post ,cnn,nyt,wapo,-1,-1,-1
+abc,cbs,cnn,abc,cbs,cnn,0,0,-1
+N/A,N/A,N/A,,,,NA,NA,NA
+CNN,ABC News,Fox ,cnn,abc,fox,-1,0,2
+CBS news,Yahoo news,ABC news,cbs,yahoo,abc,0,0,0
+Whitehouse.gov,Congress.gov,I don’t use news outlets,whitehouse.gov,congress.gov,,0,0,NA
+CNN,FOX,CNN,cnn,fox,cnn,-1,2,-1
+Fox news,ABC news,Facebook,fox,abc,social_media,2,0,0
+MSNBC,CNN,ABC,msnbc,cnn,abc,-2,-1,0
+The New York Times,NPR,Vice,nyt,npr,vice,-1,0,-1
+and if you,We will be,there in mu of,,,,NA,NA,NA
+msn,yahoo,fox news,msn,yahoo,fox,0,0,2
+ABC News,Good morning America,Tampa Bay Times,abc,abc,tampabaytimes,0,0,-1
+CNN,TODAY SHOW,Nbc ,cnn,nbc,nbc,-1,-1,-1
+cnn,cnn,cnn,cnn,cnn,cnn,-1,-1,-1
+New York Times ,Time,Poepl,nyt,time,people,-1,-1,-1
+Fox,Abc,News max,fox,abc,newsmax,2,0,2
+ABC NEWS,CNN,FOX,abc,cnn,fox,0,-1,2
+Fox,Abc,Nbc,fox,abc,nbc,2,0,-1
+CNN,NBC,ABC,cnn,nbc,abc,-1,-1,0
+Nothing,Nothing,Nothing,,,,NA,NA,NA
+ABC,CNN,CBS,abc,cnn,cbs,0,-1,0
+abc,cbs,nbc,abc,cbs,nbc,0,0,-1
+YAHOO.COM,VOX.COM,N/A,yahoo,vox,,0,-1,NA
+ISA Today ,Washington Post ,NY Times ,usa_today,wapo,nyt,-1,-1,-1
+cnn,msnbc,instagram,cnn,msnbc,social_media,-1,-2,0
+bbc,ny post,abc,bbc,nypost,abc,0,1,0
+2,Fox news,nine,,fox,,NA,2,NA
+0,0,0,,,,NA,NA,NA
+Nbc news,Cnn,Cbs,nbc,cnn,cbs,-1,-1,0
+Fox News,Channel 4,Yahoo,fox,local_tv,yahoo,2,0,0
+Fox,Apple,Google,fox,aggregator,aggregator,2,0,0
+500,200,100,,,,NA,NA,NA
+Fix.com,Cnn,Nbc,fox,cnn,nbc,2,-1,-1
+dont  know,dont  know,dont  know,,,,NA,NA,NA
+ny times,washington post,wired,nyt,wapo,wired,-1,-1,-1
+reuters.com,ap,New York Times,news_wire,news_wire,nyt,0,0,-1
+ NYC times,San Fran chronicle ,Apple news ,nyt,sanfranchronicle,aggregator,-1,-1,0
+amazon ,amazon ,amazon ,,,,NA,NA,NA
+PBS,Washington Post,New York Times,pbs,wapo,nyt,-1,-1,-1
+well,well also,target,,,,NA,NA,NA
+good,good,good,,,,NA,NA,NA
+WashingtonPost.com,Cleveland.com,NPR.org,wapo,cleveland,npr,-1,-1,0
+Twitter,Facebook,Instagram,social_media,social_media,social_media,0,0,0
+buzzfeed.com,nonen,none,buzzfeed,,,-1,NA,NA
+WRBL,CBS,Yahoo,local_tv,cbs,yahoo,0,0,0
+Twitter ,Facebook ,Cnn,social_media,social_media,cnn,0,0,-1
+The New York Times,Fox News,WBRC Birmingham,nyt,fox,local_tv,-1,2,0
+cbc,"c,f","s,f",cbc,,,0,NA,NA
+google,facebook,twiter,aggregator,social_media,social_media,0,0,0
+nytimes.com,sltribune.com,reuters.com,nyt,stlouispost-dispatch,news_wire,-1,-1,0
+Google,facebook,none,aggregator,social_media,,0,0,NA
+CNN,NBC,MSNBC,cnn,nbc,msnbc,-1,-1,-2
+2,4,1,,,,NA,NA,NA
+ilike,ilike,ilike,,,,NA,NA,NA
+politics,covied-19,economics,,,,NA,NA,NA
+bing.com,yahoo.com,google.com,aggregator,yahoo,aggregator,0,0,0
+Charlotte Observer,Fox,N/A,charlotteobserver,fox,,-1,2,NA
+Newsmax,fox,na,newsmax,fox,,2,2,NA
+none,to mind,none come,,,,NA,NA,NA
+the new york time,times of amarica ,fox news,nyt,timesofamerica,fox,-1,3,2
+WSJ,Fox News,The Hill,wsj,fox,hill,0,2,0
+Abc,Twitter,N/a,abc,social_media,,0,0,NA
+yahoo,cnn,msn,yahoo,cnn,msn,0,-1,0
+CNN,FOX,^6,cnn,fox,,-1,2,NA
+Washington Post,Yahoo News,MS News,wapo,yahoo,msn,-1,0,0
+apple news,yahoo finance,bleacher report,aggregator,yahoo,entertainment,0,0,NA
+NEWSDAY,ABC,MYYAHOO,newsday,abc,yahoo,0,0,0
+CNN,Fox,None,cnn,fox,,-1,2,NA
+CBN,WSMV,none,cbn,local_tv,,2,0,NA
+CNN.com,MSNBC.com,Nytimes.com,cnn,msnbc,nyt,-1,-2,-1
+MSNBC,ABC,Politico,msnbc,abc,politico,-2,0,-1
+CNN,Times News  (local),USA Today,cnn,,usa_today,-1,NA,-1
+Foxnrw.com,ABC news,ABC 13,fox,abc,local_tv,2,0,0
+new york times,boston globe,fox news,nyt,bostonglobe,fox,-1,-1,2
+CNN ,ABC,Nbc,cnn,abc,nbc,-1,0,-1
+MSNBC,CNN,None,msnbc,cnn,,-2,-1,NA
+"KFDM TV Beaumont, TX  ",CBS News,KOGT RADIO,local_tv,cbs,local_radio,0,0,0
+Fox News,Fox 29 news,ABC,fox,local_tv,abc,2,0,0
+WSRE,NPR,ABC,local_tv,npr,abc,0,0,0
+ABC News,FOX News,CNN News,abc,fox,cnn,0,2,-1
+Fox news,Cnn..,Ny times,fox,cnn,nyt,2,-1,-1
+Washington Post,CNN,ABC newd,wapo,cnn,abc,-1,-1,0
+Opelika Auburn Daily News,Washington Post,CNN,opelika_auburn,wapo,cnn,0,-1,-1
+nytimes.com,wsj.com,economist.com,nyt,wsj,,-1,0,NA
+Ktoa,Kfor,Kwtv,local_radio,local_tv,,0,0,NA
+none,none,none,,,,NA,NA,NA
+ ABC news,NBC news,Apple news,abc,nbc,aggregator,0,-1,0
+Wlik radio,none,none,local_radio,,,0,NA,NA
+ABC,CBS,NONE,abc,cbs,,0,0,NA
+Google ,Fox news ,CNN ,aggregator,fox,cnn,0,2,-1
+NPR,Newspaper ,None ,npr,local_paper,,0,0,NA
+cbs news,wjxt channel 4 jax fl,palatka daily news,cbs,local_tv,palatkany_daily,0,0,0
+New York Times ,None ,None ,nyt,,,-1,NA,NA
+Washington Post,California newe,texas,wapo,,,-1,NA,NA
+NBC,ABC,Local,nbc,abc,local_tv,-1,0,0
+CNN,new york post,bbc,cnn,nypost,bbc,-1,1,0
+New York times,Cnn,Fox news,nyt,cnn,fox,-1,-1,2
+Look at weather forecast  online,Didn't ,Didn't this week,,,,NA,NA,NA
+Fox News,CNN,NBC ,fox,cnn,nbc,2,-1,-1
+New York Times,nbc,cbs,nyt,nbc,cbs,-1,-1,0
+Fox,The cw,None,fox,local_tv,,2,0,NA
+Nytimes.com,Tbtimes.com,Abcactionnewss,nyt,tampabaytimes,abc,-1,-1,0
+cnn,fox,youtube,cnn,fox,social_media,-1,2,0
+Fox news,Washington post,google news,fox,wapo,aggregator,2,-1,0
+New York  times ,Fox News ,Washington Post,nyt,fox,wapo,-1,2,-1
+CBS All Access ,CNN,ABC,cbs,cnn,abc,0,-1,0
+WSFA News,Instagram ,N/A,local_tv,social_media,,0,0,NA
+Cnn,Msnbc,Cnbc,cnn,msnbc,cnbc,-1,-2,0
+CNN ,FOX,CBS,cnn,fox,cbs,-1,2,0
+buzzfeed.com,Nytimes.com,youtube.com,buzzfeed,nyt,social_media,-1,-1,0
+Nytimes,Fox news,CNN,nyt,fox,cnn,-1,2,-1
+nytimes.com,yahoonews.com,cnn,nyt,yahoo,cnn,-1,0,-1
+CNBC,CNN ,CBS,cnbc,cnn,cbs,0,-1,0
+FoxNews.com,Nytimes.com,CNN.com,fox,nyt,cnn,2,-1,-1
+CNN,Washington Post,Apple News,cnn,wapo,aggregator,-1,-1,0
+cnn,fox,abc,cnn,fox,abc,-1,2,0
+Fox,MSN ,CBS ,fox,msn,cbs,2,0,0
+Ketv,yahoonews,fox news,,yahoo,fox,NA,0,2
+Good ,Better ,Amazing ,,,,NA,NA,NA
+Cnn.com,Nytimes.com,Foxnews.com,cnn,nyt,fox,-1,-1,2
+CNN,BBC,CBS,cnn,bbc,cbs,-1,0,0
+1,1,1,,,,NA,NA,NA
+Netflix ,Hulu,Netflix ,streaming,streaming,streaming,0,0,0
+Nike,Adidas,Fila,,,,NA,NA,NA
+trump,biden,harriss,,,,NA,NA,NA
+Cnbc,Abc,Fox,cnbc,abc,fox,0,0,2
+cnn news,univision ,telemundo ,cnn,univision,telemundo,-1,0,0
+Fox News,Breitbart,Wall Street Journal,fox,breitbart,wsj,2,2,0
+B9ub9,Gu9uc9,Kyfiyi,,,,NA,NA,NA
+CNN,Washington Post,Wallstreet Journal,cnn,wapo,wsj,-1,-1,0
+Cnn,ABC news ,Twitter ,cnn,abc,social_media,-1,0,0
+cbs,cnn,fox 5,cbs,cnn,local_tv,0,-1,0
+Washington Post,The Guardian,New York Times,wapo,guardian,nyt,-1,-1,-1
+FOX NEWS,WALL STREET JOURNAL WSJ,JUDICIAL WATCH,fox,wsj,judicialwatch,2,0,3
+CNN,BBC,ABC,cnn,bbc,abc,-1,0,0
+msnbc,cnn,NY Times,msnbc,cnn,nyt,-2,-1,-1
+youtube,none,none,social_media,,,0,NA,NA
+cnn,manbc,fox news,cnn,msnbc,fox,-1,-2,2
+MSNBC,AP,Raw Story,msnbc,news_wire,rawstory,-2,0,-2
+ABC NEWS,N/A,N/A,abc,,,0,NA,NA
+Fox news,None,None,fox,,,2,NA,NA
+Fox News,local news,local news,fox,local_tv,local_tv,2,0,0
+courier journal,local news,Fox News,courierjournal,local_tv,fox,-1,0,2
+NEW YORK TIMES,VOGUE,TE,nyt,vogue,,-1,-1,NA
+Abc,Cbs,Nbc,abc,cbs,nbc,0,0,-1
+Nbc,BBC world news,Telemundo,nbc,bbc,telemundo,-1,0,0
+New York timew,Fox news,New York post,nyt,fox,nypost,-1,2,1
+nytimes.com,washingtonpost.com,wsj,nyt,wapo,wsj,-1,-1,0
+CNBC,ZeroHedge,GCN radio,cnbc,zerohedge,,0,1,NA
+NBC news,Milwaukee journal ,Barrons ,nbc,milwaukeejournal,barrons,-1,-1,0
+Wall st journal,Msnbc,Cnn,wsj,msnbc,cnn,0,-2,-1
+ny times,wash post,cnn,nyt,wapo,cnn,-1,-1,-1
+fox ews,cnn,wtae,fox,cnn,local_tv,2,-1,0
+fox news,none,none,fox,,,2,NA,NA
+The Daily Press,WVEC,Washington Post,dailypress,,wapo,-1,NA,-1
+local newspaper,cw news,fox news,local_paper,local_tv,fox,0,0,2
+great,high,nice,,,,NA,NA,NA
+CNN,LA Times,My wife,cnn,latimes,,-1,-1,NA
+NY Times/USA News/,CNN,MSNBC,nyt,cnn,msnbc,-1,-1,-2
+Fox.com,The Advocate,KATC.com,fox,advocate,local_tv,2,-1,0
+Nbc,Cbs,Cnn,nbc,cbs,cnn,-1,0,-1
+Abc, Nbc,Cnn,abc,nbc,cnn,0,-1,-1
+MSNBC,ABC Nighty News,PBS News hour,msnbc,abc,pbs,-2,0,-1
+new york times,washington post,none,nyt,wapo,,-1,-1,NA
+Yahoo News,LA Times,Washington Post,yahoo,latimes,wapo,0,-1,-1
+south florida sun sentinel,msnbc,huffington post,southfloridasunsentinel,msnbc,huffpo,0,-2,-1
+new york times,washington post,houston chronicle,nyt,wapo,houstonchronicle,-1,-1,-1
+L.a. times,Aol,Dont remember,latimes,aol,,-1,0,NA
+yahoo news,google news,NBC news,yahoo,aggregator,nbc,0,0,-1
+yahoo,usa today,local news,yahoo,usa_today,local_tv,0,-1,0
+ABC,Orlando Sentinel,60 minutes,abc,orlandosentinel,,0,-1,NA
+foxnews.com,cnn.com,facebook.com,fox,cnn,social_media,2,-1,0
+fox,discover,cnn,fox,discover,cnn,2,0,-1
+Fox News,CNN,CBS,fox,cnn,cbs,2,-1,0
+New York Times ,Politico,Washington Post ,nyt,politico,wapo,-1,-1,-1
+CNN,NBC,Yahoo,cnn,nbc,yahoo,-1,-1,0
+New York Times,MSNBC,CNN,nyt,msnbc,cnn,-1,-2,-1
+WND,Fox,WSJ,wnd,fox,wsj,3,2,0
+Fox news,Fox buss,Newsmax,fox,fox_business,newsmax,2,1,2
+abc news,nbc news,none,abc,nbc,,0,-1,NA
+Huff Post,none,none,huffpo,,,-1,NA,NA
+Fox news,Pbs,Bbc,fox,pbs,bbc,2,-1,0
+Fox News,Foxnews.com,Sean Hannity,fox,fox,fox,2,2,2
+My times,Washington post,Cnn,nyt,wapo,cnn,-1,-1,-1
+Washington Post,NPR,New York Times,wapo,npr,nyt,-1,0,-1
+cbs,toledo blade,the skim,cbs,toledoblade,skim,0,1,-1
+Huffiington Post,New York Times,Yahoo News,huffpo,nyt,yahoo,-1,-1,0
+fox news,cnn,new york times,fox,cnn,nyt,2,-1,-1
+cnn,msnbc,yahoo,cnn,msnbc,yahoo,-1,-2,0
+None,None,None,,,,NA,NA,NA
+cnn.com,tribtoday.com,wkbn,cnn,tribtoday,local_tv,-1,0,0
+fox news,cnn,bbc,fox,cnn,bbc,2,-1,0
+NBC,CNN,Spectrum,nbc,cnn,local_tv,-1,-1,0
+Facebook,Twitter,None,social_media,social_media,,0,0,NA
+fox news,none,none,fox,,,2,NA,NA
+CNN,Wall St Journal,Yahoo,cnn,wsj,yahoo,-1,0,0
+not sure,not sure,not sure,,,,NA,NA,NA
+Kten news,Kxii news,ABC ,local_tv,local_tv,abc,0,0,0
+fox news,none,none,fox,,,2,NA,NA
+Nytimes,Buzzfeed,Hufrington,nyt,buzzfeed,huffpo,-1,-1,-1
+Cnn,Fox,None,cnn,fox,,-1,2,NA
+cnn,new york times,msnbc,cnn,nyt,msnbc,-1,-1,-2
+Google news,Yahoo portal,Facebook feed,aggregator,yahoo,social_media,0,0,0
+cbs,fox,nbc,cbs,fox,nbc,0,2,-1
+fox news,abc local,fox news.com,fox,local_tv,fox,2,0,2
+huff po,buzzfeed,cnn,huffpo,buzzfeed,cnn,-1,-1,-1
+none,none,none,,,,NA,NA,NA
+FOX News,CNN,HLN,fox,cnn,cnn,2,-1,-1
+USA Today,Yahoo.com,FoxNews.com,usa_today,yahoo,fox,-1,0,2
+MSN.com,Yahoo.com,None,msn,yahoo,,0,0,NA
+Dk,Dk,Dk,,,,NA,NA,NA
+dont know,dont know,dont know,,,,NA,NA,NA
+None,none,none,,,,NA,NA,NA
+Yahoo news,Apple news,Edge,yahoo,aggregator,dailyedge,0,0,2
+Abc,Cnn,None,abc,cnn,,0,-1,NA
+cnn,none,none,cnn,,,-1,NA,NA
+msnbc,cbs news,washington post,msnbc,cbs,wapo,-2,0,-1
+New York times,None,Fox,nyt,,fox,-1,NA,2
+google,columbia times,clark county news,aggregator,columbiatimes,clarkcounty,0,-1,0
+Fox news,News 8,Cbs news,fox,local_tv,cbs,2,0,0
+Isisjusj,Jwjsjshsj,Jsjsjsjsj,,,,NA,NA,NA
+fox news,cnn,none,fox,cnn,,2,-1,NA
+None,None,None,,,,NA,NA,NA
+1,1,1,,,,NA,NA,NA
+Abc,Love,New,abc,,,0,NA,NA
+The New York Times,The Washington Post,Apple news,nyt,wapo,aggregator,-1,-1,0
+Facebook ,Google ,Google ,social_media,aggregator,aggregator,0,0,0
+Ghhh,Gyyyy,Fffhhj,,,,NA,NA,NA
+Yes,No,Yes ,,,,NA,NA,NA
+ik,dont kno,dont ,,,,NA,NA,NA
+T,5,7,,,,NA,NA,NA
+None,Nome,Nome,,,,NA,NA,NA
+discover,new york woo,news12,,,local_tv,NA,NA,0
+CNN news ,Live 5 news ,New York times,cnn,local_tv,nyt,-1,0,-1
+Cnn,Abc new,Cbs news,cnn,abc,cbs,-1,0,0
+Stay tuned ,None,None,,,,NA,NA,NA
+Tv,News  publications ,Radio ,,,,NA,NA,NA
+Cnn,Msnbc,Abc,cnn,msnbc,abc,-1,-2,0
+Breitbart,Fox,Wall Street Journal,breitbart,fox,wsj,2,2,0
+The New York Times ,Fox News ,CNN,nyt,fox,cnn,-1,2,-1
+5,5,5,,,,NA,NA,NA
+Fox ,ATL,Forbes,fox,,forbes,2,NA,0
+buzzfeed,new york times ,apple news ,buzzfeed,nyt,aggregator,-1,-1,0
+5,5,5,,,,NA,NA,NA
+Associated press ,None ,None ,news_wire,,,0,NA,NA
+no,mo,so,,,,NA,NA,NA
+CBC,Washington Post,CBS,cbc,wapo,cbs,0,-1,0
+google,google,google,aggregator,aggregator,aggregator,0,0,0
+Local news,Wesh 2,None,local_tv,local_tv,,0,0,NA
+he texas,segun,hear,,,,NA,NA,NA
+Fox News,New York Post ,New York Times,fox,nypost,nyt,2,1,-1
+1,Cbs,Fox,,cbs,fox,NA,0,2
+Cnn,Bbc,Fix,cnn,bbc,fox,-1,0,2
+Fox News ,Buzz,Instagram ,fox,buzzfeed,social_media,2,-1,0
+Fox News,The New York Times,cnn,fox,nyt,cnn,2,-1,-1
+cbs,nbc,cbs,cbs,nbc,cbs,0,-1,0
+None,any,every,,,,NA,NA,NA
+News,Cnn,Fox 40,,cnn,local_tv,NA,-1,0
+cnn,nbc,abc,cnn,nbc,abc,-1,-1,0
+Fox News,Bill OReilly,ABC,fox,billoreilly,abc,2,2,0
+Local news channel 9,None ,None ,local_tv,,,0,NA,NA
+Univision,Telemundo,None,univision,telemundo,,0,0,NA
+None,None,None,,,,NA,NA,NA
+5,5,5,,,,NA,NA,NA
+fox news,ny times,abc,fox,nyt,abc,2,-1,0
+ny times,washington post,yahoo,nyt,wapo,yahoo,-1,-1,0
+Facebook,Cbs,None,social_media,cbs,,0,0,NA
+twitter,facebook,instagram,social_media,social_media,social_media,0,0,0
+Seattle Times,Huffington Post,USA Today,seattletimes,huffpo,usa_today,-1,-1,-1
+cnn,fox news,abc,cnn,fox,abc,-1,2,0
+Menu,Hfh,HTC,,,,NA,NA,NA
+star advertiser,fox news,cnn,staradvertiser,fox,cnn,-1,2,-1
+Bing,Google,Fox News,aggregator,aggregator,fox,0,0,2
+"TV Broadcast News=ABC,NBC,CBS,PBS",PBS NewsHour,none,abc,pbs,,0,-1,NA
+Fox,Nbc,Msnbc,fox,nbc,msnbc,2,-1,-2
+st louis post dispatch,none,none,stlouispost-dispatch,,,-1,NA,NA
+Washington Post,Axios,MLive,wapo,axios,mlive,-1,-1,0
+Fox News 32,Chicago Tribune,Wrmn radio,local_tv,chicagotribune,local_radio,0,0,0
+CNN.com,NBC,Foxnews.com,cnn,nbc,fox,-1,-1,2
+Google News,Yahoo News,MSN News,aggregator,yahoo,msn,0,0,0
+fox news,cnn,abc,fox,cnn,abc,2,-1,0
+CNN,Washington Post,Twitter,cnn,wapo,social_media,-1,-1,0
+Fox News,The Cincinnati Enquirer,CNN,fox,cincinnatienquire,cnn,2,0,-1
+Smartphone ,TV,Internet,,,,NA,NA,NA
+11,12,13,,,,NA,NA,NA
+Reuter's,none,none,news_wire,,,0,NA,NA
+msn,yahoo,abc,msn,yahoo,abc,0,0,0
+FOX NEWS,WALL STREET JOURNAL,BREITBART,fox,wsj,breitbart,2,0,2
+msnbc,usa today,cnn,msnbc,usa_today,cnn,-2,-1,-1
+CNN,Fox,NBC,cnn,fox,nbc,-1,2,-1
+MSNBC,StarTribune,CNN,msnbc,minn_star,cnn,-2,0,-1
+CNN,NBC/MSNBC,Google News,cnn,msnbc,aggregator,-1,-2,0
+MSNBC,NBC,AZ Daily Star,msnbc,nbc,arizonadailystar,-2,-1,-1
+cnn.com,Honolulu Advertizer,Google.com,cnn,staradvertiser,aggregator,-1,-1,0
+NY Times,Washington Post,CNN,nyt,wapo,cnn,-1,-1,-1
+CBS,ABC,NBC,cbs,abc,nbc,0,0,-1
+Msnbc,Politico ,Cnn,msnbc,politico,cnn,-2,-1,-1
+Times union ,None ,None ,times_union,,,-1,NA,NA
+NEwsmax,Drudge,Breitbart,newsmax,drudge,breitbart,2,1,2
+4,6,6,,,,NA,NA,NA
+newsmax,fox news,federalist,newsmax,fox,federalist,2,2,2
+Fox News,Yahoo news,ABC news,fox,yahoo,abc,2,0,0
+Local paper,None,Christian magazine,local_paper,,magazine,0,NA,0
+New York times,USA Today.com,Wall Street journal,nyt,usa_today,wsj,-1,-1,0
+great,good,perfect,,,,NA,NA,NA
+New york times,politico,cnn,nyt,politico,cnn,-1,-1,-1
+gret ,niceloden,herta stes,,,,NA,NA,NA
+very good ,very good ,very good ,,,,NA,NA,NA
+Fox News,None,None,fox,,,2,NA,NA
+amazon,amazon,amazon,,,,NA,NA,NA
+Fox,Abc,Nbc,fox,abc,nbc,2,0,-1
+Fox News,CBS,none,fox,cbs,,2,0,NA
+USA Today,TV news,local newspaper,usa_today,local_tv,local_paper,-1,0,0
+Houston Chronicle,Yahoo News,Google News,houstonchronicle,yahoo,aggregator,-1,0,0
+cbs,abs,fox news,cbs,abc,fox,0,0,2
+bloomberg.com,economist.com,bbc.com,bloomberg,economist,bbc,0,-1,0
+I don't know ,None,None,,,,NA,NA,NA
+NBC,CNN,ABC,nbc,cnn,abc,-1,-1,0
+Abc,Nbc,Fox,abc,nbc,fox,0,-1,2
+CNN,MSNBC,NBC,cnn,msnbc,nbc,-1,-2,-1
+0,0,0,,,,NA,NA,NA
+Newsmax,Fox news,ONE American ñews,newsmax,fox,oan,2,2,2
+Fox News,NBC,CBS,fox,nbc,cbs,2,-1,0
+FOX NEWS,CBS,ABC,fox,cbs,abc,2,0,0
+Cbs,abc,Nbc,cbs,abc,nbc,0,0,-1
+good morning america,whas news,wave 3,abc,,,0,NA,NA
+None,None,None,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+FOXNEWS.COM,HLN,CNN,fox,cnn,cnn,2,-1,-1
+fox,bbc,npr,fox,bbc,npr,2,0,0
+fox,ABC,DAILY PRESS NEWSPAPER,fox,abc,local_paper,2,0,0
+Cnn,Fox,ABC,cnn,fox,abc,-1,2,0
+Politico ,Buzzfeed ,New York times,politico,buzzfeed,nyt,-1,-1,-1
+FoxNews,ABC,NBC,fox,abc,nbc,2,0,-1
+gannet usa today,nbc,ny times,usa_today,nbc,nyt,-1,-1,-1
+None ,None ,None ,,,,NA,NA,NA
+New York times,BBC news,CBS news,nyt,bbc,cbs,-1,0,0
+5,3,5,,,,NA,NA,NA
+msnbc,nbc,cnn,msnbc,nbc,cnn,-2,-1,-1
+Local TV news (CBS),Local TV news (NBC),local newspaper,local_tv,local_tv,local_paper,0,0,0
+Cnn,None ,Google,cnn,,aggregator,-1,NA,0
+NBC News,Google,ABC,nbc,aggregator,abc,-1,0,0
+New York Times,n/a,n/a,nyt,,,-1,NA,NA
+hsossj,sjossjs,hsosjsdhodnsksk,,,,NA,NA,NA
+2,3,jtyhrgtyuf,,,,NA,NA,NA
+Fox News,Yes,Nothing ,fox,,,2,NA,NA
+Idk,Idk,Ik,,,,NA,NA,NA
+None ,None ,None ,,,,NA,NA,NA
+fox news,los angeles times,new york times,fox,latimes,nyt,2,-1,-1
+buzzfeed,pbs,cnn,buzzfeed,pbs,cnn,-1,-1,-1
+Fox news,Abc,Fox,fox,abc,fox,2,0,2
+Fox news,Fox news,Fox news,fox,fox,fox,2,2,2
+THe New York Times,The Boston Globe,Fox News,nyt,bostonglobe,fox,-1,-1,2
+great,greatest,love,,,,NA,NA,NA
+fox news,nytimes ,tv,fox,nyt,,2,-1,NA
+cnn,fox news,bbc,cnn,fox,bbc,-1,2,0
+new yorker,gothamist,le parisien,newyorker,gothamist,leparisien,-1,-1,1
+abc news,cnn,msnbc,abc,cnn,msnbc,0,-1,-2
+fox news,online ,a fmaily member,fox,,,2,NA,NA
+Cnn,Wsfa,Fox,cnn,local_tv,fox,-1,0,2
+Na,Na,Na,,,,NA,NA,NA
+Jkhff,Khfdc,Cfvbj,,,,NA,NA,NA
+Fox 8 news,Cnn,NBC ,local_tv,cnn,nbc,0,-1,-1
+Fox News,CNN ,BBC ,fox,cnn,bbc,2,-1,0
+ABC7,CNN,Reddit News subs,local_tv,cnn,social_media,0,-1,0
+don’t know ,don’t know ,don’t know ,,,,NA,NA,NA
+cnn,cnbc,bloomberg,cnn,cnbc,bloomberg,-1,0,0
+cnn,wood8,newyorktimes,cnn,local_tv,nyt,-1,0,-1
+CNN ,Abc,Fox,cnn,abc,fox,-1,0,2
+CNN ,MSNBC ,Fox News ,cnn,msnbc,fox,-1,-2,2
+none,none,none,,,,NA,NA,NA
+2,1,2,,,,NA,NA,NA
+Good,Good,Yep,,,,NA,NA,NA
+My times,Buzzfeed,Washington post,nyt,buzzfeed,wapo,-1,-1,-1
+New York Time,N/A,N/A,nyt,,,-1,NA,NA
+Buzzfeed,Ign,CNN,buzzfeed,,cnn,-1,NA,-1
+Bloomberg news,ABC news,NBC ,bloomberg,abc,nbc,0,0,-1
+Facebook,KsatNews,Fix ,social_media,local_tv,fox,0,0,2
+fox,cnn,nbc,fox,cnn,nbc,2,-1,-1
+CNN,New York Times,Huffington Post,cnn,nyt,huffpo,-1,-1,-1
+Fox News,Nbc,Black news,fox,nbc,bet,2,-1,-1
+yahoo news,cnn,google news,yahoo,cnn,aggregator,0,-1,0
+cbs news,yahoo,google,cbs,yahoo,aggregator,0,0,0
+NPR,BBC ,Not sure,npr,bbc,,0,0,NA
+Spectrum news,Facebook,Family and Friends,local_tv,social_media,,0,0,NA
+Washington Post,none,none,wapo,,,-1,NA,NA
+Washington Post,NY Times,BBC,wapo,nyt,bbc,-1,-1,0
+CNN,La times,Washington post,cnn,latimes,wapo,-1,-1,-1
+Fox,Cnn,F liberals ,fox,cnn,,2,-1,NA
+Yahoo News,Google News,CNN,yahoo,aggregator,cnn,0,0,-1
+nytimes.com,Washington Post,CNN,nyt,wapo,cnn,-1,-1,-1
+New York time,None,None,nyt,,,-1,NA,NA
+Cnn,New York timed ,Msnbc,cnn,nyt,msnbc,-1,-1,-2
+fox news,abc news,nbc news,fox,abc,nbc,2,0,-1
+Fox News,Fob Business,One America News,fox,fox_business,oan,2,1,2
+OK,OK,OK,,,,NA,NA,NA
+Austin local TV station,San Antonio TV station,different station,local_tv,local_tv,,0,0,NA
+Wall St Journal,Yahoo Finance,MSN,wsj,yahoo,msn,0,0,0
+Fox news,Cbs,Msn,fox,cbs,msn,2,0,0
+Apple News,Fox Nedws,Cnn news,aggregator,fox,cnn,0,2,-1
+Cnn,Bbc,ABC,cnn,bbc,abc,-1,0,0
+None,None,Non,,,,NA,NA,NA
+MSNBC,NBC,CBS,msnbc,nbc,cbs,-2,-1,0
+Channel 7 Boston WBZ,yahoo news,CBS,local_tv,yahoo,cbs,0,0,0
+fox,abc,cnn,fox,abc,cnn,2,0,-1
+NBC,ABC,Fox News,nbc,abc,fox,-1,0,2
+Google news,Reuters,Seattle times,aggregator,news_wire,seattletimes,0,0,-1
+Yahoo.com,Facebook newsfeed,Detnews.com,yahoo,social_media,local_paper,0,0,0
+CNN,MSNBC,Huffington Post,cnn,msnbc,huffpo,-1,-2,-1
+Los Angeles Times,KPCC Pasadena,CNN,latimes,local_radio,cnn,-1,0,-1
+Fox news,Babalyon bee,Linkened,fox,babalyonbee,social_media,2,2,0
+MSN.com,Politico,NY Times,msn,politico,nyt,0,-1,-1
+Dont know,Dont know,Dont know,,,,NA,NA,NA
+fox news,cnn,abc,fox,cnn,abc,2,-1,0
+New York Times,NPR,CNN,nyt,npr,cnn,-1,0,-1
+Nbc,Fox,Cnn,nbc,fox,cnn,-1,2,-1
+CNBC,MSNBC,CNN,cnbc,msnbc,cnn,0,-2,-1
+Local paper,None,None,local_paper,,,0,NA,NA
+CNN,MSNBC,L.A. Times,cnn,msnbc,latimes,-1,-2,-1
+Fox News,Specturm News,None,fox,local_tv,,2,0,NA
+FOX NEWS,NBC,CBS,fox,nbc,cbs,2,-1,0
+Bluefield daily telegraph,Tampabaynews9,None,bluefielddailytelegraph,local_tv,,-1,0,NA
+CBS,CBS,CBS,cbs,cbs,cbs,0,0,0
+amazon,apple,google,,aggregator,aggregator,NA,0,0
+cnn,cbs,abc,cnn,cbs,abc,-1,0,0
+talk radio,talk radio,talk radio,local_radio,local_radio,local_radio,0,0,0
+nyt,bbc,cnn,nyt,bbc,cnn,-1,0,-1
+CNBC,CNN,FOX,cnbc,cnn,fox,0,-1,2
+nbc,cnbc,none,nbc,cnbc,,-1,0,NA
+0,0,0,,,,NA,NA,NA
+CNN,Fox31,9News,cnn,local_tv,,-1,0,NA
+nbc news,local newspaper,yahoo news,nbc,local_paper,yahoo,-1,0,0
+NYT,WP,CNN,nyt,wapo,cnn,-1,-1,-1
+cnn,fox,msnbc,cnn,fox,msnbc,-1,2,-2
+The Washington Post,The Economist,CNN,wapo,economist,cnn,-1,-1,-1
+FOX News,NPR,NONE,fox,npr,,2,0,NA
+msnbc,cnn,nbc,msnbc,cnn,nbc,-2,-1,-1
+Fox 8 news,Smart news,News net5,local_tv,smart,local_tv,0,0,0
+USA Today app,Cnn,Buzzfeed,usa_today,cnn,buzzfeed,-1,-1,-1
+nbc,fox news,abc,nbc,fox,abc,-1,2,0
+CNBC,Yahoo.com,ABC,cnbc,yahoo,abc,0,0,0
+FOX NEWS,SAUK VALLEY GAZETTE,WSDR RADIO,fox,saukvalleygazette,local_radio,2,1,0
+Bing,none,none,aggregator,,,0,NA,NA
+cnn,huffington,foxnews,cnn,huffpo,fox,-1,-1,2
+fox,nbc,cbs,fox,nbc,cbs,2,-1,0
+Fox news,Abc ,Cbs,fox,abc,cbs,2,0,0
+cnn,ap,reuters,cnn,news_wire,news_wire,-1,0,0
+None,None,None,,,,NA,NA,NA
+Yahoo,None,None,yahoo,,,0,NA,NA
+No,No,No,,,,NA,NA,NA
+Cnn,Wymt,President trump,cnn,local_tv,,-1,0,NA
+Cnn,Fox,Cbs,cnn,fox,cbs,-1,2,0
+NBC,CNN,Headline News,nbc,cnn,cnn,-1,-1,-1
+1,1,1,,,,NA,NA,NA
+Google news,Google news,Google news,aggregator,aggregator,aggregator,0,0,0
+Fayetteville Observer,Abc,Cnn,fayettevilleobserver,abc,cnn,-1,0,-1
+msnbc,fox,cnn,msnbc,fox,cnn,-2,2,-1
+ABC News,Utube,Ksat 12 news,abc,social_media,local_tv,0,0,0
+none,none,none,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+Local news,fox news,buzz feed,local_tv,fox,buzzfeed,0,2,-1
+Fox news,NBC ,None,fox,nbc,,2,-1,NA
+CNN,Fox,None,cnn,fox,,-1,2,NA
+Toledo Blade,Fox News,Facebook,toledoblade,fox,social_media,1,2,0
+Fox newsy,The ledger ,Facebook ,fox,clarionledger,social_media,2,0,0
+My times ,None ,None ,nyt,,,-1,NA,NA
+Idk,Idk,Idk,,,,NA,NA,NA
+Bunny ,Vu and ,Municipalities ,,,,NA,NA,NA
+Google,ABC,PBS,aggregator,abc,pbs,0,0,-1
+Forbes,chicago tribune,cnbc,forbes,chicagotribune,cnbc,0,0,0
+cnn,abc,fox,cnn,abc,fox,-1,0,2
+The Washington Post,Huffington Post,Apple News,wapo,huffpo,aggregator,-1,-1,0
+CBS,FOX,CNN,cbs,fox,cnn,0,2,-1
+Cnn,Fox news,Msnbc,cnn,fox,msnbc,-1,2,-2
+abc,news buz,apple news,abc,newsbuz,aggregator,0,3,0
+The Oregonian,Yahoo,Apple,oregonian,yahoo,aggregator,-1,0,0
+fox,none,none,fox,,,2,NA,NA
+none,none,none,,,,NA,NA,NA
+CNN,FOX NEWS,New Yorker,cnn,fox,newyorker,-1,2,-1
+Foxnews.com,Newyorkpost.com,Cnn.com,fox,nypost,cnn,2,1,-1
+USA Today,NBC News,Yahoo Finance,usa_today,nbc,yahoo,-1,-1,0
+Na,Google news,Google mews,,aggregator,aggregator,NA,0,0
+Cnn ,No,Nope,cnn,,,-1,NA,NA
+wsj,cnn,msnbc,wsj,cnn,msnbc,0,-1,-2
+Washington Post,MSNBC,Yahoo News,wapo,msnbc,yahoo,-1,-2,0
+cnn,fox,cnbc,cnn,fox,cnbc,-1,2,0
+I can not get ,Can I get the ,The customer price price ,,,,NA,NA,NA
+Detroit Free Press,USA Today,Washington Post,detroit_freepress,usa_today,wapo,-1,-1,-1
+None,None ,None ,,,,NA,NA,NA
+CNN,MSNBC,Yahoo,cnn,msnbc,yahoo,-1,-2,0
+CNN ,New York Times ,Google,cnn,nyt,aggregator,-1,-1,0
+Fox news,MSBC,USA Today,fox,msnbc,usa_today,2,-2,-1
+Univision ,YouTube ,None ,univision,social_media,,0,0,NA
+Foxnews.com,Cnbc.com,Nytimes.com,fox,cnbc,nyt,2,0,-1
+CNN,CBS,HUFFINGTON POST,cnn,cbs,huffpo,-1,0,-1
+Google,Google,Facebook,aggregator,aggregator,social_media,0,0,0
+Google news,Cnn,Fox news ,aggregator,cnn,fox,0,-1,2
+Hawai’i News Now,Google news,None,,aggregator,,NA,0,NA
+Nytimes,Wall Street journal,Chicago tribune,nyt,wsj,chicagotribune,-1,0,0
+MSNBC,Chicago sun times,Radio ,msnbc,chicagosuntimes,,-2,-1,NA
+Fox news,abc news,nytimes,fox,abc,nyt,2,0,-1
+Cnn,My time,Google,cnn,nyt,aggregator,-1,-1,0
+Apple news,Facebook ,Twitter,aggregator,social_media,social_media,0,0,0
+2,Djrhd,Hrhhd,,,,NA,NA,NA
+Politico,BBC,NPR,politico,bbc,npr,-1,0,0
+Cnn,Fox,Msnbc,cnn,fox,msnbc,-1,2,-2
+Cvs,Abc,Fox,cbs,abc,fox,0,0,2
+The New York Times,Fox News,CNN,nyt,fox,cnn,-1,2,-1
+CNN,Politico,USA,cnn,politico,usa_today,-1,-1,-1
+CNN ,Ny times,None,cnn,nyt,,-1,-1,NA
+Fox news,Local fox news,Don’t know ,fox,local_tv,,2,0,NA
+New York Times,Washington Post,The Bulwark,nyt,wapo,bulwark,-1,-1,-1
+Washington,google,yahoo,,aggregator,yahoo,NA,0,0
+CNN ,USA Today ,Fox News ,cnn,usa_today,fox,-1,-1,2
+Fox News,NBC News,Yahoo News,fox,nbc,yahoo,2,-1,0
+Cnn,New York time ,Fox ,cnn,nyt,fox,-1,-1,2
+New York Times,Fox News,CNN,nyt,fox,cnn,-1,2,-1
+WVUE New Orleans,none,none,local_tv,,,0,NA,NA
+fox,wall st journal,bbc,fox,wsj,bbc,2,0,0
+New York Times ,FHRYK,EQW5HUN,nyt,,,-1,NA,NA
+I didn't use any,I didn't use any,I didn't use any,,,,NA,NA,NA
+Rogersville review ,Wjhl,fox,rogersvillereview,local_tv,fox,1,0,2
+Buzzfeed,Huffington Post,Washington Times,buzzfeed,huffpo,washingtontimes,-1,-1,2
+Wsaz,WSAZ ,WSAZ ,,,,NA,NA,NA
+Fox News, WBRC Birmingham,The New York Times,fox,local_tv,nyt,2,0,-1
+CNN,MSNBC,BbC,cnn,msnbc,bbc,-1,-2,0
+I don’t remember which one it was. It might’ve been Wallstreet Journal but I’m not sure.,I don’t remember. ,I don’t remember. ,,,,NA,NA,NA
+foxnews.com,cnn.com,googlenews.com,fox,cnn,aggregator,2,-1,0
+cnn,cnn,fox,cnn,cnn,fox,-1,-1,2
+Presidential news,Google,M s n b c,,aggregator,msnbc,NA,0,-2
+Instagram ,Snapchat ,Facebook ,social_media,social_media,social_media,0,0,0
+New York times,CNN,NBC,nyt,cnn,nbc,-1,-1,-1
+ABC,FOX NEWS,NBC,abc,fox,nbc,0,2,-1
+ABC ,Omaha world herald,None,abc,omahaworldherald,,0,0,NA
+ABC news,NBC news,PBS news,abc,nbc,pbs,0,-1,-1
+the new york times,the new york times,none,nyt,nyt,,-1,-1,NA
+washingtonpost.com,time.com,huffington post,wapo,time,huffpo,-1,-1,-1
+bbc.com,none,none,bbc,,,0,NA,NA
+Fox News,CBS,ABC,fox,cbs,abc,2,0,0
+Nbc,ABC,MSNBC,nbc,abc,msnbc,-1,0,-2
+Fox News,None,None ,fox,,,2,NA,NA
+cnn,nbc,abc,cnn,nbc,abc,-1,-1,0
+1,0,0,,,,NA,NA,NA
+PBS,ABC,New York Times,pbs,abc,nyt,-1,0,-1
+GOOD,GOOD,GOOD,,,,NA,NA,NA
+WBRC Birmingham,foxnews.com,the new york times.com,local_tv,fox,nyt,0,2,-1
+Fox news ,Cnn,BBC,fox,cnn,bbc,2,-1,0
+Las Vegas review Journal,Local channel  3,Local channel 5,lvrj,local_tv,local_tv,1,0,0
+none,none,none,,,,NA,NA,NA
+PBS,Wall Street Journal,New York Times,pbs,wsj,nyt,-1,0,-1
+The new york,none,last none,,,,NA,NA,NA
+Fox,BBC ,NBC ,fox,bbc,nbc,2,0,-1
+about politics,i cant think,i cant think,,,,NA,NA,NA
+Poo,Poo,Poo,,,,NA,NA,NA
+Daily mail,Fox,Local news,dailymail,fox,local_tv,0,2,0
+Fox news,Cnn,Hln,fox,cnn,cnn,2,-1,-1
+The New York Times,Fox News,CNN,nyt,fox,cnn,-1,2,-1
+nypost.com,jewishworldreview.com,townhall.com,nypost,jewishworldreview,townhall,1,2,-2
+Fox news,2 news,CNN,fox,,cnn,2,NA,-1
+Rush Limbaugh on the EIB network ,NBC,None,rush,nbc,,2,-1,NA
+Fox news,yahoo.com,abc news.com,fox,yahoo,abc,2,0,0
+Nightly news,Reuters,Bbc,nbc,news_wire,bbc,-1,0,0
+Google,None,I don't know,aggregator,,,0,NA,NA
+the new york times,whasighton post,fox,nyt,wapo,fox,-1,-1,2
+yes,yes,nice,,,,NA,NA,NA
+CNN,MSNBC,NBC,cnn,msnbc,nbc,-1,-2,-1
+BBC World News,NPR,CNN,bbc,npr,cnn,0,0,-1
+The New York Times ,fox,CNN,nyt,fox,cnn,-1,2,-1
+Cnn,Fox,Local news,cnn,fox,local_tv,-1,2,0
+Fox news,Goigle,Salisbury post,fox,aggregator,salisburypost,2,0,0
+Nytimes.com,Local station,Fox News ,nyt,local_tv,fox,-1,0,2
+None,None,None ,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+Kansas.com,Local tv news,Cox homepage,,local_tv,fox,NA,0,2
+CBS News,"My local news station, KARK","My local news station, KTHV",cbs,local_tv,local_tv,0,0,0
+None,None,None,,,,NA,NA,NA
+The New York Times ,Washington post,Rachel Maddow,nyt,wapo,msnbc,-1,-1,-2
+Abc,New york times,Nome,abc,nyt,,0,-1,NA
+fox news,npr,huff post,fox,npr,huffpo,2,0,-1
+Ny times,Washington post,Politico,nyt,wapo,politico,-1,-1,-1
+oann,newsmax,fox news,oan,newsmax,fox,2,2,2
+None,0,0,,,,NA,NA,NA
+new york time,usa today,fox news,nyt,usa_today,fox,-1,-1,2
+2,4,2,,,,NA,NA,NA
+Fox News,Daily Wire,Breitbart,fox,dailywire,breitbart,2,2,2
+New York times ,Akron beacon journal ,USA TODAY ,nyt,akronbeaconjournal,usa_today,-1,0,-1
+fox news,oan,cnn,fox,oan,cnn,2,2,-1
+fox ,espn,cnn,fox,entertainment,cnn,2,NA,-1
+sc wfw,sdcc s,swcdv,,,,NA,NA,NA
+Fox news,The new York times,WBRC Birmingham,fox,nyt,local_tv,2,-1,0
+CNBC,Facebook News,Google News,cnbc,social_media,aggregator,0,0,0
+Esquire,Buzzfeed News,NYTimes,esquire,buzzfeed,nyt,-1,-1,-1
+Cnn ,BBC ,Aljezza ,cnn,bbc,aljazeera,-1,0,-1
+Fox,Nta,Google,fox,nta,aggregator,2,0,0
+BBC,CNN,Channels,bbc,cnn,local_tv,0,-1,0
+WBRC Birmingham ,The New York Times,Fox News ,local_tv,nyt,fox,0,-1,2
+Wjz tv 13 Baltimore ,None ,None ,local_tv,,,0,NA,NA
+"Fox News, ",CNN,TVC News,fox,cnn,tvc,2,-1,0
+Newyorktimes.com,CNN.com ,Foxnews.com,nyt,cnn,fox,-1,-1,2
+Fox news,BBC,Fox news,fox,bbc,fox,2,0,2
+CNN,Daily hunt mobile app,New York Times ,cnn,dailyhunt,nyt,-1,0,-1
+nytimes,Bbc news,Sky news,nyt,bbc,sky,-1,0,0
+New York Times ,ABC,AMC,nyt,abc,,-1,0,NA
+CNN,Fox news,New York times,cnn,fox,nyt,-1,2,-1
+The new York ,Fox,Nytimes ,,fox,nyt,NA,2,-1
+CNN,CNN,CNN,cnn,cnn,cnn,-1,-1,-1
+BBC,Bbc,Jub,bbc,bbc,,0,0,NA
+Cnn,Bbc,Fox,cnn,bbc,fox,-1,0,2
+The New York Times,Fox News,USA Today,nyt,fox,usa_today,-1,2,-1
+ABC,New York Times ,Foxnews,abc,nyt,fox,0,-1,2
+Fox news,Newyork times,CNN,fox,nyt,cnn,2,-1,-1
+CNN,BBC,Aljazera,cnn,bbc,aljazeera,-1,0,-1
+New York times,Cnn,BBC ,nyt,cnn,bbc,-1,-1,0
+Equality and social unrest,Health insurance,Taxes rate,,,,NA,NA,NA
+Fox News,The new York Times,Discovery Channel,fox,nyt,local_tv,2,-1,0
+cbs new,abc news,yahoo news,cbs,abc,yahoo,0,0,0
+wall street journal,new york times,huffington post,wsj,nyt,huffpo,0,-1,-1
+CNN ,CBS ,Local ,cnn,cbs,local_tv,-1,0,0
+Natural News,Medici,independent sites,,,,NA,NA,NA
+msnbc,cnn,pbs,msnbc,cnn,pbs,-2,-1,-1
+none,none,none,,,,NA,NA,NA
+Washington Post,NPR,Google News,wapo,npr,aggregator,-1,0,0
+good,great,full,,,,NA,NA,NA
+The new York times,excercise,Washington Post,nyt,,wapo,-1,NA,-1
+Google .com,Msnbc,Cnn,aggregator,msnbc,cnn,0,-2,-1
+CNN,MSNBC,NBC,cnn,msnbc,nbc,-1,-2,-1
+Foxnews.com,New york times,Fox News,fox,nyt,fox,2,-1,2
+New York Times,Reuters,Bing News,nyt,news_wire,aggregator,-1,0,0
+ABC news,Fox news,NBC news,abc,fox,nbc,0,2,-1
+nytimes.com,washingtonpost.com,cbsnews,nyt,wapo,cbs,-1,-1,0
+maui news,maui now,nbc,maui,maui,nbc,1,1,-1
+Fox News ,CNN,New York times,fox,cnn,nyt,2,-1,-1
+CNN,Fox new,ESPN,cnn,fox,entertainment,-1,2,NA
+Fox news,Cnn ,Cbc,fox,cnn,cbc,2,-1,0
+none,none,none,,,,NA,NA,NA
+cnn,abc,cbs,cnn,abc,cbs,-1,0,0
+Fox news,CNN,BBC,fox,cnn,bbc,2,-1,0
+cnn,the hill,politico,cnn,hill,politico,-1,0,-1
+Fox News,WBRC Birmingham,nytimes.com,fox,local_tv,nyt,2,0,-1
+Wall Street journal,CNN,Times,wsj,cnn,nyt,0,-1,-1
+Cnn,tvc,bbc,cnn,,bbc,-1,NA,0
+Buzzfeed,None,None,buzzfeed,,,-1,NA,NA
+foxnews,cnn,nyt,fox,cnn,nyt,2,-1,-1
+BBC,The Washington post,The Atlantic ,bbc,wapo,atlantic,0,-1,-1
+epoch times,none,none,epochtimes,,,2,NA,NA
+Google news ,Na,Nq,aggregator,,,0,NA,NA
+cnn,msnbc,ny1,cnn,msnbc,ny1,-1,-2,0
+msnbc,cnn,wall st journal,msnbc,cnn,wsj,-2,-1,0
+facebook,twitter,instagram,social_media,social_media,social_media,0,0,0
+None,None,None,,,,NA,NA,NA
+CNN.com,MSNBC.com,WBAL-TV,cnn,msnbc,local_tv,-1,-2,0
+CNN,NBC,BBC,cnn,nbc,bbc,-1,-1,0
+The Commercial Appeal,ABC news,CBS News,mercialappeal,abc,cbs,-1,0,0
+bbc,abc news,msnbc,bbc,abc,msnbc,0,0,-2
+Nbc,Cbs,Fox,nbc,cbs,fox,-1,0,2
+New York times,BBC,CNN,nyt,bbc,cnn,-1,0,-1
+gauntlet,firestone,sports illustrated,,,entertainment,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+Local TV news,FACEBOOK,N/A,local_tv,social_media,,0,0,NA
+PBS News,Washington Post,NY Times,pbs,wapo,nyt,-1,-1,-1
+yahoo.news,you tube,msn,yahoo,social_media,msn,0,0,0
+cbs,wptv,abc,cbs,,abc,0,NA,0
+1,1,1,,,,NA,NA,NA
+0,cnn,washington post,,cnn,wapo,NA,-1,-1
+TV,Radeio,By motuh,,,,NA,NA,NA
+ABC,CBS,NBC,abc,cbs,nbc,0,0,-1
+Fox News,The NY Times ,WBRC,fox,nyt,local_tv,2,-1,0
+Nbc,Cbs,Abc,nbc,cbs,abc,-1,0,0
+ABC ,CBS ,None,abc,cbs,,0,0,NA
+cbs,cbs,cbs,cbs,cbs,cbs,0,0,0
+none,none,none,,,,NA,NA,NA
+N/a,N/a,N/a,,,,NA,NA,NA
+Cnn,Abc world news,Cbs,cnn,abc,cbs,-1,0,0
+none,none,none,,,,NA,NA,NA
+apple news,google news,yahoo news,aggregator,aggregator,yahoo,0,0,0
+jtgfuoll  alerts  developing stories,dfxbfng knkj;,"yu8 m,lpkh",,,,NA,NA,NA
+0,NBC,CBS,,nbc,cbs,NA,-1,0
+cnn,msnbc,huffington post,cnn,msnbc,huffpo,-1,-2,-1
+Fox News ,CNN,MSNBC,fox,cnn,msnbc,2,-1,-2
+Tv,Cnn,Primetime,,cnn,fox,NA,-1,2
+Fox news,Hometown stations ,Abc news,fox,local_tv,abc,2,0,0
+Google,None,None,aggregator,,,0,NA,NA
+Fox news,Ny post,Oan,fox,nypost,oan,2,1,2
+Fox news,Msnbc,None,fox,msnbc,,2,-2,NA
+CNN,ABC,New York Times,cnn,abc,nyt,-1,0,-1
+Ny times,Huff post ,NBC ,nyt,huffpo,nbc,-1,-1,-1
+npr,cnn,abc,npr,cnn,abc,0,-1,0
+None,None,None,,,,NA,NA,NA
+Nytimes ,Not sure ,Not sure ,nyt,,,-1,NA,NA
+Buzzfeed,Tha Atlantic ,The Week ,buzzfeed,atlantic,,-1,-1,NA
+Washington Post,MSNBC,NPR,wapo,msnbc,npr,-1,-2,0
+Local Fox 59,Fox 59 app,NextNews youtube,local_tv,local_tv,social_media,0,0,0
+Fox News,Yahoo,The New York Times,fox,yahoo,nyt,2,0,-1
+Spectrum Bay News 9,My best friend,None,local_tv,,,0,NA,NA
+Fox News,Yahoo News,Apple News,fox,yahoo,aggregator,2,0,0
+Fox News,Daily Pantagraph,online news ,fox,dailypantagraph,,2,0,NA
+CBS,ABC,FOX,cbs,abc,fox,0,0,2
+Fox news,Cnet,Buzzfeed,fox,cnet,buzzfeed,2,0,-1
+The New York Times,CNN,WKYT,nyt,cnn,local_tv,-1,-1,0
+foxiness.com,The New York Times,Buzzfeed,fox_business,nyt,buzzfeed,1,-1,-1
+Stuff ,Stuff ,Stuff,,,,NA,NA,NA
+Nbc news,Fox news,New york times,nbc,fox,nyt,-1,2,-1
+Buzzfeed,Washington post,Rip,buzzfeed,wapo,,-1,-1,NA
+None,None,None,,,,NA,NA,NA
+Yahoo news,buzzfeed,reddit,yahoo,buzzfeed,social_media,0,-1,0
+Fox news,Cnn,NBC ,fox,cnn,nbc,2,-1,-1
+nytimes.com,wapo.com,cnn.com,nyt,wapo,cnn,-1,-1,-1
+CNN,Newsmax,MSNBC,cnn,newsmax,msnbc,-1,2,-2
+nytimes.com,Huffpost,Microsoft News,nyt,huffpo,msn,-1,-1,0
+WBRC Birmingham,The Birmingham News Paper,ABC 33/40 Bimingham,local_tv,birminghamnewspaper,local_tv,0,1,0
+Fox News,USA Today,Wall Street Journal,fox,usa_today,wsj,2,-1,0
+yahoo,nbc,abc,yahoo,nbc,abc,0,-1,0
+CNN,CNN,CNN,cnn,cnn,cnn,-1,-1,-1
+wgn news,cbs news,abc news,local_tv,cbs,abc,0,0,0
+fox news 8,19 action news,friends,local_tv,local_tv,,0,0,NA
+CBS,Fox News ,ABC,cbs,fox,abc,0,2,0
+Fox,Abc,NBC ,fox,abc,nbc,2,0,-1
+fox new,nbc new,new york time,fox,nbc,nyt,2,-1,-1
+nbc,nbc,nbc,nbc,nbc,nbc,-1,-1,-1
+cnn,fox,abc,cnn,fox,abc,-1,2,0
+CBS,Newsmax,RSBN,cbs,newsmax,rsbn,0,2,2
+detroit news free press,cbs nbc abc,fox,detroit_freepress,cbs,fox,-1,0,2
+cnn,msnbc,cbs,cnn,msnbc,cbs,-1,-2,0
+PBS,CBS,Kpix,pbs,cbs,local_tv,-1,0,0
+none,none,none,,,,NA,NA,NA
+TV,NEWSPAPER,RADIO,,,,NA,NA,NA
+The New York Times,The Washington Post,The Guardian,nyt,wapo,guardian,-1,-1,-1
+ABC,Fox,NCB,abc,fox,nbc,0,2,-1
+NA,NA,NA,,,,NA,NA,NA
+Fox,CBS,NBC,fox,cbs,nbc,2,0,-1
+Abc,Cnn,Nbc,abc,cnn,nbc,0,-1,-1
+abc,nbc,cnn,abc,nbc,cnn,0,-1,-1
+Fox news,Yahoo news,CDC,fox,yahoo,cdc,2,0,0
+none.,none.,none.,,,,NA,NA,NA
+Apple news,Amazon news,Tv,aggregator,,,0,NA,NA
+Newspaper,Abc,Cnn,local_paper,abc,cnn,0,0,-1
+Examiner,KRON,KGO,examiner,local_tv,local_radio,2,0,0
+cnn,Msnbc,Indianapolis Star,cnn,msnbc,indianapolisstar,-1,-2,-1
+fox 54,cnnn,mabc,local_tv,cnn,msnbc,0,-1,-2
+wftv,cbs,cnn,,cbs,cnn,NA,0,-1
+FOX,CNN,ABC,fox,cnn,abc,2,-1,0
+Target,walmart,target,,,,NA,NA,NA
+CBS,Arizona Republic,Fox News,cbs,arizonarepublic,fox,0,1,2
+cnn.com,msnbc.com,Los Angeles Times,cnn,msnbc,latimes,-1,-2,-1
+CNN,CBS,ABC,cnn,cbs,abc,-1,0,0
+Great ,Some,Always ,,,,NA,NA,NA
+Yahoo news,Google,Youtube,yahoo,aggregator,social_media,0,0,0
+local news tv,radio,newspaper,local_tv,,local_paper,0,NA,0
+ABC ,CNN,CBS,abc,cnn,cbs,0,-1,0
+Nytimes,Nbc,CBS,nyt,nbc,cbs,-1,-1,0
+Fox news,CBS,CNN,fox,cbs,cnn,2,0,-1
+none,none,none,,,,NA,NA,NA
+none,none,none,,,,NA,NA,NA
+Yahoo,Univision ,Telemundo ,yahoo,univision,telemundo,0,0,0
+Fox News,Newsmax,daily newspaper,fox,newsmax,local_paper,2,2,0
+Google news,Cbs,Abc,aggregator,cbs,abc,0,0,0
+qergqewgvc,q34gqewdsfc,drg45werhgbvfcfax,,,,NA,NA,NA
+netfliex,Hulu,ESPN,,streaming,entertainment,NA,0,NA
+the atlantic,fox news,cnn,atlantic,fox,cnn,-1,2,-1
+The new York times,CNN,Fox news,nyt,cnn,fox,-1,-1,2
+BBC,facebook ,the guirdian ,bbc,social_media,guardian,0,0,-1
+vbn,mv,mhv,,,,NA,NA,NA
+yfghgfh,fghfghfg,hfghfghf,,,,NA,NA,NA
+CNN,None,None,cnn,,,-1,NA,NA
+Fox news ,ABC News ,Cnn,fox,abc,cnn,2,0,-1
+neyork, vcewv,csav,,,,NA,NA,NA
+ABC ,NBC ,None,abc,nbc,,0,-1,NA
+NBC,ABC,CBS,nbc,abc,cbs,-1,0,0
+2,1,3,,,,NA,NA,NA
+CNN,CNN,USTVGO,cnn,cnn,streaming,-1,-1,0
+3,amazon,3,,,,NA,NA,NA
+Cnn,Foxnews,Foxx,cnn,fox,fox,-1,2,2
+Cnn,Foxnews,Msnbc,cnn,fox,msnbc,-1,2,-2
+Fox News ,New York post ,CNN ,fox,nypost,cnn,2,1,-1
+None,None,None,,,,NA,NA,NA
+CNN,None,None,cnn,,,-1,NA,NA
+Facebook ,Na,Na,social_media,,,0,NA,NA
+CNN,MSNBC,fox,cnn,msnbc,fox,-1,-2,2
+0,n/a,n/a,,,,NA,NA,NA
+CNN.com,Fox News,CBS,cnn,fox,cbs,-1,2,0
+Cnn,Cbs,9 news,cnn,cbs,,-1,0,NA
+Us time, None,None,time,,,-1,NA,NA
+Facebook,None,None,social_media,,,0,NA,NA
+News Break ,NY Times,ABC News ,aggregator,nyt,abc,0,-1,0
+Huffpo,Newsweek,Dailybeast,huffpo,newsweek,dailybeast,-1,-1,-2
+None,None,None,,,,NA,NA,NA
+NEW YORK TIMES,WICHITA EAGLE,CNN,nyt,wichitaeagle,cnn,-1,-1,-1
+Fox,Sport,Cbs,fox,,cbs,2,NA,0
+Foxnews,Fox,News12,fox,fox,local_tv,2,2,0
+fox,wbrc,nytimes,fox,local_tv,nyt,2,0,-1
+Fox News ,WBRC Birmingham,foxnews,fox,local_tv,fox,2,0,2
+Cnn,The guardian,Reddit,cnn,guardian,social_media,-1,-1,0
+None,Buzzfeee,None,,buzzfeed,,NA,-1,NA
+The Trump outlet,USA Bitcoin raising,Beware of fraudster,,,,NA,NA,NA
+The New York Times,Fox news,can't remember,nyt,fox,,-1,2,NA
+Abc,Fox news,Nytimes,abc,fox,nyt,0,2,-1
+cnn.com,bbc.com,theguidian.com,cnn,bbc,guardian,-1,0,-1
+Wbrc,CNN,BBC,local_tv,cnn,bbc,0,-1,0
+NBC,The fox,New York times,nbc,fox,nyt,-1,2,-1
+Cnn,Bbc,Tv,cnn,bbc,,-1,0,NA
+1,1,1,,,,NA,NA,NA
+CNN,NEWSPAPER ,CNN,cnn,local_paper,cnn,-1,0,-1
+3,2,3,,,,NA,NA,NA
+Google ,Abc,Fox,aggregator,abc,fox,0,0,2
+Bithy,Fox,PBC,,fox,pbs,NA,2,-1
+fox,fox,fox,fox,fox,fox,2,2,2
+Fox,NBC,ABC,fox,nbc,abc,2,-1,0
+Huff ,Google,Yahoo ,huffpo,aggregator,yahoo,-1,0,0
+CNN,FOX,none,cnn,fox,,-1,2,NA
+fox news,the newyork time,nytime.com,fox,nyt,nyt,2,-1,-1
+cnn,fox,nbc,cnn,fox,nbc,-1,2,-1
+Facebook,Tv,Apps,social_media,,,0,NA,NA
+Cnn,Google news,Facebook ,cnn,aggregator,social_media,-1,0,0
+yes,po;itical,sports,,,,NA,NA,NA
+3,2,3,,,,NA,NA,NA
+Fox news,The New York Times,WRBC Birmingham,fox,nyt,local_tv,2,-1,0
+cnn,abc,fox,cnn,abc,fox,-1,0,2
+Messenger inquirer ,Spectrum News ,Andy Beasher Memes,messengerinquirer,local_tv,,0,0,NA
+Cnn,msnbc,Dallas Morning news,cnn,msnbc,dallasmorning,-1,-2,0
+foxnews.com,yournation,us news,fox,yournation,us_news,2,3,0
+Apple news,YouTube tv,Foxnews,aggregator,social_media,fox,0,0,2
+The New York Times ,Fox news ,fox news.com,nyt,fox,fox,-1,2,2
+None,None,None,,,,NA,NA,NA
+The New York Times,Fox news,Street journal,nyt,fox,wsj,-1,2,0
+I used my smart phone.,CNN,BBC,,,,NA,NA,NA
+New York Times,WTVA,fox news,nyt,local_tv,fox,-1,0,2
+Foxnews ,Cnn,Cbsnews,fox,cnn,cbs,2,-1,0
+dsfsdf,gfdgvbg,werwer,,,,NA,NA,NA
+ABC,Fox,CNN,abc,fox,cnn,0,2,-1
+none of the above,none of the above2,none of the above3,,,,NA,NA,NA
+Fox,BBC,CNN,fox,bbc,cnn,2,0,-1
+cnn,msnbc,local,cnn,msnbc,local_tv,-1,-2,0
+Fox news,NYtimes.com,WBRC Birmingham ,fox,nyt,local_tv,2,-1,0
+Cnn,new york times,bbc,cnn,nyt,bbc,-1,-1,0
+Foxnews.com,CNN,BBC,fox,cnn,bbc,2,-1,0
+CNN,MSNBC,CBS ,cnn,msnbc,cbs,-1,-2,0
+hjjh,hjlkk;kh,kjikj,,,,NA,NA,NA
+The New York Times,Fox news,Espn ,nyt,fox,entertainment,-1,2,NA
+CNN,ABC,MSNBC,cnn,abc,msnbc,-1,0,-2
+The New York times,Fox News ,Google,nyt,fox,aggregator,-1,2,0
+The new York times,Wall Street journal,Cnn,nyt,wsj,cnn,-1,0,-1
+ABC news,CBS news,KSAT news,abc,cbs,local_tv,0,0,0
+Please ,Roght now ,Im really tired ,,,,NA,NA,NA
+Bang ,Lovely ,Niceone ,,,,NA,NA,NA
+New York Times,Fox News,Twitter,nyt,fox,social_media,-1,2,0
+new york times,cnn,wall street journal,nyt,cnn,wsj,-1,-1,0
+Cnn,New york times,Peoples daily,cnn,nyt,peoplesdaily,-1,-1,-2
+The New York Times,The Washington Post,Buzzfeed,nyt,wapo,buzzfeed,-1,-1,-1
+MSNBC ,CNN ,None,msnbc,cnn,,-2,-1,NA
+NBC,Fox,Facebook,nbc,fox,social_media,-1,2,0
+bbc,cnn,ABC,bbc,cnn,abc,0,-1,0
+Abc,Cbs,Nbc,abc,cbs,nbc,0,0,-1
+Facebook,Instagram,whatsapp,social_media,social_media,social_media,0,0,0
+Nothing,Just bits and pieces from all of them ,Same as other answer,,,,NA,NA,NA
+Fox news,CNN,CBS,fox,cnn,cbs,2,-1,0
+The NY Times,Fox News,Times,nyt,fox,,-1,2,NA
+Google news,None,None,aggregator,,,0,NA,NA
+USA,CNN,LIKE,usa_today,cnn,,-1,-1,NA
+The New York Times ,cbc,none,nyt,cbc,,-1,0,NA
+Reuters,Bbc,Al Jazeera ,news_wire,bbc,aljazeera,0,0,-1
+The New York Times,nytimes.com,US Weekly,nyt,nyt,us_news,-1,-1,0
+the new york times,Fox news,none,nyt,fox,,-1,2,NA
+CBS ,ABC,CNN,cbs,abc,cnn,0,0,-1
+Infowars.com,truthisscary.com,redpilltv.com,infowars,truthisscary,redpilltv,3,3,3
+Fox News ,Cnn,Network times ,fox,cnn,nyt,2,-1,-1
+Cnn news,ABC news ,CBS news,cnn,abc,cbs,-1,0,0
+Cnn,Buzzfeed,Fox news,cnn,buzzfeed,fox,-1,-1,2
+the new york times,anytime.com,fox news,nyt,,fox,-1,NA,2
+Cnn,Kron4,Cbc ,cnn,local_tv,cbc,-1,0,0
+Fox news,BBC news,WBRC,fox,bbc,local_tv,2,0,0
+ABC,CNN ,Yahoo,abc,cnn,yahoo,0,-1,0
+Wall Street journal,The New York times,The news times,wsj,nyt,,0,-1,NA
+all,all,all,,,,NA,NA,NA
+gvhghghgg,hhgffcgcfhvf,bgvgc,,,,NA,NA,NA
+9&10news,CBS,NewsNet,local_tv,cbs,newsnet,0,0,0
+Amazon,Chalse,Walmart,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+Fox news ,The detroit free press ,Detroit  news ,fox,detroit_freepress,,2,-1,NA
+Facebook,Instagram,Twitter,social_media,social_media,social_media,0,0,0
+Cnn,Channelc,Bbc,cnn,,bbc,-1,NA,0
+walmart,target,Kohls,,,,NA,NA,NA
+Fox news,New York times,WBRC Birmingham,fox,nyt,local_tv,2,-1,0
+Local news,The nation,Twitter tweet,local_tv,nation,social_media,0,-2,0
+The Wall Street journal,New York Times,Politico,wsj,nyt,politico,0,-1,-1
+The news paper,CNN,Guardian,local_paper,cnn,guardian,0,-1,-1
+LA Times,New York Times,Fox News,latimes,nyt,fox,-1,-1,2
+istGram,kesehartan,olahraga,social_media,,,0,NA,NA
+CNN,N/A,NONE,cnn,,,-1,NA,NA
+Keep ,Cnso,Envidis,,,,NA,NA,NA
+Cnn,Bbc,The natio,cnn,bbc,nation,-1,0,-2
+Fox news ,No opinion ,No opinion ,fox,,,2,NA,NA
+The new York times,Fox news,New York times,nyt,fox,nyt,-1,2,-1
+Fox news,CNN,WBRC,fox,cnn,local_tv,2,-1,0
+Fox,CNN,Newsmax,fox,cnn,newsmax,2,-1,2
+CNN,BBC,Fox,cnn,bbc,fox,-1,0,2
+Yahoo news,conservative outlets,WebMD,yahoo,,webmd,0,NA,0
+nbc,hawaii news now,kitv news,nbc,local_tv,local_tv,-1,0,0
+CBS News Los Angeles,NBC News Los Angeles,ABC News Los Angeles,local_tv,local_tv,local_tv,0,0,0
+Houston Chronicle,none,none,houstonchronicle,,,-1,NA,NA
+Fox news,Google,Abc,fox,aggregator,abc,2,0,0
+fox,newsmax,american one,fox,newsmax,oan,2,2,2
+Nbc,Abc,Cbs,nbc,abc,cbs,-1,0,0
+Fox  5 Atlanta,CBS,None,local_tv,cbs,,0,0,NA
+New York Times,BBC News,NBC News,nyt,bbc,nbc,-1,0,-1
+CBS News,Fox News,ABC News,cbs,fox,abc,0,2,0
+T V News ,CBSNews,Facebook ,,cbs,social_media,NA,0,0
+MSNBC,CBS,GF Herald,msnbc,cbs,gfherald,-2,0,0
+FOX News,Mpls Star and Trib,Duluth trib,fox,minn_star,duluthtrib,2,0,1
+abc,cbs,nbc,abc,cbs,nbc,0,0,-1
+abc,cbs,nbc,abc,cbs,nbc,0,0,-1
+CNN,Fox news,CBS,cnn,fox,cbs,-1,2,0
+msnbc,fox,buzzfeed,msnbc,fox,buzzfeed,-2,2,-1
+Cnbc,Nbc,Cbs,cnbc,nbc,cbs,0,-1,0
+cnn,cnbc,yahoo news,cnn,cnbc,yahoo,-1,0,0
+cnn,abc,cbs,cnn,abc,cbs,-1,0,0
+Huffington ,None ,None ,huffpo,,,-1,NA,NA
+MSNBC,CNN,CBS,msnbc,cnn,cbs,-2,-1,0
+newpaper,cnn,snapchat,local_paper,cnn,social_media,0,-1,0
+ A FoxNews.com,The news media,News Article.,fox,,,2,NA,NA
+Fox news,smart news,facebook news,fox,smart,social_media,2,0,0
+Yes,CNN,BBC,,cnn,bbc,NA,-1,0
+some times,cnn,fox news,,cnn,fox,NA,-1,2
+CNN,MSNBC,FOX,cnn,msnbc,fox,-1,-2,2
+The New York ,cnn,The New York ,,cnn,,NA,-1,NA
+yahoo news,yahoo news,yahoo news,yahoo,yahoo,yahoo,0,0,0
+how,corona,ipl,,,,NA,NA,NA
+Fox News,foxnews,he New York Times ,fox,fox,nyt,2,2,-1
+cnn,fox,us radio,cnn,fox,,-1,2,NA
+Citizen Free Press,New York Post,The Hill,citizenfreepress,nypost,hill,2,1,0
+Fox News,Fox Business,One America News,fox,fox_business,oan,2,1,2
+MSN,Google,None,msn,aggregator,,0,0,NA
+MSNBC,USA Today,Fox,msnbc,usa_today,fox,-2,-1,2
+nytimes.com,bbc.com,vox.com,nyt,bbc,vox,-1,0,-1
+MSNBC,NBC,Washington Post,msnbc,nbc,wapo,-2,-1,-1
+MSNBC ,NBC ,CNN ,msnbc,nbc,cnn,-2,-1,-1
+Fox News,None,None,fox,,,2,NA,NA
+MSNBC,CNN,Washington Post,msnbc,cnn,wapo,-2,-1,-1
+sun news,na,na,baltimoresun,,,-1,NA,NA
+The Oxford Eagle,The Clarion Ledger,Yahoo News,oxfordeagle,clarionledger,yahoo,0,0,0
+CNN,BBC,Aljazeera,cnn,bbc,aljazeera,-1,0,-1
+Fox News,None,Nobe,fox,,,2,NA,NA
+Nytimes,Dallas morning news,Houston chronicle ,nyt,dallasmorning,houstonchronicle,-1,0,-1
+CNN ,CSNBC,FOX,cnn,,fox,-1,NA,2
+Fox news,N/A,N/A,fox,,,2,NA,NA
+news9,no idea,no idea,local_tv,,,0,NA,NA
+Cnn,Cnn,Cnn,cnn,cnn,cnn,-1,-1,-1
+CNN,MSNBC,Washington Post,cnn,msnbc,wapo,-1,-2,-1
+CNN,NBC,CBS,cnn,nbc,cbs,-1,-1,0
+fox news,abc,ksfo,fox,abc,local_radio,2,0,0
+Fox News ,Cnn,Msnbc,fox,cnn,msnbc,2,-1,-2
+MSNBC,ABC,CBS,msnbc,abc,cbs,-2,0,0
+none,none,none,,,,NA,NA,NA
+Fox new,CNN,NBC ,fox,cnn,nbc,2,-1,-1
+Nothing ,Cbs,Abc ,,cbs,abc,NA,0,0
+Ok,Yes,Uip,,,,NA,NA,NA
+The New York Times,NBC,The Long Beach Press Telegram,nyt,nbc,longbeachpresstelegram,-1,-1,0
+CNN ,the Washington post ,fox News ,cnn,wapo,fox,-1,-1,2
+Hope ,Best ,Nokip,,,,NA,NA,NA
+Trump's Twitter,Don Trump Jr IG,Candace Owens,,,,NA,NA,NA
+Fox Business,Fox News,Judicial Watch,fox_business,fox,judicialwatch,1,2,3
+Fox News ,CNN ,Headline News ,fox,cnn,cnn,2,-1,-1
+idk,ghh,ghh,,,,NA,NA,NA
+Cnn,Fox,Abc,cnn,fox,abc,-1,2,0
+ None,I forgot ,I forgot ,,,,NA,NA,NA
+Facebook,Newsad,Magazine,social_media,,,0,NA,NA
+No,No,No,,,,NA,NA,NA
+the new york times,fox newsnnn,kjbkik ,nyt,fox,,-1,2,NA
+Fox news,CNN ,Msn,fox,cnn,msn,2,-1,0
+Fox News,Wgn ,Don’t know,fox,local_tv,,2,0,NA
+New York Times,Wallstreet j,Fox,nyt,wsj,fox,-1,0,2
+voting,covid,none,,,,NA,NA,NA
+Fox5 news ,Cnn,Facebook ,local_tv,cnn,social_media,0,-1,0
+Idk,Idk,Idk,,,,NA,NA,NA
+N/a,N/a,N/a,,,,NA,NA,NA
+Cnn,Facebook,Wctv,cnn,social_media,local_tv,-1,0,0
+Fox,Nbc,Abc,fox,nbc,abc,2,-1,0
+danc,danc,danc,,,,NA,NA,NA
+ABC news,Fox 2 news ,Channel 5,abc,local_tv,local_tv,0,0,0
+The new york times,facebook,fox news,nyt,social_media,fox,-1,0,2
+Fox news,Na,Not sure ,fox,,,2,NA,NA
+None,None,None,,,,NA,NA,NA
+Nothing,N/A,M/A,,,,NA,NA,NA
+None,None,None,,,,NA,NA,NA
+3,2,1,,,,NA,NA,NA
+CNN,WDRB,Twitter ,cnn,local_tv,social_media,-1,0,0
+ABC 30 fresno,CBS nightly  news ,Fox 26 Fresno ,local_tv,cbs,local_tv,0,0,0
+CNN,FOX,PBS,cnn,fox,pbs,-1,2,-1
+Fox,Cnn,Msbn,fox,cnn,msnbc,2,-1,-2
+Fox News ,NBC News ,Channel 4 News,fox,nbc,local_tv,2,-1,0
+Fox News,NBC,Univision,fox,nbc,univision,2,-1,0
+10,10,10,,,,NA,NA,NA
+3,3,4,,,,NA,NA,NA
+Cnn10,Foxnews,Channel 5,cnn,fox,local_tv,-1,2,0
+Cnn,Idk,Idk,cnn,,,-1,NA,NA
+Feel happy ,Good thank you ,You can ,,,,NA,NA,NA
+Cgbfvfvd,Efver,Dv,,,,NA,NA,NA
+bbc,news,fox,bbc,,fox,0,NA,2
+fix news,wbrc,the newyork times,fox,local_tv,nyt,2,0,-1
+Sky sports,BBC ,Fox,entertainment,bbc,fox,NA,0,2
+Good ,Very ,Great,,,,NA,NA,NA
+newwork time,cnn,bbc,nyt,cnn,bbc,-1,-1,0
+c,c,c,,,,NA,NA,NA
+yes,many,other,,,,NA,NA,NA
+10,10,10,,,,NA,NA,NA
+Fox Nes,CNN,New York Times,fox,cnn,nyt,2,-1,-1
+MNB,MNO,UMNBH,,,,NA,NA,NA
+gyfy,hcfgh,bbc,,,,NA,NA,NA
+1,1,1,,,,NA,NA,NA
+Wtvf,Cnn,Facebook,,,,NA,NA,NA
+social media,tv,newspaper,social_media,,local_paper,0,NA,0
+5,4,6,,,,NA,NA,NA
+"Newspapers,tv,internet",tv,internet,,,,NA,NA,NA
+no,no,no,,,,NA,NA,NA
+very good,good,nice,,,,NA,NA,NA
+yes,yes,yes,,,,NA,NA,NA
+ert,y4re5,tryrt,,,,NA,NA,NA
+yes,yes,yes,,,,NA,NA,NA
+daily news,west outlet,somoy outlet,ny_daily,,,-1,NA,NA
+facebook,twitter,linkdien,social_media,social_media,social_media,0,0,0
+10,10,10,,,,NA,NA,NA
+2,hp,htc,,,,NA,NA,NA
+The New York Times,Fox News,WBEC,nyt,fox,local_tv,-1,2,0
+"fox news, online news",newyork times,abc news,fox,nyt,abc,2,-1,0
+The New York Times,CNB,CBS,nyt,cnbc,cbs,-1,0,0
+good,good,good,,,,NA,NA,NA
+Bbc,Cnn,San Jose Mercury news,bbc,cnn,sanjosemercury,0,-1,-1
+None,Abe,Nbc,,abc,nbc,NA,0,-1
+nice,nice,nice,,,,NA,NA,NA
+Foxnews.com,Nypost.com,Nytimes.com,fox,nypost,nyt,2,1,-1
+Dan Bongino,Wendy Bell Radio,Tucker Carlson,danbongi,wendybell,fox,3,2,2
+NEW YORK POST,WICHITA EAGLE,FOX BUSINESS CHANNEL,nypost,wichitaeagle,fox_business,1,-1,1
+Fox news,None,None,fox,,,2,NA,NA
+3,3,4,,,,NA,NA,NA
+Cnn,Google,Cbs,cnn,aggregator,cbs,-1,0,0
+ABC,FOX NEWS,YAHOO,abc,fox,yahoo,0,2,0
+2,3,2,,,,NA,NA,NA
+WBRC,Fox News,Usa,local_tv,fox,usa_today,0,2,-1
+local tv news,local paper,home page,local_tv,local_paper,,0,0,NA
+Fox,Fox 🦊 ,Fox,fox,fox,fox,2,2,2
+Cnn,Local news tv ,Gainesville sun newspaper,cnn,local_tv,local_paper,-1,0,0
+Fox News,Local news,None,fox,local_tv,,2,0,NA
+msnbc,cnn,washington post,msnbc,cnn,wapo,-2,-1,-1
+ABCNews,google,Facebook,abc,aggregator,social_media,0,0,0
+none,none,none,,,,NA,NA,NA
+WTVA,WABG,none,local_tv,local_tv,,0,0,NA
+Washington Post,WRC,ABC,wapo,local_tv,abc,-1,0,0
+CNN,MSNBC,CBS,cnn,msnbc,cbs,-1,-2,0
+none,none,none,,,,NA,NA,NA
+fox  news,aon,cnbc,fox,oan,cnbc,2,2,0
+MSNBC,CNN,CBS,msnbc,cnn,cbs,-2,-1,0
+Facebook ,None,None,social_media,,,0,NA,NA
+Fox news,None,None,fox,,,2,NA,NA
+Fox News,BBC America,Evansville courier and press,fox,bbc,evansvillecourierandpress,2,0,-1
+fox news,fox,fox,fox,fox,fox,2,2,2
+fox news,New lenox Patch,none,fox,newlexpatch,,2,0,NA
+Washington Post,Time,NPR,wapo,time,npr,-1,-1,0
+cnn,facebook,nbc,cnn,social_media,nbc,-1,0,-1
+Fox news,CBS,ABC,fox,cbs,abc,2,0,0
+CNN,Yahoo News,USA Today,cnn,yahoo,usa_today,-1,0,-1
+family and friends,family and friends,family and friends,,,,NA,NA,NA
+Msn,USA today,None,msn,usa_today,,0,-1,NA
+Local news ,Knox news ,New York Times ,local_tv,,nyt,0,NA,-1
+CNN,NY Times,MSN,cnn,nyt,msn,-1,-1,0
+Fox News ,Yahoo news ,ABC news,fox,yahoo,abc,2,0,0
+BBC,cnN,Washington post,bbc,cnn,wapo,0,-1,-1
