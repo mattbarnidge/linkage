@@ -112,3 +112,4 @@ car::vif(sm2)
 #Model summaries
 summary(sm1, cor=FALSE)
 summary(sm2, cor=FALSE)
+
