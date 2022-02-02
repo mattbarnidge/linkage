@@ -1,6 +1,6 @@
 library(lme4)
 library(lmerTest)
-setwd("~/Desktop")
+setwd("~/Documents/GitHub/linkage/INE")
 load("ine1.Rdata")
 load("ine2.Rdata")
 
