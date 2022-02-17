@@ -8,7 +8,7 @@ library(dotwhisker)
 library(visreg)
 
 #Set WD and Load Data
-setwd("~/Desktop")
+setwd("~/Documents/GitHub/linkage")
 load("niche.mi.Rdata")
 load("niche.mi.sub.Rdata")
 
@@ -27,7 +27,7 @@ summary(aov)
 #Boxplot
 p2 <- ggplot(m2, aes(x = niche, y = newsideo, fill = niche)) + 
   geom_boxplot(show.legend = FALSE) + 
-  labs(title = "", x = "Individual Level", y = "")
+  labs(title = "", x = "", y = "Selection Valence")
 p2 + scale_fill_grey() + theme_classic()
 
 #Combine with plot (p1) from org level data
@@ -84,8 +84,8 @@ dwplot(list(mlm1, mlm2, mlm3),
        vars_order = c("Individual", "Audience", "Organization")) + 
   theme(legend.title = element_blank()) + 
   scale_colour_grey() + 
-  xlab("Effect on News Ideology") + 
-  ylab("Level of Observation")
+  xlab("Effect on Selection Valence") + 
+  ylab("Ideology")
 
 #Plotting Interactions
 par(mfrow=c(1,2))
@@ -96,7 +96,7 @@ visreg::visreg(mlm4, "Individual", by = "Audience",
                breaks=c(-.52, .62), 
                strip.names=c("Aud. Ideo. = -1 SD", "Aud. Ideo. = +1 SD"), 
                xlab = "Individual Ideology", 
-               ylab = "News Ideology")
+               ylab = "Selection Valence")
 visreg::visreg(mlm5, "Individual", by = "Organization", 
                overlay=TRUE, jitter=TRUE,
                line=list(col=c("black", "grey")), 
