@@ -1,6 +1,6 @@
 library(ggplot2)
 
-setwd("~/Desktop")
+setwd("~/Documents/GitHub/linkage")
 org <- read.csv("orgs_coded.csv")
 
 #Grand Descriptives
@@ -25,7 +25,7 @@ org$cluster <- factor(org$cluster, c("local", "elite" ,"cable"))
 #Boxplot
 p1 <- ggplot(org, aes(x=cluster, y=code, fill=cluster)) + 
   geom_boxplot(show.legend = FALSE) + 
-  labs(title = "", x = "Organizational Level", y = "News Ideology")
+  labs(title = "", x = "", y = "Editorial Valence")
 p1 + scale_fill_grey() + theme_classic()
 #Note: Combine this plot with individual-level plot
 
