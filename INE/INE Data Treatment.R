@@ -3,20 +3,44 @@ library(dplyr)
 library(tidyr)
 
 #Set WD and Load Data
-setwd("~/Desktop")
+setwd("~/Documents/GitHub/linkage/INE")
 load("EMCP20_coded.Rdata")
 
-#DVs: 
-d$ine1 = sqrt(d$sminc*d$smincexp2) 
-d$ine2 = sqrt(d$smnews*d$smincexp2) 
-table(d$ine1); hist(d$ine1) #trait; encountering pol info by incidentality
-table(d$ine2); hist(d$ine2) #trait; general news use by incidentality
-table(d$smnews); hist(d$smnews) #trait; social media news use
-table(d$engage); hist(d$engage); #trait: news engagement
-table(d$story.aware) #state; recall of embedded story
-table(d$story.engage.sk); hist(d$story.engage.sk) #state; story engagement
-with(d, cor(cbind(ine1, ine2, smnews, story.aware), 
-            use="complete.obs", method="pearson")) #r1 = .60, r2 = .04, r3 = .05, r4 = .50, r5 = .11s
+#Exposure and Incidentality: 
+#trait-like variables
+d$news = d$smnews #social media news
+d$pol = d$sminc #social media political information
+d$inc = d$smincexp2 #extent of incidentality
+d$mot = abs(d$sm.newsintent - 1) #background motivation something other than news
+d$ipe = sqrt((d$sminc-1)*(d$smincexp2-1)) #pol info by incidentality
+d$ine = sqrt((d$smnews-1)*(d$smincexp2-1)) #news use by incidentality
+
+d$recall = d$story.aware #recall of embedded story (state)
+d$incexp = abs(d$story.purp - 1) #incidentally exposed to story (no skips)
+d$incexp.sk = ifelse(d$recall == 1 & d$incexp == 1, 1, 0) #include skips
+
+d$incexp.f1 = ifelse(d$recall == 1 & d$incexp == 1, "inc", 
+                    ifelse(d$recall == 1 & d$incexp == 0, "purp", 
+                           "none"))
+d$incexp.f1 = factor(d$incexp.f1, levels=c("none", "inc", "purp"))
+d$incexp.f2 = factor(d$incexp.f1, levels=c("inc", "none", "purp"))
+
+#Working Models: State-Like DV
+wm1a = nnet::multinom(incexp.f1 ~ mot + ipe, data=d)
+wm1b = nnet::multinom(incexp.f2 ~ mot + ipe, data=d)
+summary(wm1a); (1 - pnorm(abs(summary(wm1a)$coefficients/summary(wm1a)$standard.errors), 0, 1)) * 2
+summary(wm1b); (1 - pnorm(abs(summary(wm1b)$coefficients/summary(wm1b)$standard.errors), 0, 1)) * 2
+
+#Working Models: Trait-Like DV
+wm2 = lm(ipe ~ mot, data=d)
+summary(wm2)
+
+
+
+
+#Engagement Variables
+table(d$engage)
+table(d$story.engage.sk)
 
 #Individual Factors 1: Cognitive
 table(d$know); hist(d$know) #trait; political knowledge
