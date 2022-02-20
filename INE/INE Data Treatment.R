@@ -9,8 +9,8 @@ load("EMCP20_coded.Rdata")
 #Exposure and Incidentality: 
 #trait-like variables
 d$news = d$smnews #social media news
-d$pol = d$sminc #social media political information
-d$inc = d$smincexp2 #extent of incidentality
+d$pol = d$sminc - 1 #social media political information; making "never" = 0
+d$iny = d$smincexp2 - 1 #extent of incidentality; making "never" = 0
 d$mot = abs(d$sm.newsintent - 1) #background motivation something other than news
 d$ipe = sqrt((d$sminc-1)*(d$smincexp2-1)) #pol info by incidentality
 d$ine = sqrt((d$smnews-1)*(d$smincexp2-1)) #news use by incidentality
@@ -24,19 +24,6 @@ d$incexp.f1 = ifelse(d$recall == 1 & d$incexp == 1, "inc",
                            "none"))
 d$incexp.f1 = factor(d$incexp.f1, levels=c("none", "inc", "purp"))
 d$incexp.f2 = factor(d$incexp.f1, levels=c("inc", "none", "purp"))
-
-#Working Models: State-Like DV
-wm1a = nnet::multinom(incexp.f1 ~ mot + ipe, data=d)
-wm1b = nnet::multinom(incexp.f2 ~ mot + ipe, data=d)
-summary(wm1a); (1 - pnorm(abs(summary(wm1a)$coefficients/summary(wm1a)$standard.errors), 0, 1)) * 2
-summary(wm1b); (1 - pnorm(abs(summary(wm1b)$coefficients/summary(wm1b)$standard.errors), 0, 1)) * 2
-
-#Working Models: Trait-Like DV
-wm2 = lm(ipe ~ mot, data=d)
-summary(wm2)
-
-
-
 
 #Engagement Variables
 table(d$engage)
