@@ -14,7 +14,7 @@ visreg::visreg(wm1, "pol", scale="response", ylim=c(0,1))
 visreg::visreg(wm1, "iny", scale="response", ylim=c(0,1))
 
 #Test interaction between frequency and incidentality
-wm1i = glm(incexp.sk ~ pol*iny + 
+wm1i = glm(incexp.sk ~ I(pol*iny) + 
              know + sm.newsintent + avoid +
              age + female + poc + edu + inc, 
           data=d, family = binomial)
@@ -28,7 +28,7 @@ visreg::visreg(wm1i, "pol", by="iny", scale="response", ylim=c(0,1))
 #Working Models 2: Trait-Like DVs (Frequency, Incidentality, Frequency*Incidentality)
 #What predicts frequency, incidentality, and incidental exposure?
 #What informational inequalities can be detected in incidental exposure?
-wm2a = lm(pol ~ 
+wm2a = lm(pol ~ iny + 
             know + nml + eff.int + 
             age + female + poc + edu + inc + ideo.ext + pid.str + 
             sm.newsintent + 
