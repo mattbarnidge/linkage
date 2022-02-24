@@ -1,4 +1,5 @@
-#RQ: Are the uninvolved more likely to report incidental exposure?
+#RQ1: Are the uninvolved more likely to report incidental exposure?
+#RQ2: Is incidental exposure related to engagement among the uninvolved?
 
 #Correlations among indicators of involvement
 with(x, round(cor(cbind(mot, int, fol, alg), use="complete.obs"), digits=2))
@@ -38,42 +39,88 @@ rm(probs.start, f)
 #Extract Grouping Variable
 x$inv = as.factor(lc$predclass)
 
-#Fit Multinomial Model
-table(x$inv, x$incexp.f1)
-mn = nnet::multinom(incexp.f1 ~ inv + age + female + poc + edu + inc + ideo + pid + sm.freq + size + div + grp + cur, data=x, weights=weights)
+#Trait-like DV
 
-#Compare to Null Model
-nmn = nnet::multinom(incexp.f1 ~ 1, data=x, weights=weights)
-anova(nmn, mn)
+#Fit models
+mlm1 = lmer(pol ~ inv + iny +
+              age + female + poc + edu + inc + ideo + pid + 
+              sm.freq + size + div + grp + cur + 
+              (1 | frame), 
+            data=x, weights=weights, 
+            control=lmerControl(optimizer="bobyqa"))
+mlm2 = lmer(ipe ~ inv + 
+              age + female + poc + edu + inc + ideo + pid + 
+              sm.freq + size + div + grp + cur + 
+              (1 | frame), 
+            data=x, weights=weights, 
+            control=lmerControl(optimizer="bobyqa"))
+mlm3 = lmer(engage ~ ipe*inv +
+              age + female + poc + edu + inc + ideo + pid + 
+              sm.freq + size + div + grp + cur + 
+              (1 | frame), 
+            data=x, weights=weights, 
+            control=lmerControl(optimizer="bobyqa"))
 
-#Goodness of Fit
-chisq.test(x$incexp.f1, predict(mn)) 
-performance::r2_nagelkerke(mn)
+summary(mlm1, cor=FALSE)
+summary(mlm2, cor=FALSE)
+summary(mlm3, cor=FALSE)
 
-#Extract Key Information
-p.mn <- (1 - pnorm(abs(summary(mn)$coefficients/summary(mn)$standard.errors), 0, 1)) * 2
-coef.mn <- summary(mn)$coefficients
-se.mn <- summary(mn)$standard.errors
-exp.mn <- exp(coef(mn))
-n.mn <- length(residuals(mn))/3
+par(mfrow=c(1,2))
+visreg::visreg(mlm1, "inv", ylab="Total Exposure", xlab="Involvement")
+visreg::visreg(mlm2, "inv", ylab="Incidental Exposure", xlab="Involvement")
 
-#Print
-print(n.mn)
-round(coef.mn,2)
-round(se.mn,2)
-round(exp.mn,2)
-round(p.mn,3)
-
-par(mfrow=c(1,3))
-visreg::visreg(mn, "inv")
-
-#Fit Binomial Model
-x$incexp.sk = ifelse(x$recall == 1 & x$incexp == 1, 1, 0) #include skips
-lg = glm(incexp.sk ~ inv + age + female + poc + edu + inc + ideo + pid + sm.freq + size + div + grp + cur, 
-            data=x, family=poisson, weights=weights)
-summary(lg)
 par(mfrow=c(1,1))
-visreg::visreg(lg, "inv")
+visreg::visreg(mlm3, "ipe", by = "inv", ylab="Engagement", xlab="Involvement")
+
+#State-like DVs
+
+#Fit models
+lg1 = glmer(recall ~ inv + 
+              age + female + poc + edu + inc + ideo + pid + 
+              sm.freq + size + div + grp + cur + ipe +
+              (1 | frame), 
+            data=x, family=poisson, weights=weights, 
+            control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+lg2 = glmer(incexp.sk ~ inv + 
+              age + female + poc + edu + inc + ideo + pid + 
+              sm.freq + size + div + grp + cur + ipe +
+              (1 | frame), 
+            data=x, family=poisson, weights=weights, 
+            control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+x$incexp = as.factor(x$incexp)
+lg3 = lmer(story.engage ~ inv*incexp + 
+              age + female + poc + edu + inc + ideo + pid + 
+              sm.freq + size + div + grp + cur + ipe +
+              (1 | frame), 
+            data=subset(x, recall==1), weights=weights, 
+          control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+
+summary(lg1)
+summary(lg2)
+summary(lg3)
+
+par(mfrow=c(1,2))
+visreg::visreg(lg1, "inv", ylab="Exposure", xlab="Involvement")
+visreg::visreg(lg2, "inv", ylab="Incidental Exposure", xlab="Involvement")
+
+par(mfrow=c(1,1))
+visreg::visreg(lg3, "incexp", by="inv", ylab="Engagement", xlab="Exposure Type")
+
+#Breakdown
+tab <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
+margin.table(tab, 2)
+
+#Some Engagement
+#58% of people in low involvement group
+#47% of people in middle involvement group
+#23% of people in high involvement group
+
+#High Engagement
+#10% of people in low involvement group
+#18% of people in medium involvement group
+#12% of people in high involvement group
+
+
 
 
 
