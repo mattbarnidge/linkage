@@ -9,13 +9,9 @@ load("EMCP20_coded.Rdata")
 #Exposure and Incidentality: 
 d$pol = d$sminc - 1 #social media political information; making "never" = 0
 d$iny = d$smincexp2 - 1 #incidentality; making "never" = 0
+d$ipe = sqrt(d$pol*d$iny)
 d$recall = d$story.aware #recall of embedded story (state)
 d$incexp = abs(d$story.purp - 1) #incidentally exposed to story (no skips)
-d$incexp.f1 = ifelse(d$recall == 1 & d$incexp == 1, "inc", 
-                     ifelse(d$recall == 1 & d$incexp == 0, "purp", 
-                            "none"))
-d$incexp.f1 = factor(d$incexp.f1, levels=c("none", "inc", "purp"))
-d$incexp.f2 = factor(d$incexp.f1, levels=c("inc", "none", "purp"))
 
 #Engagement
 table(d$engage)
@@ -64,7 +60,7 @@ d$storyemo = with(d, rowMeans(cbind(storyemo.joy,
 table(d$curatoreval) #evaluation of curator
 
 #Select Variables
-x <- d %>% select(pol, iny, engage,
+x <- d %>% select(pol, iny, ipe, engage,
                   age, female, poc, edu, inc, ideo, pid, sm.freq, 
                   mot, int, fol, alg, 
                   size, div, grp, cur,
@@ -74,14 +70,15 @@ x <- d %>% select(pol, iny, engage,
                   frame, weights)
 
 #Multiple Imputation
-t1 <- mice::mice(x[,1:19], m=1, maxit=50, meth='pmm', seed=500)
-t2 <- mice::mice(x[,20:28], m=1, maxit=50, meth='pmm', seed=500)
-x[,1:19] <- mice::complete(t1, 1)
-x[,20:28] <- mice::complete(t2, 1)
+t1 <- mice::mice(x[,1:20], m=1, maxit=50, meth='pmm', seed=500)
+t2 <- mice::mice(x[,21:29], m=1, maxit=50, meth='pmm', seed=500)
+x[,1:20] <- mice::complete(t1, 1)
+x[,21:29] <- mice::complete(t2, 1)
 rm(t1, t2)
 x <- na.omit(x)
 
-#Create Incidental Exposure Factor (didn't want this in multiple imputation)
+#Create some additional variables (didn't want these in multiple imputation)
+x$incexp.sk = ifelse(x$recall == 1 & x$incexp == 1, 1, 0) #include skips
 x$incexp.f1 = ifelse(x$recall == 1 & x$incexp == 1, "inc", 
                      ifelse(x$recall == 1 & x$incexp == 0, "purp", 
                             "none"))
