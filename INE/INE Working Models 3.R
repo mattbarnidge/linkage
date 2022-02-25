@@ -42,6 +42,7 @@ x$inv = as.factor(lc$predclass)
 #Trait-like DV
 
 #Fit models
+library(lme4)
 mlm1 = lmer(pol ~ inv + iny +
               age + female + poc + edu + inc + ideo + pid + 
               sm.freq + size + div + grp + cur + 
@@ -108,7 +109,7 @@ visreg::visreg(lg3, "incexp", by="inv", ylab="Engagement", xlab="Exposure Type")
 
 #Breakdown
 tab <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
-margin.table(tab, 2)
+print(tab)
 
 #Some Engagement
 #58% of people in low involvement group
