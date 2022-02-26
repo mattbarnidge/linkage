@@ -50,9 +50,6 @@ for(i in 2:5){
 #Print results (3-class model is best, according to BIC)
 print(LCA_best_model)
 
-#Clean up environment
-rm(LCA_best_model, i, min_bic)
-
 #Estimate Model, re-set order based on predicted probabilities 
 #(biggest group first), then re-estimate models
 lc <- poLCA(f, x, nclass=3, 
@@ -161,83 +158,35 @@ visreg::visreg(lg2, "inv", ylab="Story Exposure", xlab="Involvement")
 
 ##########################################################################
 
-#RQ3a: Is incidental exposure related to average level of engagement 
-#among the uninvolved?
-#RQ3b: Is incidental exposure related to at least some engagement 
+#RQ3s: Is incidental exposure related to average level of engagement 
 #among the uninvolved?
 
 #Analysis overview: test interactions between involvement and 
-#incidental exposure for both trait-like and state-like DVs; 
-#recode both DVs so that 0 = no engagement and 1 = some engagement and retest
+#incidental exposure for both state-like DV
 
 #Results overview: no significant interactions for average engagement; 
-#significant interaction for "some" engagement (trait); also evidence for
-#similar effect on state-like DV, but interaction is not significant;
-#overall evidence for closing engagement gaps is pretty limited
+# evidence for closing engagement gaps is pretty limited
 
 #Recode incexp variable (state) to be factor (for visualization)
 x$incexp = as.factor(x$incexp)
 
-#Fit models: average engagement
-#note 1: not really interested in main effects here
-#note 2: state-like model uses subset of ppl exposed to story (recall==1)
-#to account for data-dependencies
-#note 3: lg3 is not a logit, but kept naming consistent with above models
-lm3 = lmer(engage ~ ipe*inv +
-              age + female + poc + edu + inc + ideo + pid + 
-              sm.freq + size + div + grp + cur + 
-              (1 | frame), 
-            data=x, weights=weights, 
-            control=lmerControl(optimizer="bobyqa"))
+#Fit models: engagement
 lg3 = lmer(story.engage ~ inv*incexp + 
              age + female + poc + edu + inc + ideo + pid + 
              sm.freq + size + div + grp + cur + ipe +
              (1 | frame), 
-           data=subset(x, recall==1), weights=weights, 
+           data=subset(x, recall==1),
            control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
 
-#Recode DVs
-x$y1 <- NA
-x$y1[x$engage == 1] <- 0
-x$y1[x$engage > 1] <- 1
-
-x$y2 <- NA
-x$y2[x$story.engage == 0] <- 0
-x$y2[x$story.engage > 1] <- 1
-
-#Fit models, at least some engagement
-#note: using nAGQ=0 to aid convergence
-lm4 = glmer(y1 ~ ipe*inv +
-             age + female + poc + edu + inc + ideo + pid + 
-             sm.freq + size + div + grp + cur + 
-             (1 | frame), 
-            data=x, family=poisson, weights=weights, 
-            nAGQ=0, control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
-lg4 = glmer(y2 ~ inv*incexp + 
-             age + female + poc + edu + inc + ideo + pid + 
-             sm.freq + size + div + grp + cur + ipe +
-             (1 | frame), 
-           data=subset(x, recall==1), family=poisson, weights=weights, 
-           nAGQ=0, control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
-
 #Multicollinearity Diagnostics
-sqrt(car::vif(lm3)) > 2
 sqrt(car::vif(lg3)) > 2
-sqrt(car::vif(lm4)) > 2
-sqrt(car::vif(lg4)) > 2
 
 #Model Summaries
-summary(lm3, cor=FALSE)
-summary(lg3, cor=FALSE)
-summary(lm4, cor=FALSE)
-summary(lg4, cor=FALSE)
+summary(lg3, cor=FALSE); logLik(lg3); performance::r2(lg3); performance::icc(lg3)
 
 #Visualizations
 par(mfrow=c(1,1))
-visreg::visreg(lm3, "ipe", by = "inv", ylab="Engagement", xlab="Incidental Exposure")
 visreg::visreg(lg3, "incexp", by="inv", ylab="Engagement", xlab="Exposure Type")
-visreg::visreg(lm4, "ipe", by = "inv", ylab="Engagement", xlab="Incidental Exposure")
-visreg::visreg(lg4, "incexp", by="inv", ylab="Engagement", xlab="Exposure Type")
 
 #Descriptive Breakdown of State-Like DV
 tab <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
