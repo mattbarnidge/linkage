@@ -151,10 +151,14 @@ summary(lg2, cor=FALSE); logLik(lg2); performance::r2(lg1); performance::icc(lg2
 
 #Visualizations
 par(mfrow=c(2,2))
-visreg::visreg(lm1, "inv", ylab="Incidental Exposure", xlab="Involvement")
-visreg::visreg(lg1, "inv", ylab="Incidental Exposure", xlab="Involvement")
-visreg::visreg(lm2, "inv", ylab="Total Exposure", xlab="Involvement")
-visreg::visreg(lg2, "inv", ylab="Story Exposure", xlab="Involvement")
+visreg::visreg(lm1, "inv", jitter=TRUE, line=list(col="black"),
+               main="Trait-Like DV", ylab="Incidental Exposure", xlab="")
+visreg::visreg(lg1, "inv", jitter=TRUE, line=list(col="black"), 
+               main="State-Like DV", ylab="Incisdental Exposure", xlab="")
+visreg::visreg(lm2, "inv", jitter=TRUE, line=list(col="black"), 
+               ylab="Total Exposure", xlab="Involvement")
+visreg::visreg(lg2, "inv", jitter=TRUE, line=list(col="black"),
+               ylab="Story Exposure", xlab="Involvement")
 
 ##########################################################################
 
@@ -170,8 +174,14 @@ visreg::visreg(lg2, "inv", ylab="Story Exposure", xlab="Involvement")
 #Recode incexp variable (state) to be factor (for visualization)
 x$incexp = as.factor(x$incexp)
 
-#Fit models: engagement
+#Fit models
 lg3 = lmer(story.engage ~ inv*incexp + 
+             age + female + poc + edu + inc + ideo + pid + 
+             sm.freq + size + div + grp + cur + ipe +
+             (1 | frame), 
+           data=subset(x, recall==1),
+           control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+lg4 = lmer(story.engage.he ~ inv*incexp + 
              age + female + poc + edu + inc + ideo + pid + 
              sm.freq + size + div + grp + cur + ipe +
              (1 | frame), 
@@ -180,17 +190,50 @@ lg3 = lmer(story.engage ~ inv*incexp +
 
 #Multicollinearity Diagnostics
 sqrt(car::vif(lg3)) > 2
+sqrt(car::vif(lg4)) > 2
 
 #Model Summaries
 summary(lg3, cor=FALSE); logLik(lg3); performance::r2(lg3); performance::icc(lg3)
+summary(lg4, cor=FALSE); logLik(lg4); performance::r2(lg4); performance::icc(lg4)
+
+#Add labels for visualization and refit models
+x$inv <- factor(x$inv,
+                    levels = c(1,2,3),
+                    labels = c("Low", "Med", "High"))
+x$incexp <- factor(x$incexp,
+                levels = c(0,1),
+                labels = c("Purp.", "Inc."))
+
+
+lg3.v = lmer(story.engage ~ inv*incexp + 
+             age + female + poc + edu + inc + ideo + pid + 
+             sm.freq + size + div + grp + cur + ipe +
+             (1 | frame), 
+           data=subset(x, recall==1),
+           control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+lg4.v = lmer(story.engage.he ~ inv*incexp + 
+             age + female + poc + edu + inc + ideo + pid + 
+             sm.freq + size + div + grp + cur + ipe +
+             (1 | frame), 
+           data=subset(x, recall==1),
+           control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+
+
+
 
 #Visualizations
 par(mfrow=c(1,1))
-visreg::visreg(lg3, "incexp", by="inv", ylab="Engagement", xlab="Exposure Type")
+visreg::visreg(lg3.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
+               ylab="Engagement", xlab="Exposure Type")
+visreg::visreg(lg4.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
+               ylab="Engagement", xlab="Exposure Type")
 
-#Descriptive Breakdown of State-Like DV
-tab <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
-print(tab)
+#Descriptive Breakdowns of State-Like DV
+tab1 <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
+tab2 <- with(subset(x, recall==1), table(story.engage.he, incexp, inv)) 
+
+print(tab1)
+print(tab2)
 
 #Some Engagement & Incidentally Exposed
 #58% of people in low involvement group
