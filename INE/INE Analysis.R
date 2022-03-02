@@ -226,7 +226,7 @@ par(mfrow=c(1,1))
 visreg::visreg(lg3.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
                ylab="Engagement", xlab="Exposure Type")
 visreg::visreg(lg4.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
-               ylab="Engagement", xlab="Exposure Type")
+               ylab="High-Effort Engagement", xlab="Exposure Type")
 
 #Descriptive Breakdowns of State-Like DV
 tab1 <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
