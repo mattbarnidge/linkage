@@ -15,7 +15,7 @@ load("ine.Rdata")
 #Results overview: LCA reveals three groups, which are arrayed 
 #in a more or less linear manner from high involvement to low involvement
 
-#Correlations among indicators of involvement (.33 < r < .53)
+#Correlations among indicators of involvement (.34 < r < .52)
 with(x, round(cor(cbind(mot, int, fol, alg), 
                   use="complete.obs"), digits=2))
 
@@ -86,6 +86,24 @@ table(x$inv)
 
 ##########################################################################
 
+#Load Libraries
+library(lme4)
+library(lmerTest)
+
+###Testing Relationship with Non Social Media News Use
+
+am = lmer(nsmnews ~ inv + 
+             age + female + poc + edu + inc + ideo + pid +
+             (1 | frame), 
+           data=x, weights=weights, 
+           control=lmerControl(optimizer="bobyqa"))
+
+sqrt(car::vif(am)) > 2
+summary(am, cor=FALSE); logLik(am); performance::r2(am); performance::icc(am)
+
+visreg::visreg(am, "inv", jitter=TRUE, line=list(col="black"),
+               ylab="Non-Social Media News Use", xlab="News Attraction")
+
 #RQ2a: Are the uninvolved more likely to report incidental exposure?
 #RQ2b: Are there differences between the uninvolved and involved 
 #in overall exposure?
@@ -102,9 +120,6 @@ table(x$inv)
 #than high involvement group (trait), and equal amount of 
 #overall exposure (trait and state) as high involvement group
 
-#Load Libraries
-library(lme4)
-library(lmerTest)
 
 #Fit models: incidental exposure
 #note: lm = 'linear model', lg = 'logit'
