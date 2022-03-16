@@ -60,7 +60,7 @@ d$storyemo = with(d, rowMeans(cbind(storyemo.joy,
 table(d$curatoreval) #evaluation of curator
 
 #Select Variables
-x <- d %>% select(pol, iny, ipe, engage,
+x <- d %>% select(pol, iny, ipe, engage, nsmnews,
                   age, female, poc, edu, inc, ideo, pid, sm.freq, 
                   mot, int, fol, alg, 
                   size, div, grp, cur,
@@ -70,10 +70,10 @@ x <- d %>% select(pol, iny, ipe, engage,
                   frame, weights)
 
 #Multiple Imputation
-t1 <- mice::mice(x[,1:20], m=1, maxit=50, meth='pmm', seed=500)
-t2 <- mice::mice(x[,21:30], m=1, maxit=50, meth='pmm', seed=500)
-x[,1:20] <- mice::complete(t1, 1)
-x[,21:30] <- mice::complete(t2, 1)
+t1 <- mice::mice(x[,1:21], m=1, maxit=50, meth='pmm', seed=500)
+t2 <- mice::mice(x[,22:31], m=1, maxit=50, meth='pmm', seed=500)
+x[,1:21] <- mice::complete(t1, 1)
+x[,22:31] <- mice::complete(t2, 1)
 rm(t1, t2)
 x <- na.omit(x)
 
