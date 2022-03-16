@@ -99,22 +99,22 @@ lm1 = lmer(ipe ~ inv +
             control=lmerControl(optimizer="bobyqa"))
 lg1 = glmer(incexp.sk ~ inv + 
               age + female + poc + edu + inc + ideo + pid + 
-              sm.freq + size + div + grp + cur + ipe +
+              sm.freq + size + div + grp + cur + 
               (1 | frame), 
             data=x, family=poisson, weights=weights, 
             control=glmerControl(optimizer="bobyqa", 
                                  optCtrl=list(maxfun=2e5)))
 
 #DV: Overall/story exposure
-lm2 = lmer(pol ~ inv + iny +
+lm2 = lmer(pol ~ inv +
               age + female + poc + edu + inc + ideo + pid + 
-              sm.freq + size + div + grp + cur + 
+              sm.freq + size + div + grp + cur +
               (1 | frame), 
             data=x, weights=weights, 
             control=lmerControl(optimizer="bobyqa"))
 lg2 = glmer(recall ~ inv + 
               age + female + poc + edu + inc + ideo + pid + 
-              sm.freq + size + div + grp + cur + ipe +
+              sm.freq + size + div + grp + cur +
               (1 | frame), 
             data=x, family=poisson, weights=weights, 
             control=glmerControl(optimizer="bobyqa",
