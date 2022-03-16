@@ -6,20 +6,9 @@ library(tidyr)
 setwd("~/Documents/GitHub/linkage/INE")
 load("ine.Rdata")
 
-#RQ1: How can we categorize people according to "involvement" with the news?
-
-#Analysis overview: perform latent class analysis with four indicators
-#of involvement, including environmental perception (social media as news source), 
-#interest, following accounts for news, and algorithmic categorization
-
-#Results overview: LCA reveals three groups, which are arrayed 
-#in a more or less linear manner from high involvement to low involvement
-
 #Correlations among indicators of involvement (.34 < r < .52)
 with(x, round(cor(cbind(mot, int, fol, alg), 
                   use="complete.obs"), digits=2))
-
-#LCA based on indicators of involvement
 
 #Recode variables for LCA (LCA requires non-zero integers)
 x$x1 = x$mot + 1
@@ -79,10 +68,7 @@ detach("package:poLCA", unload=TRUE)
 
 #Extract grouping variable and add to dataset
 x$inv = as.factor(lc$predclass)
-table(x$inv) 
-#Group 1 = low involvement (48%) 
-#Group 2 = medium involvement (37.5%)
-#Group 3 = high involvement (14.5%)
+table(x$inv)
 
 ##########################################################################
 
@@ -90,8 +76,7 @@ table(x$inv)
 library(lme4)
 library(lmerTest)
 
-###Testing Relationship with Non Social Media News Use
-
+#DV: Non Social Media News Use
 am = lmer(nsmnews ~ inv + 
              age + female + poc + edu + inc + ideo + pid +
              (1 | frame), 
@@ -101,30 +86,11 @@ am = lmer(nsmnews ~ inv +
 sqrt(car::vif(am)) > 2
 summary(am, cor=FALSE); logLik(am); performance::r2(am); performance::icc(am)
 
+par(mfrow=c(1,1))
 visreg::visreg(am, "inv", jitter=TRUE, line=list(col="black"),
                ylab="Non-Social Media News Use", xlab="News Attraction")
 
-#RQ2a: Are the uninvolved more likely to report incidental exposure?
-#RQ2b: Are there differences between the uninvolved and involved 
-#in overall exposure?
-
-#Analysis overview: test main effects of involvement on both 
-#trait-like and state-like DVs for incidental exposure and overall exposure
-
-#Results overview: some evidence that 
-#low involvement (trait and state) and medium involvement (state) groups 
-#have more incidental exposure; but limited evidence that this closes
-#gaps in overall exposure; middle involvement group may represent a 
-#"sweet spot" for incidental exposure; 
-#significantly more incidental exposure 
-#than high involvement group (trait), and equal amount of 
-#overall exposure (trait and state) as high involvement group
-
-
-#Fit models: incidental exposure
-#note: lm = 'linear model', lg = 'logit'
-#note 2: logits are not really logits because of weights, 
-#used family = poisson (see: hist(x$incexp.sk*x$weights))
+#DV: Incidental exposure
 lm1 = lmer(ipe ~ inv + 
               age + female + poc + edu + inc + ideo + pid + 
               sm.freq + size + div + grp + cur + 
@@ -136,9 +102,10 @@ lg1 = glmer(incexp.sk ~ inv +
               sm.freq + size + div + grp + cur + ipe +
               (1 | frame), 
             data=x, family=poisson, weights=weights, 
-            control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+            control=glmerControl(optimizer="bobyqa", 
+                                 optCtrl=list(maxfun=2e5)))
 
-#Fit models: overall/story exposure
+#DV: Overall/story exposure
 lm2 = lmer(pol ~ inv + iny +
               age + female + poc + edu + inc + ideo + pid + 
               sm.freq + size + div + grp + cur + 
@@ -150,7 +117,8 @@ lg2 = glmer(recall ~ inv +
               sm.freq + size + div + grp + cur + ipe +
               (1 | frame), 
             data=x, family=poisson, weights=weights, 
-            control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+            control=glmerControl(optimizer="bobyqa",
+                                 optCtrl=list(maxfun=2e5)))
 
 #Multicollinearity Diagnostics
 sqrt(car::vif(lm1)) > 2
@@ -175,17 +143,6 @@ visreg::visreg(lm2, "inv", jitter=TRUE, line=list(col="black"),
 visreg::visreg(lg2, "inv", jitter=TRUE, line=list(col="black"),
                ylab="Story Exposure", xlab="Involvement")
 
-##########################################################################
-
-#RQ3s: Is incidental exposure related to average level of engagement 
-#among the uninvolved?
-
-#Analysis overview: test interactions between involvement and 
-#incidental exposure for both state-like DV
-
-#Results overview: no significant interactions for average engagement; 
-# evidence for closing engagement gaps is pretty limited
-
 #Recode incexp variable (state) to be factor (for visualization)
 x$incexp = as.factor(x$incexp)
 
@@ -195,13 +152,15 @@ lg3 = lmer(story.engage ~ inv*incexp +
              sm.freq + size + div + grp + cur + ipe +
              (1 | frame), 
            data=subset(x, recall==1),
-           control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+           control=lmerControl(optimizer="bobyqa",
+                               optCtrl=list(maxfun=2e5)))
 lg4 = lmer(story.engage.he ~ inv*incexp + 
              age + female + poc + edu + inc + ideo + pid + 
              sm.freq + size + div + grp + cur + ipe +
              (1 | frame), 
            data=subset(x, recall==1),
-           control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
+           control=lmerControl(optimizer="bobyqa",
+                               optCtrl=list(maxfun=2e5)))
 
 #Multicollinearity Diagnostics
 sqrt(car::vif(lg3)) > 2
@@ -211,7 +170,7 @@ sqrt(car::vif(lg4)) > 2
 summary(lg3, cor=FALSE); logLik(lg3); performance::r2(lg3); performance::icc(lg3)
 summary(lg4, cor=FALSE); logLik(lg4); performance::r2(lg4); performance::icc(lg4)
 
-#Add labels for visualization and refit models
+#Add labels for visualization
 x$inv <- factor(x$inv,
                     levels = c(1,2,3),
                     labels = c("Low", "Med", "High"))
@@ -219,7 +178,7 @@ x$incexp <- factor(x$incexp,
                 levels = c(0,1),
                 labels = c("Purp.", "Inc."))
 
-
+#Refit models
 lg3.v = lmer(story.engage ~ inv*incexp + 
              age + female + poc + edu + inc + ideo + pid + 
              sm.freq + size + div + grp + cur + ipe +
@@ -233,32 +192,9 @@ lg4.v = lmer(story.engage.he ~ inv*incexp +
            data=subset(x, recall==1),
            control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5)))
 
-
-
-
 #Visualizations
 par(mfrow=c(1,1))
 visreg::visreg(lg3.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
                ylab="Engagement", xlab="Exposure Type")
 visreg::visreg(lg4.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
                ylab="High-Effort Engagement", xlab="Exposure Type")
-
-#Descriptive Breakdowns of State-Like DV
-tab1 <- with(subset(x, recall==1), table(story.engage, incexp, inv)) 
-tab2 <- with(subset(x, recall==1), table(story.engage.he, incexp, inv)) 
-
-print(tab1)
-print(tab2)
-
-#Some Engagement & Incidentally Exposed
-#58% of people in low involvement group
-#47% of people in middle involvement group
-#23% of people in high involvement group
-
-#High Engagement & Incidentally Exposed
-#10% of people in low involvement group
-#18% of people in medium involvement group
-#12% of people in high involvement group
-
-
-
