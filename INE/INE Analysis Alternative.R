@@ -66,6 +66,32 @@ summary(lg1, cor=FALSE); logLik(lg1); performance::r2(lg1); performance::icc(lg1
 summary(lm2, cor=FALSE); logLik(lm2); performance::r2(lm2); performance::icc(lm2)
 summary(lg2, cor=FALSE); logLik(lg2); performance::r2(lg1); performance::icc(lg2)
 
+#Visuals
+par(mfrow=c(2,2))
+visreg::visreg(lm1, "mot", jitter=TRUE, line=list(col="black"), ylab="Incidental Exposure (Trait-Like)", xlab="Social Media as News Source")
+visreg::visreg(lm1, "int", jitter=TRUE, line=list(col="black"), ylab="", xlab="Self-Reported Interest")
+visreg::visreg(lm1, "fol", jitter=TRUE, line=list(col="black"), ylab="", xlab="Follow Accounts for News")
+visreg::visreg(lm1, "alg", jitter=TRUE, line=list(col="black"), ylab="", xlab="Algorithmic Categorization")
+
+par(mfrow=c(2,2))
+visreg::visreg(lg1, "mot", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="Incidental Exposure (State-Like)", xlab="Social Media as News Source")
+visreg::visreg(lg1, "int", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="", xlab="Self-Reported Interest")
+visreg::visreg(lg1, "fol", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="", xlab="Follow Accounts for News")
+visreg::visreg(lg1, "alg", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="", xlab="Algorithmic Categorization")
+
+par(mfrow=c(2,2))
+visreg::visreg(lm2, "mot", jitter=TRUE, line=list(col="black"), ylab="Total Exposure (Trait-Like)", xlab="Social Media as News Source")
+visreg::visreg(lm2, "int", jitter=TRUE, line=list(col="black"), ylab="", xlab="Self-Reported Interest")
+visreg::visreg(lm2, "fol", jitter=TRUE, line=list(col="black"), ylab="", xlab="Follow Accounts for News")
+visreg::visreg(lm2, "alg", jitter=TRUE, line=list(col="black"), ylab="", xlab="Algorithmic Categorization")
+
+par(mfrow=c(2,2))
+visreg::visreg(lg2, "mot", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="Story Exposure (State-Like)", xlab="Social Media as News Source")
+visreg::visreg(lg2, "int", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="", xlab="Self-Reported Interest")
+visreg::visreg(lg2, "fol", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="", xlab="Follow Accounts for News")
+visreg::visreg(lg2, "alg", jitter=TRUE, line=list(col="black"), scale="response", ylim=c(0,1), ylab="", xlab="Algorithmic Categorization")
+
+
 #Recode incexp variable (state) to be factor (for visualization)
 x$incexp = as.factor(x$incexp)
 
@@ -151,7 +177,7 @@ summary(lg4c, cor=FALSE); logLik(lg4c); performance::r2(lg4c); performance::icc(
 summary(lg4d, cor=FALSE); logLik(lg4d); performance::r2(lg4d); performance::icc(lg4d)
 
 
-
+#viz
 visreg::visreg(lg3b, "incexp", by="int", jitter=TRUE, line=list(col="black"), 
                ylab="Engagement", xlab="Exposure Type")
 visreg::visreg(lg4b, "incexp", by="int", jitter=TRUE, line=list(col="black"), 
