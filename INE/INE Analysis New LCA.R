@@ -179,9 +179,9 @@ visreg::visreg(lm1, "inv", jitter=TRUE, line=list(col="black"),
 visreg::visreg(lg1, "inv", jitter=TRUE, line=list(col="black"), 
                main="State-Like DV", ylab="Incisdental Exposure", xlab="")
 visreg::visreg(lm2, "inv", jitter=TRUE, line=list(col="black"), 
-               ylab="Total Exposure", xlab="Involvement")
+               ylab="Total Exposure", xlab="News Attraction")
 visreg::visreg(lg2, "inv", jitter=TRUE, line=list(col="black"),
-               ylab="Story Exposure", xlab="Involvement")
+               ylab="Story Exposure", xlab="News Attraction")
 
 #Recode incexp variable (state) to be factor (for visualization)
 x$incexp = as.factor(x$incexp)
@@ -236,9 +236,9 @@ lg4.v = lmer(story.engage.he ~ inv*incexp +
 
 #Visualizations
 par(mfrow=c(1,1))
-visreg::visreg(lg3.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
-               ylab="Engagement", xlab="Exposure Type")
-visreg::visreg(lg4.v, "incexp", by="inv", jitter=TRUE, line=list(col="black"), 
-               ylab="High-Effort Engagement", xlab="Exposure Type")
+visreg::visreg(lg3.v, "inv", by="incexp", jitter=TRUE, line=list(col="black"), 
+               ylab="Engagement", xlab="News Attraction")
+visreg::visreg(lg4.v, "inv", by="incexp", jitter=TRUE, line=list(col="black"), 
+               ylab="High-Effort Engagement", xlab="News Attraction")
 
 
