@@ -58,6 +58,45 @@ lc <- poLCA(f, x, nclass = 4,
             probs.start = probs.start, 
             graph=TRUE) #refit model with order object (probs.start)
 
+#Melt Data for Visualizations
+lcmodel <- reshape2::melt(lc$probs, level=2)
+levels(lcmodel$Var1) = c("Mod Unmot", "Low", "Mod Mot", "High")
+lcmodel$Var1 <- factor(lcmodel$Var1, levels = c("Low", "Mod Unmot", "Mod Mot", "High"))
+lcmodel$L1[lcmodel$L2=="x1"] <- "Perception"
+lcmodel$L1[lcmodel$L2=="x2"] <- "Interest"
+lcmodel$L1[lcmodel$L2=="x3"] <- "Follows"
+lcmodel$L1[lcmodel$L2=="x4"] <- "Curation"
+lcmodel$L1[lcmodel$L2=="x5"] <- "Algorithm"
+
+#Define Plot by Group
+library(ggplot2)
+#library(gridExtra)
+
+zp1 <- ggplot(lcmodel, aes(x = L1, y = value, fill = Var2))
+zp1 <- zp1 + geom_bar(stat = "identity", position = "stack")
+zp1 <- zp1 + facet_grid(Var1 ~ .)
+zp1 <- zp1 + scale_fill_grey()
+#zp1 <- zp1 + scale_fill_manual(values = c("#FFFFFF", "#F5F5F5", "#ECECEC",
+#                                          "#E2E2E2", "#D8D8D8", "#CECECE", 
+#                                          "#C1C1C1", "#B7B7B7", "#AEAEAE", 
+#                                          "#A1A1A1", "#949494", "#8D8D8D", 
+#                                          "#868686", "#7F7F7F", "#757575", 
+#                                          "#6C6C6C", "#646464", "#5B5B5B", 
+#                                          "#515151")) + theme_bw()
+zp1 <- zp1 + labs(x = "Criterion Variable", y="Estimated Probability", fill ="Scale Category")
+zp1 <- zp1 + theme( axis.text.y=element_blank(),
+                    axis.ticks.y=element_blank(),                    
+                    panel.grid.major.y=element_blank())
+#zp1 <- zp1 + scale_x_discrete(labels=c("consp.n" = "Conspiracy \nBelief", 
+#                                       "fbel.n" = "False \nBelief",
+#                                       "know.n" = "Knowledge"))
+#zp1 <- zp1 + guides(fill = guide_legend(reverse=TRUE))
+#zp1 <- zp1 + theme(legend.position = "none")
+
+#Visualize
+zp1
+
+
 #Clean up environment
 rm(f, 
    i, 
