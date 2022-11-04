@@ -1,4 +1,4 @@
-#Emotional Engagement w/News, Outcomes, and Moderating Role of Literacy
+#Affective Polarization, INE and Moderating Role of Network Attributes
 
 #Exploratory Analysis:
   # 1) ID summary stats and create key variables (polarization: enthusiasm/aversion + news: counter/pro attitudinal exposure)
@@ -8,10 +8,10 @@
 
 
 #WD and Data
-setwd("~/Desktop/Emmotional Engagement")
+setwd("~/Documents/linkage/Networks Polarization")
 
 #coded/cleaned data from time of collection (variable creator +  valence of open-ended news items)
-load("~/Desktop/Emmotional Engagement/EMCP20_coded.Rdata")
+load("~/Documents/linkage/Networks Polarization/EMCP20_coded.Rdata")
 
 library(ltm)
 
