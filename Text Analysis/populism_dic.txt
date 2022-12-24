@@ -1,0 +1,158 @@
++political elite		
+biden
+bureaucrat
+bush
+campaign contribution*
+carson
+clinton
+congress
+cruz
+democrat
+democrats 
+democratic party
+dems
+dnc
+doj
+elizabeth warren
+establishment 
+fbi
+gop
+government 
+graham
+irs
+jill stein
+kain
+kasich
+leaders
+nato
+obama
+officials
+old guard
+pac
+paul ryan
+politician*
+pence
+reid
+republican party
+republican*
+rnc
+romney
+rove
+rubio
+sanders
+senate
+senator
+stuart stevens
+supreme court* 
+the system
+trump
+washington
++corporate elite
+bank*
+baron
+big money
+billionaire*
+ceo*
+companies
+company
+corporation*
+donor*
+easy street
+economic elite
+financial institutions
+hedge fund
+koch brothers
+lobby*
+millionaire*
+morgan stanley 
+nra
+privileged few
+rich
+special interest*
+top 1
+wall street
+wealth*
++media elite
+barbara walters
+billoreilly
+cbs
+chucktodd
+cnn
+dailybeast
+david brooks
+davidgregory
+fox*
+gma
+gstephanopoulos
+jeffrey lord
+journalist*
+loudobbsnews
+media
+meetthepress
+megyn kelly
+megyn*
+nbc
+nbcnews
+networks
+ny times
+nyt
+nydailynews
+nytimes
+oreillyfactor
+press
+pundit*
+reporter*
+seanhannity
+t v
+thisweekabc
+todayshow
+tv
+washington post
+washingtonpost
+wsj
++people
+americans
+american families
+average tax payer
+citizen
+citizens
+croud*
+main street
+middle class
+ordinary people
+our children
+our country
+people in this country
+the people
+the american people
+tribe
+vets
+veterans
+working class
++immigration
+asylum
+border*
+citizenship
+family class
+immigra*
+permanent residen*
+refugee*
+migrant*
+foreign worker*
+multicultural*
+intercultural*
+emigra*
+foreigner*
+newcomer*
+work permit*
+study permit*
+residence permit*
+work visa*
+study visa*
+residence visa*
+naturalise*
+naturalize*
+naturalisation
+naturalization
+deport*
+undocumented*
