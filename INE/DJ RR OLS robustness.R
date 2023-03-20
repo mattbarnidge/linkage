@@ -1,6 +1,6 @@
 rm1 = lm(ipe ~ inv + 
-             age + female + poc + edu + inc + ideo + pid + 
-             sm.freq + size + div + grp + cur, 
+           age.c + female.c + poc.c + edu.c + inc.c + ideo.c + pid.c + 
+           sm.freq.c + size.c + div.c + grp.c, 
            data=x, weights=weights)
 
 
@@ -9,9 +9,10 @@ summary(rm1)
 anova(lm1, rm1)
 
 rm2 = lm(pol ~ inv +
-             age + female + poc + edu + inc + ideo + pid + 
-             sm.freq + size + div + grp + cur, 
+           age.c + female.c + poc.c + edu.c + inc.c + ideo.c + pid.c + 
+           sm.freq.c + size.c + div.c + grp.c, 
            data=x, weights=weights)
+
 
 summary(lm2, cor=FALSE)
 summary(rm2)
