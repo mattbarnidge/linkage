@@ -166,7 +166,7 @@ write.csv(miss_table, "missing_table.csv")
 
 
 
-#Run this is moving on to compare imputed versus observed data (not done here)
+#Run this is moving on to comapre imputed versus observed data (not done here)
 #Multiple Imputation: Trait Models
 t1 <- mice::mice(x1, m=1, maxit=50, meth='pmm', seed=500)
 x1 <- mice::complete(t1, 1)
