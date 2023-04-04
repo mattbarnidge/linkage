@@ -1,6 +1,6 @@
 library(dplyr)
 
-setwd("~/Desktop")
+setwd("~/Documents/GitHub/linkage/Niche News")
 load("niche_news.Rdata")
 
 #Recode Some Variables
