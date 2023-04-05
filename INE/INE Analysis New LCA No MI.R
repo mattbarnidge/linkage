@@ -126,6 +126,8 @@ lm2 = lmer(pol ~ inv +
 summary(lm1)
 summary(lm2)
 
+logLik(lm1)
+logLik(lm2)
 
 
 
