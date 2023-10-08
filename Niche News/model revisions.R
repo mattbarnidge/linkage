@@ -1,6 +1,7 @@
-#Alternate Model Testing for R/R
-#Adding INE to the models + interactions w/ Political Interest
-#New table of correlations w/antecedents 
+#Niche News
+#Alternate Model Testing for Revision
+#Adding smcur to the models
+
 
 
 #Load Libraries
@@ -14,8 +15,9 @@ library(visreg)
 
 #Set WD and Load Data (may need to update this)
 setwd("/Users/trevordiehl/Documents/linkage/Niche News")
-load("niche.mi.Rdata") # contains NAs for those non-niche members
-load("niche.mi.sub.Rdata") #filter out the non-niche members
+
+load("niche.mi.Rdata") # contains non-niche members
+load("niche.mi.sub.Rdata") #filter the non-niche members
 
 #Grand Descriptives
 with(m2, mean(newsideo, na.rm=TRUE))
